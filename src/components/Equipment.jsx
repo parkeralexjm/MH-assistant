@@ -12,7 +12,7 @@ function Equipment({ characterEquip, setCharacterEquip }) {
           <div className="flex justify-around">
             {characterEquip.weapon ?
               <>
-                <h4>{characterEquip.weapon.weaponName}</h4>
+                <h4>{characterEquip.weapon.stats.name}</h4>
                 <h4>{characterEquip.head.stats.name}</h4>
                 <h4>{characterEquip.chest.stats.name}</h4>
                 <h4>{characterEquip.hands.stats.name}</h4>

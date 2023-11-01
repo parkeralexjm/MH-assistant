@@ -16,7 +16,7 @@ function App() {
       :
       setCharacterEquip(
         {
-          "weapon": weaponData[0]["Sword And Shield"].jagrasedge[0],
+          "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge[0] },
           "head": { "stats": armorData[0].leather[0], "grade": 0 },
           "chest": { "stats": armorData[0].leather[1], "grade": 2 },
           "hands": { "stats": armorData[0].leather[2], "grade": 4 },

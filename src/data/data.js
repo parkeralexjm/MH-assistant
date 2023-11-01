@@ -6,7 +6,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Critical Eye",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Ice Resistance ",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -19,7 +19,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Attack Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Fire Resistance ",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -32,7 +32,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Defense Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Thunder Resistance",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -45,7 +45,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Health Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Water Resistance",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -58,7 +58,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Paralysis Resistance ",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -75,7 +75,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Firm Foothold",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -88,7 +88,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Rising Tide",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -101,7 +101,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Firm Foothold",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Water Attack",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -114,7 +114,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Fortify",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Rising Tide",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -127,7 +127,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Water Attack",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -144,7 +144,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Lock On",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Critical Eye",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -157,7 +157,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Guts",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -170,7 +170,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Last Stand",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Critical Eye",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -183,7 +183,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Last Stand",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Evade Extender",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -196,7 +196,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Critical Eye",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -213,7 +213,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Focus",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Health Boost",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -226,7 +226,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Focus",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -239,7 +239,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Poison Attack",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Poison Resistance",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -252,7 +252,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Poison Attack",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -265,7 +265,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Health Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Poison Resistance",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -282,7 +282,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Defense Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Offensive Guard",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -295,7 +295,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Offensive Guard",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -308,7 +308,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Guard ",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -321,7 +321,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Defence Boost",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Guard ",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -334,7 +334,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Recoil Down",
         "skill1Level": 1,
-        "Skill1Grade": 2,
+        "skill1Grade": 2,
         "skill2": "Defense Boost ",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -351,7 +351,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Paralysis Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -364,7 +364,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Paralysis Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Sneak Attack ",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -377,7 +377,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Sneak Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Ear Plugs",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -390,7 +390,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Paralysis Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Ear Plugs",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -403,7 +403,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Paralysis Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -420,7 +420,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Reload Speed",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Artful Dodger",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -433,7 +433,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Evade Extender",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Thunder Attack",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -446,7 +446,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Evade Extender",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Artful Dodger",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -459,7 +459,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Thunder Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -472,7 +472,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Artful Dodger",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Thunder Resistance",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -489,7 +489,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Concentration",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Windproof",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -502,7 +502,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Recoil Down",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -515,7 +515,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Concentration",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Divine Blessing",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -528,7 +528,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Divine Blessing",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -541,7 +541,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Windproof",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -558,7 +558,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Water Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Last Stand",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -571,7 +571,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Water Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Last Stand",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -584,7 +584,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Water Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -597,7 +597,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Water Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -610,7 +610,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Focus",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Last Stand",
         "skill2Level": 1,
         "skill2Grade": 4,
@@ -627,7 +627,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Fire Attack",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Fire Resistance",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -640,7 +640,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Special Boost",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -653,7 +653,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Fire Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -666,7 +666,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Special Boost",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -679,7 +679,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Peak Performance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -696,7 +696,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Health Boost",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Poison Attack",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -709,7 +709,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Poison Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -722,7 +722,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Lock On",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Burst",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -735,7 +735,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Burst",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -748,7 +748,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Health Boost",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -765,7 +765,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Divine Blessing",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Ice Attack",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -778,7 +778,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Divine Blessing",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Windproof",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -791,7 +791,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Reload Speed",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -804,7 +804,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Ice Attack",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Windproof",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -817,7 +817,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Reload Speed",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Ice Resistance",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -834,7 +834,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Heroics",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -847,7 +847,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Slugger",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Heroics",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -860,7 +860,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Heroics",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Partbreaker",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -873,7 +873,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Partbreaker",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Offensive Guard",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -886,7 +886,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Slugger",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Partbreaker",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -903,7 +903,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Attack Boost",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Fire Attack",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -916,7 +916,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Weakness Exploit",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -929,7 +929,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Attack Boost",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -942,7 +942,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Focus",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Fire Attack",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -955,7 +955,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Weakness Exploit",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -972,7 +972,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Partbreaker",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Resentment",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -985,7 +985,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Resentment",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Firm Foothold",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -998,7 +998,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Resentment",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Focus",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1011,7 +1011,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Lock On",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Heroics",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1024,7 +1024,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Heroics",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Offensive Guard",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1041,7 +1041,7 @@ const armorData = [
         "slot": "Head",
         "skill1": "Special Boost",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Windproof",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1054,7 +1054,7 @@ const armorData = [
         "slot": "Chest",
         "skill1": "Dragon Attack",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Focus",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1067,7 +1067,7 @@ const armorData = [
         "slot": "Hands",
         "skill1": "Windproof",
         "skill1Level": 2,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Critical Eye",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1080,7 +1080,7 @@ const armorData = [
         "slot": "Waist",
         "skill1": "Critical Eye",
         "skill1Level": 1,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
@@ -1093,7 +1093,7 @@ const armorData = [
         "slot": "Legs",
         "skill1": "Special Boost",
         "skill1Level": 3,
-        "Skill1Grade": 0,
+        "skill1Grade": 0,
         "skill2": "Dragon Attack",
         "skill2Level": 1,
         "skill2Grade": 6,
@@ -1110,7 +1110,7 @@ const weaponData = [
     "Sword And Shield": {
       "huntersknife": [
         {
-          "weaponName": "Hunter's Knife",
+          "name": "Hunter's Knife",
           "id": 1,
           "forgeGrade": 1,
           "attack": 100,
@@ -1121,11 +1121,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Hunter's Knife",
+          "name": "Hunter's Knife",
           "id": 2,
           "forgeGrade": 2,
           "attack": 144,
@@ -1136,11 +1136,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Hunter's Knife",
+          "name": "Hunter's Knife",
           "id": 3,
           "forgeGrade": 3,
           "attack": 207,
@@ -1151,11 +1151,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Hunter's Knife",
+          "name": "Hunter's Knife",
           "id": 4,
           "forgeGrade": 4,
           "attack": 299,
@@ -1166,11 +1166,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Hunter's Knife",
+          "name": "Hunter's Knife",
           "id": 5,
           "forgeGrade": 5,
           "attack": 430,
@@ -1181,11 +1181,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Steel Knife",
+          "name": "Steel Knife",
           "id": 6,
           "forgeGrade": 6,
           "attack": 559,
@@ -1196,11 +1196,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Steel Knife",
+          "name": "Steel Knife",
           "id": 7,
           "forgeGrade": 7,
           "attack": 727,
@@ -1211,11 +1211,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Steel Knife",
+          "name": "Steel Knife",
           "id": 8,
           "forgeGrade": 8,
           "attack": 945,
@@ -1226,11 +1226,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Steel Knife",
+          "name": "Steel Knife",
           "id": 9,
           "forgeGrade": 9,
           "attack": 1228,
@@ -1241,11 +1241,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Steel Knife",
+          "name": "Steel Knife",
           "id": 10,
           "forgeGrade": 10,
           "attack": 1596,
@@ -1256,13 +1256,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "jagrasedge": [
         {
-          "weaponName": "Jagras Edge",
+          "name": "Jagras Edge",
           "id": 11,
           "forgeGrade": 1,
           "attack": 95,
@@ -1273,11 +1273,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Edge",
+          "name": "Jagras Edge",
           "id": 12,
           "forgeGrade": 2,
           "attack": 135,
@@ -1288,11 +1288,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Edge",
+          "name": "Jagras Edge",
           "id": 13,
           "forgeGrade": 3,
           "attack": 193,
@@ -1303,11 +1303,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Edge",
+          "name": "Jagras Edge",
           "id": 14,
           "forgeGrade": 4,
           "attack": 275,
@@ -1318,11 +1318,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Edge",
+          "name": "Jagras Edge",
           "id": 15,
           "forgeGrade": 5,
           "attack": 391,
@@ -1333,12 +1333,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Jagras Garotte",
+          "name": "Jagras Garotte",
           "id": 16,
           "forgeGrade": 6,
           "attack": 503,
@@ -1349,11 +1349,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Garotte",
+          "name": "Jagras Garotte",
           "id": 17,
           "forgeGrade": 7,
           "attack": 647,
@@ -1364,11 +1364,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Garotte",
+          "name": "Jagras Garotte",
           "id": 18,
           "forgeGrade": 8,
           "attack": 832,
@@ -1379,11 +1379,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Garotte",
+          "name": "Jagras Garotte",
           "id": 19,
           "forgeGrade": 9,
           "attack": 1068,
@@ -1394,11 +1394,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Garotte",
+          "name": "Jagras Garotte",
           "id": 20,
           "forgeGrade": 10,
           "attack": 1373,
@@ -1409,13 +1409,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "bloomingknife": [
         {
-          "weaponName": "Blooming Knife",
+          "name": "Blooming Knife",
           "id": 21,
           "forgeGrade": 1,
           "attack": 100,
@@ -1426,11 +1426,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Knife",
+          "name": "Blooming Knife",
           "id": 22,
           "forgeGrade": 2,
           "attack": 144,
@@ -1441,11 +1441,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Knife",
+          "name": "Blooming Knife",
           "id": 23,
           "forgeGrade": 3,
           "attack": 207,
@@ -1456,11 +1456,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Knife",
+          "name": "Blooming Knife",
           "id": 24,
           "forgeGrade": 4,
           "attack": 299,
@@ -1471,11 +1471,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Knife",
+          "name": "Blooming Knife",
           "id": 25,
           "forgeGrade": 5,
           "attack": 430,
@@ -1486,12 +1486,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Datura Blossom",
+          "name": "Datura Blossom",
           "id": 26,
           "forgeGrade": 6,
           "attack": 559,
@@ -1502,11 +1502,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura Blossom",
+          "name": "Datura Blossom",
           "id": 27,
           "forgeGrade": 7,
           "attack": 727,
@@ -1517,11 +1517,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura Blossom",
+          "name": "Datura Blossom",
           "id": 28,
           "forgeGrade": 8,
           "attack": 945,
@@ -1532,11 +1532,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura Blossom",
+          "name": "Datura Blossom",
           "id": 29,
           "forgeGrade": 9,
           "attack": 1228,
@@ -1547,11 +1547,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura Blossom",
+          "name": "Datura Blossom",
           "id": 30,
           "forgeGrade": 10,
           "attack": 1596,
@@ -1562,13 +1562,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "carapaceedge": [
         {
-          "weaponName": "Carapace Edge",
+          "name": "Carapace Edge",
           "id": 31,
           "forgeGrade": 1,
           "attack": 110,
@@ -1579,11 +1579,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Edge",
+          "name": "Carapace Edge",
           "id": 32,
           "forgeGrade": 2,
           "attack": 158,
@@ -1594,11 +1594,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Edge",
+          "name": "Carapace Edge",
           "id": 33,
           "forgeGrade": 3,
           "attack": 228,
@@ -1609,11 +1609,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Edge",
+          "name": "Carapace Edge",
           "id": 34,
           "forgeGrade": 4,
           "attack": 329,
@@ -1624,11 +1624,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Carapace Edge",
+          "name": "Carapace Edge",
           "id": 35,
           "forgeGrade": 5,
           "attack": 473,
@@ -1639,12 +1639,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Barroth Club",
+          "name": "Barroth Club",
           "id": 36,
           "forgeGrade": 6,
           "attack": 615,
@@ -1655,11 +1655,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Club",
+          "name": "Barroth Club",
           "id": 37,
           "forgeGrade": 7,
           "attack": 800,
@@ -1670,11 +1670,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Club",
+          "name": "Barroth Club",
           "id": 38,
           "forgeGrade": 8,
           "attack": 1040,
@@ -1685,11 +1685,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Club",
+          "name": "Barroth Club",
           "id": 39,
           "forgeGrade": 9,
           "attack": 1351,
@@ -1700,11 +1700,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Club",
+          "name": "Barroth Club",
           "id": 40,
           "forgeGrade": 10,
           "attack": 1756,
@@ -1715,13 +1715,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         }
       ],
       "girrosknife": [
         {
-          "weaponName": "Girros Knife",
+          "name": "Girros Knife",
           "id": 41,
           "forgeGrade": 2,
           "attack": 144,
@@ -1732,11 +1732,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Knife",
+          "name": "Girros Knife",
           "id": 42,
           "forgeGrade": 3,
           "attack": 207,
@@ -1747,11 +1747,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Knife",
+          "name": "Girros Knife",
           "id": 43,
           "forgeGrade": 4,
           "attack": 299,
@@ -1762,11 +1762,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Knife",
+          "name": "Girros Knife",
           "id": 44,
           "forgeGrade": 5,
           "attack": 430,
@@ -1777,12 +1777,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Malady's Tabar",
+          "name": "Malady's Tabar",
           "id": 45,
           "forgeGrade": 6,
           "attack": 559,
@@ -1793,11 +1793,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Tabar",
+          "name": "Malady's Tabar",
           "id": 46,
           "forgeGrade": 7,
           "attack": 727,
@@ -1808,11 +1808,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Tabar",
+          "name": "Malady's Tabar",
           "id": 47,
           "forgeGrade": 8,
           "attack": 945,
@@ -1823,11 +1823,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Tabar",
+          "name": "Malady's Tabar",
           "id": 48,
           "forgeGrade": 9,
           "attack": 1228,
@@ -1838,11 +1838,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Tabar",
+          "name": "Malady's Tabar",
           "id": 49,
           "forgeGrade": 10,
           "attack": 1596,
@@ -1853,13 +1853,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "thunderedge": [
         {
-          "weaponName": "Thunder Edge",
+          "name": "Thunder Edge",
           "id": 50,
           "forgeGrade": 2,
           "attack": 128,
@@ -1870,11 +1870,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Edge",
+          "name": "Thunder Edge",
           "id": 51,
           "forgeGrade": 3,
           "attack": 182,
@@ -1885,11 +1885,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Edge",
+          "name": "Thunder Edge",
           "id": 52,
           "forgeGrade": 4,
           "attack": 260,
@@ -1900,11 +1900,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Edge",
+          "name": "Thunder Edge",
           "id": 53,
           "forgeGrade": 5,
           "attack": 370,
@@ -1915,12 +1915,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Lightning Nemesis",
+          "name": "Lightning Nemesis",
           "id": 54,
           "forgeGrade": 6,
           "attack": 475,
@@ -1931,11 +1931,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Nemesis",
+          "name": "Lightning Nemesis",
           "id": 55,
           "forgeGrade": 7,
           "attack": 611,
@@ -1946,11 +1946,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Nemesis",
+          "name": "Lightning Nemesis",
           "id": 56,
           "forgeGrade": 8,
           "attack": 784,
@@ -1961,11 +1961,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Nemesis",
+          "name": "Lightning Nemesis",
           "id": 57,
           "forgeGrade": 9,
           "attack": 1007,
@@ -1976,11 +1976,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Nemesis",
+          "name": "Lightning Nemesis",
           "id": 58,
           "forgeGrade": 10,
           "attack": 1293,
@@ -1991,13 +1991,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "lumuknife": [
         {
-          "weaponName": "Lumu Knife",
+          "name": "Lumu Knife",
           "id": 59,
           "forgeGrade": 3,
           "attack": 236,
@@ -2008,11 +2008,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lumu Knife",
+          "name": "Lumu Knife",
           "id": 60,
           "forgeGrade": 4,
           "attack": 339,
@@ -2023,11 +2023,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Knife",
+          "name": "Lumu Knife",
           "id": 61,
           "forgeGrade": 5,
           "attack": 486,
@@ -2038,12 +2038,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Lumu Tabar",
+          "name": "Lumu Tabar",
           "id": 62,
           "forgeGrade": 6,
           "attack": 629,
@@ -2054,11 +2054,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Tabar",
+          "name": "Lumu Tabar",
           "id": 63,
           "forgeGrade": 7,
           "attack": 814,
@@ -2069,11 +2069,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Tabar",
+          "name": "Lumu Tabar",
           "id": 64,
           "forgeGrade": 8,
           "attack": 1054,
@@ -2084,11 +2084,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Lumu Tabar",
+          "name": "Lumu Tabar",
           "id": 65,
           "forgeGrade": 9,
           "attack": 1363,
@@ -2099,11 +2099,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Lumu Tabar",
+          "name": "Lumu Tabar",
           "id": 66,
           "forgeGrade": 10,
           "attack": 1764,
@@ -2114,13 +2114,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "aquamesser": [
         {
-          "weaponName": "Aqua Messer",
+          "name": "Aqua Messer",
           "id": 67,
           "forgeGrade": 3,
           "attack": 182,
@@ -2131,11 +2131,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Messer",
+          "name": "Aqua Messer",
           "id": 68,
           "forgeGrade": 4,
           "attack": 260,
@@ -2146,11 +2146,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Messer",
+          "name": "Aqua Messer",
           "id": 69,
           "forgeGrade": 5,
           "attack": 370,
@@ -2161,12 +2161,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Rogue Wave",
+          "name": "Rogue Wave",
           "id": 70,
           "forgeGrade": 6,
           "attack": 475,
@@ -2177,11 +2177,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rogue Wave",
+          "name": "Rogue Wave",
           "id": 71,
           "forgeGrade": 7,
           "attack": 611,
@@ -2192,11 +2192,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rogue Wave",
+          "name": "Rogue Wave",
           "id": 72,
           "forgeGrade": 8,
           "attack": 784,
@@ -2207,11 +2207,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rogue Wave",
+          "name": "Rogue Wave",
           "id": 73,
           "forgeGrade": 9,
           "attack": 1007,
@@ -2222,11 +2222,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rogue Wave",
+          "name": "Rogue Wave",
           "id": 74,
           "forgeGrade": 10,
           "attack": 1293,
@@ -2237,13 +2237,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "blazingedge": [
         {
-          "weaponName": "Blazing Edge",
+          "name": "Blazing Edge",
           "id": 75,
           "forgeGrade": 4,
           "attack": 260,
@@ -2254,11 +2254,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blazing Edge",
+          "name": "Blazing Edge",
           "id": 76,
           "forgeGrade": 5,
           "attack": 370,
@@ -2269,12 +2269,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Flammensucher",
+          "name": "Flammensucher",
           "id": 77,
           "forgeGrade": 6,
           "attack": 475,
@@ -2285,11 +2285,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Flammensucher",
+          "name": "Flammensucher",
           "id": 78,
           "forgeGrade": 7,
           "attack": 611,
@@ -2300,11 +2300,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Flammensucher",
+          "name": "Flammensucher",
           "id": 79,
           "forgeGrade": 8,
           "attack": 784,
@@ -2315,11 +2315,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Flammensucher",
+          "name": "Flammensucher",
           "id": 80,
           "forgeGrade": 9,
           "attack": 1007,
@@ -2330,11 +2330,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Flammensucher",
+          "name": "Flammensucher",
           "id": 81,
           "forgeGrade": 10,
           "attack": 1293,
@@ -2345,13 +2345,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "princessrapier": [
         {
-          "weaponName": "Princess Rapier",
+          "name": "Princess Rapier",
           "id": 82,
           "forgeGrade": 4,
           "attack": 284,
@@ -2362,11 +2362,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Princess Rapier",
+          "name": "Princess Rapier",
           "id": 83,
           "forgeGrade": 5,
           "attack": 409,
@@ -2377,12 +2377,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Queen Rapier",
+          "name": "Queen Rapier",
           "id": 84,
           "forgeGrade": 6,
           "attack": 531,
@@ -2393,11 +2393,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Queen Rapier",
+          "name": "Queen Rapier",
           "id": 85,
           "forgeGrade": 7,
           "attack": 691,
@@ -2408,11 +2408,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Queen Rapier",
+          "name": "Queen Rapier",
           "id": 86,
           "forgeGrade": 8,
           "attack": 898,
@@ -2423,11 +2423,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Queen Rapier",
+          "name": "Queen Rapier",
           "id": 87,
           "forgeGrade": 9,
           "attack": 1167,
@@ -2438,11 +2438,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Queen Rapier",
+          "name": "Queen Rapier",
           "id": 88,
           "forgeGrade": 10,
           "attack": 1516,
@@ -2453,13 +2453,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "glacialgrace": [
         {
-          "weaponName": "Glacial Grace",
+          "name": "Glacial Grace",
           "id": 89,
           "forgeGrade": 5,
           "attack": 361,
@@ -2470,11 +2470,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rimespire",
+          "name": "Rimespire",
           "id": 90,
           "forgeGrade": 6,
           "attack": 461,
@@ -2485,11 +2485,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rimespire",
+          "name": "Rimespire",
           "id": 91,
           "forgeGrade": 7,
           "attack": 589,
@@ -2500,11 +2500,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rimespire",
+          "name": "Rimespire",
           "id": 92,
           "forgeGrade": 8,
           "attack": 751,
@@ -2515,11 +2515,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Rimespire",
+          "name": "Rimespire",
           "id": 93,
           "forgeGrade": 9,
           "attack": 958,
@@ -2530,11 +2530,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Rimespire",
+          "name": "Rimespire",
           "id": 94,
           "forgeGrade": 10,
           "attack": 1221,
@@ -2545,13 +2545,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "flameknife": [
         {
-          "weaponName": "Flame Knife",
+          "name": "Flame Knife",
           "id": 95,
           "forgeGrade": 5,
           "attack": 361,
@@ -2562,12 +2562,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Heat Edge",
+          "name": "Heat Edge",
           "id": 96,
           "forgeGrade": 6,
           "attack": 461,
@@ -2578,11 +2578,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Heat Edge",
+          "name": "Heat Edge",
           "id": 97,
           "forgeGrade": 7,
           "attack": 589,
@@ -2593,11 +2593,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Heat Edge",
+          "name": "Heat Edge",
           "id": 98,
           "forgeGrade": 8,
           "attack": 751,
@@ -2608,11 +2608,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Heat Edge",
+          "name": "Heat Edge",
           "id": 99,
           "forgeGrade": 9,
           "attack": 958,
@@ -2623,11 +2623,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Heat Edge",
+          "name": "Heat Edge",
           "id": 100,
           "forgeGrade": 10,
           "attack": 1221,
@@ -2638,13 +2638,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         }
       ],
       "queenrose": [
         {
-          "weaponName": "Queen Rose",
+          "name": "Queen Rose",
           "id": 101,
           "forgeGrade": 5,
           "attack": 473,
@@ -2655,12 +2655,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Royal Rose",
+          "name": "Royal Rose",
           "id": 102,
           "forgeGrade": 6,
           "attack": 615,
@@ -2671,11 +2671,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Royal Rose",
+          "name": "Royal Rose",
           "id": 103,
           "forgeGrade": 7,
           "attack": 800,
@@ -2686,11 +2686,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Royal Rose",
+          "name": "Royal Rose",
           "id": 104,
           "forgeGrade": 8,
           "attack": 1040,
@@ -2701,11 +2701,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Royal Rose",
+          "name": "Royal Rose",
           "id": 105,
           "forgeGrade": 9,
           "attack": 1351,
@@ -2716,11 +2716,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Royal Rose",
+          "name": "Royal Rose",
           "id": 106,
           "forgeGrade": 10,
           "attack": 1756,
@@ -2731,8 +2731,8 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ]
     }
@@ -2741,7 +2741,7 @@ const weaponData = [
     "Great Sword": {
       "bustersword": [
         {
-          "weaponName": "Buster Sword",
+          "name": "Buster Sword",
           "id": 107,
           "forgeGrade": 1,
           "attack": 100,
@@ -2752,11 +2752,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Buster Sword",
+          "name": "Buster Sword",
           "id": 108,
           "forgeGrade": 2,
           "attack": 144,
@@ -2767,11 +2767,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Buster Sword",
+          "name": "Buster Sword",
           "id": 109,
           "forgeGrade": 3,
           "attack": 207,
@@ -2782,11 +2782,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Buster Sword",
+          "name": "Buster Sword",
           "id": 110,
           "forgeGrade": 4,
           "attack": 299,
@@ -2797,11 +2797,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Buster Sword",
+          "name": "Buster Sword",
           "id": 111,
           "forgeGrade": 5,
           "attack": 430,
@@ -2812,12 +2812,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Buster Blade",
+          "name": "Buster Blade",
           "id": 112,
           "forgeGrade": 6,
           "attack": 559,
@@ -2828,11 +2828,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Buster Blade",
+          "name": "Buster Blade",
           "id": 113,
           "forgeGrade": 7,
           "attack": 727,
@@ -2843,11 +2843,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Buster Blade",
+          "name": "Buster Blade",
           "id": 114,
           "forgeGrade": 8,
           "attack": 945,
@@ -2858,11 +2858,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Buster Blade",
+          "name": "Buster Blade",
           "id": 115,
           "forgeGrade": 9,
           "attack": 1228,
@@ -2873,11 +2873,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Buster Blade",
+          "name": "Buster Blade",
           "id": 116,
           "forgeGrade": 10,
           "attack": 1596,
@@ -2888,13 +2888,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "jagrasblade": [
         {
-          "weaponName": "Jagras Blade",
+          "name": "Jagras Blade",
           "id": 117,
           "forgeGrade": 1,
           "attack": 95,
@@ -2905,11 +2905,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blade",
+          "name": "Jagras Blade",
           "id": 118,
           "forgeGrade": 2,
           "attack": 135,
@@ -2920,11 +2920,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blade",
+          "name": "Jagras Blade",
           "id": 119,
           "forgeGrade": 3,
           "attack": 193,
@@ -2935,11 +2935,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blade",
+          "name": "Jagras Blade",
           "id": 120,
           "forgeGrade": 4,
           "attack": 275,
@@ -2950,11 +2950,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Blade",
+          "name": "Jagras Blade",
           "id": 121,
           "forgeGrade": 5,
           "attack": 391,
@@ -2965,12 +2965,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Jagras Hacker",
+          "name": "Jagras Hacker",
           "id": 122,
           "forgeGrade": 6,
           "attack": 503,
@@ -2981,11 +2981,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Hacker",
+          "name": "Jagras Hacker",
           "id": 123,
           "forgeGrade": 7,
           "attack": 647,
@@ -2996,11 +2996,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Hacker",
+          "name": "Jagras Hacker",
           "id": 124,
           "forgeGrade": 8,
           "attack": 832,
@@ -3011,11 +3011,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Hacker",
+          "name": "Jagras Hacker",
           "id": 125,
           "forgeGrade": 9,
           "attack": 1068,
@@ -3026,11 +3026,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Hacker",
+          "name": "Jagras Hacker",
           "id": 126,
           "forgeGrade": 10,
           "attack": 1373,
@@ -3041,13 +3041,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "bloomingblade": [
         {
-          "weaponName": "Blooming Blade",
+          "name": "Blooming Blade",
           "id": 127,
           "forgeGrade": 1,
           "attack": 100,
@@ -3058,11 +3058,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Blade",
+          "name": "Blooming Blade",
           "id": 128,
           "forgeGrade": 2,
           "attack": 144,
@@ -3073,11 +3073,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Blade",
+          "name": "Blooming Blade",
           "id": 129,
           "forgeGrade": 3,
           "attack": 207,
@@ -3088,11 +3088,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Blade",
+          "name": "Blooming Blade",
           "id": 130,
           "forgeGrade": 4,
           "attack": 299,
@@ -3103,11 +3103,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Blade",
+          "name": "Blooming Blade",
           "id": 131,
           "forgeGrade": 5,
           "attack": 430,
@@ -3118,12 +3118,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Datura Blaze",
+          "name": "Datura Blaze",
           "id": 132,
           "forgeGrade": 6,
           "attack": 559,
@@ -3134,11 +3134,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura Blaze",
+          "name": "Datura Blaze",
           "id": 133,
           "forgeGrade": 7,
           "attack": 727,
@@ -3149,11 +3149,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura Blaze",
+          "name": "Datura Blaze",
           "id": 134,
           "forgeGrade": 8,
           "attack": 945,
@@ -3164,11 +3164,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura Blaze",
+          "name": "Datura Blaze",
           "id": 135,
           "forgeGrade": 9,
           "attack": 1228,
@@ -3179,11 +3179,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura Blaze",
+          "name": "Datura Blaze",
           "id": 136,
           "forgeGrade": 10,
           "attack": 1596,
@@ -3194,13 +3194,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "carapacebuster": [
         {
-          "weaponName": "Carapace Buster",
+          "name": "Carapace Buster",
           "id": 137,
           "forgeGrade": 1,
           "attack": 110,
@@ -3211,11 +3211,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Buster",
+          "name": "Carapace Buster",
           "id": 138,
           "forgeGrade": 2,
           "attack": 158,
@@ -3226,11 +3226,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Buster",
+          "name": "Carapace Buster",
           "id": 139,
           "forgeGrade": 3,
           "attack": 228,
@@ -3241,11 +3241,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Buster",
+          "name": "Carapace Buster",
           "id": 140,
           "forgeGrade": 4,
           "attack": 329,
@@ -3256,11 +3256,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Carapace Buster",
+          "name": "Carapace Buster",
           "id": 141,
           "forgeGrade": 5,
           "attack": 473,
@@ -3271,12 +3271,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Barroth Shredder",
+          "name": "Barroth Shredder",
           "id": 142,
           "forgeGrade": 6,
           "attack": 615,
@@ -3287,11 +3287,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Shredder",
+          "name": "Barroth Shredder",
           "id": 143,
           "forgeGrade": 7,
           "attack": 800,
@@ -3302,11 +3302,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Shredder",
+          "name": "Barroth Shredder",
           "id": 144,
           "forgeGrade": 8,
           "attack": 1040,
@@ -3317,11 +3317,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Shredder",
+          "name": "Barroth Shredder",
           "id": 145,
           "forgeGrade": 9,
           "attack": 1351,
@@ -3332,11 +3332,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Shredder",
+          "name": "Barroth Shredder",
           "id": 146,
           "forgeGrade": 10,
           "attack": 1756,
@@ -3347,13 +3347,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         }
       ],
       "girrosblade": [
         {
-          "weaponName": "Girros Blade",
+          "name": "Girros Blade",
           "id": 147,
           "forgeGrade": 2,
           "attack": 144,
@@ -3364,11 +3364,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Blade",
+          "name": "Girros Blade",
           "id": 148,
           "forgeGrade": 3,
           "attack": 207,
@@ -3379,11 +3379,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Blade",
+          "name": "Girros Blade",
           "id": 149,
           "forgeGrade": 4,
           "attack": 299,
@@ -3394,11 +3394,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Blade",
+          "name": "Girros Blade",
           "id": 150,
           "forgeGrade": 5,
           "attack": 430,
@@ -3409,12 +3409,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Malady's Kiss",
+          "name": "Malady's Kiss",
           "id": 151,
           "forgeGrade": 6,
           "attack": 559,
@@ -3425,11 +3425,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Kiss",
+          "name": "Malady's Kiss",
           "id": 152,
           "forgeGrade": 7,
           "attack": 727,
@@ -3440,11 +3440,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Kiss",
+          "name": "Malady's Kiss",
           "id": 153,
           "forgeGrade": 8,
           "attack": 945,
@@ -3455,11 +3455,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Kiss",
+          "name": "Malady's Kiss",
           "id": 154,
           "forgeGrade": 9,
           "attack": 1228,
@@ -3470,11 +3470,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Kiss",
+          "name": "Malady's Kiss",
           "id": 155,
           "forgeGrade": 10,
           "attack": 1596,
@@ -3485,13 +3485,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "thunderblade": [
         {
-          "weaponName": "Thunder Blade",
+          "name": "Thunder Blade",
           "id": 156,
           "forgeGrade": 2,
           "attack": 128,
@@ -3502,11 +3502,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blade",
+          "name": "Thunder Blade",
           "id": 157,
           "forgeGrade": 3,
           "attack": 182,
@@ -3517,11 +3517,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blade",
+          "name": "Thunder Blade",
           "id": 158,
           "forgeGrade": 4,
           "attack": 260,
@@ -3532,11 +3532,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blade",
+          "name": "Thunder Blade",
           "id": 159,
           "forgeGrade": 5,
           "attack": 370,
@@ -3547,12 +3547,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Lightning Punisher",
+          "name": "Lightning Punisher",
           "id": 160,
           "forgeGrade": 6,
           "attack": 475,
@@ -3563,11 +3563,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Punisher",
+          "name": "Lightning Punisher",
           "id": 161,
           "forgeGrade": 7,
           "attack": 611,
@@ -3578,11 +3578,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Punisher",
+          "name": "Lightning Punisher",
           "id": 162,
           "forgeGrade": 8,
           "attack": 784,
@@ -3593,11 +3593,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Punisher",
+          "name": "Lightning Punisher",
           "id": 163,
           "forgeGrade": 9,
           "attack": 1007,
@@ -3608,11 +3608,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Punisher",
+          "name": "Lightning Punisher",
           "id": 164,
           "forgeGrade": 10,
           "attack": 1293,
@@ -3623,13 +3623,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "aquaslasher": [
         {
-          "weaponName": "Aqua Slasher",
+          "name": "Aqua Slasher",
           "id": 165,
           "forgeGrade": 3,
           "attack": 182,
@@ -3640,11 +3640,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Slasher",
+          "name": "Aqua Slasher",
           "id": 166,
           "forgeGrade": 4,
           "attack": 260,
@@ -3655,11 +3655,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Slasher",
+          "name": "Aqua Slasher",
           "id": 167,
           "forgeGrade": 5,
           "attack": 370,
@@ -3670,12 +3670,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Water Golem",
+          "name": "Water Golem",
           "id": 168,
           "forgeGrade": 6,
           "attack": 475,
@@ -3686,11 +3686,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Golem",
+          "name": "Water Golem",
           "id": 169,
           "forgeGrade": 7,
           "attack": 611,
@@ -3701,11 +3701,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Golem",
+          "name": "Water Golem",
           "id": 170,
           "forgeGrade": 8,
           "attack": 784,
@@ -3716,11 +3716,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Golem",
+          "name": "Water Golem",
           "id": 171,
           "forgeGrade": 9,
           "attack": 1007,
@@ -3731,11 +3731,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Golem",
+          "name": "Water Golem",
           "id": 172,
           "forgeGrade": 10,
           "attack": 1293,
@@ -3746,13 +3746,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "flammenzahn": [
         {
-          "weaponName": "Flammenzahn",
+          "name": "Flammenzahn",
           "id": 173,
           "forgeGrade": 4,
           "attack": 260,
@@ -3763,11 +3763,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Flammenzahn",
+          "name": "Flammenzahn",
           "id": 174,
           "forgeGrade": 5,
           "attack": 370,
@@ -3778,12 +3778,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Flammenzahn+",
+          "name": "Flammenzahn+",
           "id": 175,
           "forgeGrade": 6,
           "attack": 475,
@@ -3794,11 +3794,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Flammenzahn+",
+          "name": "Flammenzahn+",
           "id": 176,
           "forgeGrade": 7,
           "attack": 611,
@@ -3809,11 +3809,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Flammenzahn+",
+          "name": "Flammenzahn+",
           "id": 177,
           "forgeGrade": 8,
           "attack": 784,
@@ -3824,11 +3824,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Flammenzahn+",
+          "name": "Flammenzahn+",
           "id": 178,
           "forgeGrade": 9,
           "attack": 1007,
@@ -3839,11 +3839,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Flammenzahn+",
+          "name": "Flammenzahn+",
           "id": 179,
           "forgeGrade": 10,
           "attack": 1293,
@@ -3854,13 +3854,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "freezeblade": [
         {
-          "weaponName": "Freeze Blade",
+          "name": "Freeze Blade",
           "id": 180,
           "forgeGrade": 5,
           "attack": 361,
@@ -3871,12 +3871,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Frost Blaze",
+          "name": "Frost Blaze",
           "id": 181,
           "forgeGrade": 6,
           "attack": 461,
@@ -3887,11 +3887,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Frost Blaze",
+          "name": "Frost Blaze",
           "id": 182,
           "forgeGrade": 7,
           "attack": 589,
@@ -3902,11 +3902,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Frost Blaze",
+          "name": "Frost Blaze",
           "id": 183,
           "forgeGrade": 8,
           "attack": 751,
@@ -3917,11 +3917,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Frost Blaze",
+          "name": "Frost Blaze",
           "id": 184,
           "forgeGrade": 9,
           "attack": 958,
@@ -3932,11 +3932,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Frost Blaze",
+          "name": "Frost Blaze",
           "id": 185,
           "forgeGrade": 10,
           "attack": 1221,
@@ -3947,13 +3947,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "flameblade": [
         {
-          "weaponName": "Flame Blade",
+          "name": "Flame Blade",
           "id": 186,
           "forgeGrade": 5,
           "attack": 361,
@@ -3964,12 +3964,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Red Wing",
+          "name": "Red Wing",
           "id": 187,
           "forgeGrade": 6,
           "attack": 461,
@@ -3980,11 +3980,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Red Wing",
+          "name": "Red Wing",
           "id": 188,
           "forgeGrade": 7,
           "attack": 589,
@@ -3995,11 +3995,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Red Wing",
+          "name": "Red Wing",
           "id": 189,
           "forgeGrade": 8,
           "attack": 751,
@@ -4010,11 +4010,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Red Wing",
+          "name": "Red Wing",
           "id": 190,
           "forgeGrade": 9,
           "attack": 958,
@@ -4025,11 +4025,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Red Wing",
+          "name": "Red Wing",
           "id": 191,
           "forgeGrade": 10,
           "attack": 1221,
@@ -4040,8 +4040,8 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         }
       ]
     }
@@ -4050,7 +4050,7 @@ const weaponData = [
     "Hammer": {
       "ironhammer": [
         {
-          "weaponName": "Iron Hammer",
+          "name": "Iron Hammer",
           "id": 192,
           "forgeGrade": 1,
           "attack": 100,
@@ -4061,11 +4061,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Hammer",
+          "name": "Iron Hammer",
           "id": 193,
           "forgeGrade": 2,
           "attack": 144,
@@ -4076,11 +4076,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Hammer",
+          "name": "Iron Hammer",
           "id": 194,
           "forgeGrade": 3,
           "attack": 207,
@@ -4091,11 +4091,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Hammer",
+          "name": "Iron Hammer",
           "id": 195,
           "forgeGrade": 4,
           "attack": 299,
@@ -4106,11 +4106,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Hammer",
+          "name": "Iron Hammer",
           "id": 196,
           "forgeGrade": 5,
           "attack": 430,
@@ -4121,12 +4121,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Iron Demon",
+          "name": "Iron Demon",
           "id": 197,
           "forgeGrade": 6,
           "attack": 559,
@@ -4137,11 +4137,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Demon",
+          "name": "Iron Demon",
           "id": 198,
           "forgeGrade": 7,
           "attack": 727,
@@ -4152,11 +4152,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Demon",
+          "name": "Iron Demon",
           "id": 199,
           "forgeGrade": 8,
           "attack": 945,
@@ -4167,11 +4167,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Iron Demon",
+          "name": "Iron Demon",
           "id": 200,
           "forgeGrade": 9,
           "attack": 1228,
@@ -4182,11 +4182,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Iron Demon",
+          "name": "Iron Demon",
           "id": 201,
           "forgeGrade": 10,
           "attack": 1596,
@@ -4197,13 +4197,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "kulubeak": [
         {
-          "weaponName": "Kulu Beak",
+          "name": "Kulu Beak",
           "id": 202,
           "forgeGrade": 1,
           "attack": 100,
@@ -4214,11 +4214,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Beak",
+          "name": "Kulu Beak",
           "id": 203,
           "forgeGrade": 2,
           "attack": 144,
@@ -4229,11 +4229,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Beak",
+          "name": "Kulu Beak",
           "id": 204,
           "forgeGrade": 3,
           "attack": 207,
@@ -4244,11 +4244,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Beak",
+          "name": "Kulu Beak",
           "id": 205,
           "forgeGrade": 4,
           "attack": 299,
@@ -4259,11 +4259,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kulu Beak",
+          "name": "Kulu Beak",
           "id": 206,
           "forgeGrade": 5,
           "attack": 430,
@@ -4274,12 +4274,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Crushing Beak",
+          "name": "Crushing Beak",
           "id": 207,
           "forgeGrade": 6,
           "attack": 559,
@@ -4290,11 +4290,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Crushing Beak",
+          "name": "Crushing Beak",
           "id": 208,
           "forgeGrade": 7,
           "attack": 727,
@@ -4305,11 +4305,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Crushing Beak",
+          "name": "Crushing Beak",
           "id": 209,
           "forgeGrade": 8,
           "attack": 945,
@@ -4320,11 +4320,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Crushing Beak",
+          "name": "Crushing Beak",
           "id": 210,
           "forgeGrade": 9,
           "attack": 1228,
@@ -4335,11 +4335,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Crushing Beak",
+          "name": "Crushing Beak",
           "id": 211,
           "forgeGrade": 10,
           "attack": 1596,
@@ -4350,13 +4350,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         }
       ],
       "bloominghammer": [
         {
-          "weaponName": "Blooming Hammer",
+          "name": "Blooming Hammer",
           "id": 212,
           "forgeGrade": 1,
           "attack": 100,
@@ -4367,11 +4367,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Hammer",
+          "name": "Blooming Hammer",
           "id": 213,
           "forgeGrade": 2,
           "attack": 144,
@@ -4382,11 +4382,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Hammer",
+          "name": "Blooming Hammer",
           "id": 214,
           "forgeGrade": 3,
           "attack": 207,
@@ -4397,11 +4397,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Hammer",
+          "name": "Blooming Hammer",
           "id": 215,
           "forgeGrade": 4,
           "attack": 299,
@@ -4412,11 +4412,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Hammer",
+          "name": "Blooming Hammer",
           "id": 216,
           "forgeGrade": 5,
           "attack": 430,
@@ -4427,12 +4427,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Buon Fiore",
+          "name": "Buon Fiore",
           "id": 217,
           "forgeGrade": 6,
           "attack": 559,
@@ -4443,11 +4443,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Buon Fiore",
+          "name": "Buon Fiore",
           "id": 218,
           "forgeGrade": 7,
           "attack": 727,
@@ -4458,11 +4458,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Buon Fiore",
+          "name": "Buon Fiore",
           "id": 219,
           "forgeGrade": 8,
           "attack": 945,
@@ -4473,11 +4473,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Buon Fiore",
+          "name": "Buon Fiore",
           "id": 220,
           "forgeGrade": 9,
           "attack": 1228,
@@ -4488,11 +4488,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Buon Fiore",
+          "name": "Buon Fiore",
           "id": 221,
           "forgeGrade": 10,
           "attack": 1596,
@@ -4503,13 +4503,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "carapacesledge": [
         {
-          "weaponName": "Carapace Sledge",
+          "name": "Carapace Sledge",
           "id": 222,
           "forgeGrade": 1,
           "attack": 110,
@@ -4520,11 +4520,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Sledge",
+          "name": "Carapace Sledge",
           "id": 223,
           "forgeGrade": 2,
           "attack": 158,
@@ -4535,11 +4535,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Sledge",
+          "name": "Carapace Sledge",
           "id": 224,
           "forgeGrade": 3,
           "attack": 228,
@@ -4550,11 +4550,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Sledge",
+          "name": "Carapace Sledge",
           "id": 225,
           "forgeGrade": 4,
           "attack": 329,
@@ -4565,11 +4565,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Carapace Sledge",
+          "name": "Carapace Sledge",
           "id": 226,
           "forgeGrade": 5,
           "attack": 473,
@@ -4580,12 +4580,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Barroth Breaker",
+          "name": "Barroth Breaker",
           "id": 227,
           "forgeGrade": 6,
           "attack": 615,
@@ -4596,11 +4596,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Breaker",
+          "name": "Barroth Breaker",
           "id": 228,
           "forgeGrade": 7,
           "attack": 800,
@@ -4611,11 +4611,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Breaker",
+          "name": "Barroth Breaker",
           "id": 229,
           "forgeGrade": 8,
           "attack": 1040,
@@ -4626,11 +4626,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Breaker",
+          "name": "Barroth Breaker",
           "id": 230,
           "forgeGrade": 9,
           "attack": 1351,
@@ -4641,11 +4641,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Breaker",
+          "name": "Barroth Breaker",
           "id": 231,
           "forgeGrade": 10,
           "attack": 1756,
@@ -4656,13 +4656,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         }
       ],
       "girroshammer": [
         {
-          "weaponName": "Girros Hammer",
+          "name": "Girros Hammer",
           "id": 232,
           "forgeGrade": 2,
           "attack": 144,
@@ -4673,11 +4673,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Hammer",
+          "name": "Girros Hammer",
           "id": 233,
           "forgeGrade": 3,
           "attack": 207,
@@ -4688,11 +4688,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Hammer",
+          "name": "Girros Hammer",
           "id": 234,
           "forgeGrade": 4,
           "attack": 299,
@@ -4703,11 +4703,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Girros Hammer",
+          "name": "Girros Hammer",
           "id": 235,
           "forgeGrade": 5,
           "attack": 430,
@@ -4718,12 +4718,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Malady's Fist",
+          "name": "Malady's Fist",
           "id": 236,
           "forgeGrade": 6,
           "attack": 559,
@@ -4734,11 +4734,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Fist",
+          "name": "Malady's Fist",
           "id": 237,
           "forgeGrade": 7,
           "attack": 727,
@@ -4749,11 +4749,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Malady's Fist",
+          "name": "Malady's Fist",
           "id": 238,
           "forgeGrade": 8,
           "attack": 945,
@@ -4764,11 +4764,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Fist",
+          "name": "Malady's Fist",
           "id": 239,
           "forgeGrade": 9,
           "attack": 1228,
@@ -4779,11 +4779,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Malady's Fist",
+          "name": "Malady's Fist",
           "id": 240,
           "forgeGrade": 10,
           "attack": 1596,
@@ -4794,13 +4794,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "thunderhammer": [
         {
-          "weaponName": "Thunder Hammer",
+          "name": "Thunder Hammer",
           "id": 241,
           "forgeGrade": 2,
           "attack": 128,
@@ -4811,11 +4811,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Hammer",
+          "name": "Thunder Hammer",
           "id": 242,
           "forgeGrade": 3,
           "attack": 182,
@@ -4826,11 +4826,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Hammer",
+          "name": "Thunder Hammer",
           "id": 243,
           "forgeGrade": 4,
           "attack": 260,
@@ -4841,11 +4841,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Hammer",
+          "name": "Thunder Hammer",
           "id": 244,
           "forgeGrade": 5,
           "attack": 370,
@@ -4856,12 +4856,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Lightning Bash",
+          "name": "Lightning Bash",
           "id": 245,
           "forgeGrade": 6,
           "attack": 475,
@@ -4872,11 +4872,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Bash",
+          "name": "Lightning Bash",
           "id": 246,
           "forgeGrade": 7,
           "attack": 611,
@@ -4887,11 +4887,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Bash",
+          "name": "Lightning Bash",
           "id": 247,
           "forgeGrade": 8,
           "attack": 784,
@@ -4902,11 +4902,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Bash",
+          "name": "Lightning Bash",
           "id": 248,
           "forgeGrade": 9,
           "attack": 1007,
@@ -4917,11 +4917,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Bash",
+          "name": "Lightning Bash",
           "id": 249,
           "forgeGrade": 10,
           "attack": 1293,
@@ -4932,13 +4932,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "aquahammer": [
         {
-          "weaponName": "Aqua Hammer",
+          "name": "Aqua Hammer",
           "id": 250,
           "forgeGrade": 3,
           "attack": 182,
@@ -4949,11 +4949,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Hammer",
+          "name": "Aqua Hammer",
           "id": 251,
           "forgeGrade": 4,
           "attack": 260,
@@ -4964,11 +4964,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Hammer",
+          "name": "Aqua Hammer",
           "id": 252,
           "forgeGrade": 5,
           "attack": 370,
@@ -4979,12 +4979,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Water Basher",
+          "name": "Water Basher",
           "id": 253,
           "forgeGrade": 6,
           "attack": 475,
@@ -4995,11 +4995,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Basher",
+          "name": "Water Basher",
           "id": 254,
           "forgeGrade": 7,
           "attack": 611,
@@ -5010,11 +5010,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Basher",
+          "name": "Water Basher",
           "id": 255,
           "forgeGrade": 8,
           "attack": 784,
@@ -5025,11 +5025,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Basher",
+          "name": "Water Basher",
           "id": 256,
           "forgeGrade": 9,
           "attack": 1007,
@@ -5040,11 +5040,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Basher",
+          "name": "Water Basher",
           "id": 257,
           "forgeGrade": 10,
           "attack": 1293,
@@ -5055,13 +5055,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "blazinghammer": [
         {
-          "weaponName": "Blazing Hammer",
+          "name": "Blazing Hammer",
           "id": 258,
           "forgeGrade": 4,
           "attack": 260,
@@ -5072,11 +5072,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blazing Hammer",
+          "name": "Blazing Hammer",
           "id": 259,
           "forgeGrade": 5,
           "attack": 370,
@@ -5087,12 +5087,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Anja Striker",
+          "name": "Anja Striker",
           "id": 260,
           "forgeGrade": 6,
           "attack": 475,
@@ -5103,11 +5103,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Striker",
+          "name": "Anja Striker",
           "id": 261,
           "forgeGrade": 7,
           "attack": 611,
@@ -5118,11 +5118,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Striker",
+          "name": "Anja Striker",
           "id": 262,
           "forgeGrade": 8,
           "attack": 784,
@@ -5133,11 +5133,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Striker",
+          "name": "Anja Striker",
           "id": 263,
           "forgeGrade": 9,
           "attack": 1007,
@@ -5148,11 +5148,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Striker",
+          "name": "Anja Striker",
           "id": 264,
           "forgeGrade": 10,
           "attack": 1293,
@@ -5163,13 +5163,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "diablossledge": [
         {
-          "weaponName": "Diablos Sledge",
+          "name": "Diablos Sledge",
           "id": 265,
           "forgeGrade": 5,
           "attack": 512,
@@ -5180,12 +5180,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Diablos Shatterer",
+          "name": "Diablos Shatterer",
           "id": 266,
           "forgeGrade": 6,
           "attack": 671,
@@ -5196,11 +5196,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Diablos Shatterer",
+          "name": "Diablos Shatterer",
           "id": 267,
           "forgeGrade": 7,
           "attack": 880,
@@ -5211,11 +5211,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Diablos Shatterer",
+          "name": "Diablos Shatterer",
           "id": 268,
           "forgeGrade": 8,
           "attack": 1153,
@@ -5226,11 +5226,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Diablos Shatterer",
+          "name": "Diablos Shatterer",
           "id": 269,
           "forgeGrade": 9,
           "attack": 1510,
@@ -5241,11 +5241,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Diablos Shatterer",
+          "name": "Diablos Shatterer",
           "id": 270,
           "forgeGrade": 10,
           "attack": 1979,
@@ -5256,13 +5256,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         }
       ],
       "chaosshatterer": [
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 271,
           "forgeGrade": 5,
           "attack": 576,
@@ -5273,11 +5273,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 272,
           "forgeGrade": 6,
           "attack": 755,
@@ -5288,11 +5288,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 273,
           "forgeGrade": 7,
           "attack": 989,
@@ -5303,11 +5303,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 274,
           "forgeGrade": 8,
           "attack": 1295,
@@ -5318,11 +5318,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 275,
           "forgeGrade": 9,
           "attack": 1695,
@@ -5333,11 +5333,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Chaos Shatterer",
+          "name": "Chaos Shatterer",
           "id": 276,
           "forgeGrade": 10,
           "attack": 2218,
@@ -5348,8 +5348,8 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         }
       ]
     }
@@ -5358,7 +5358,7 @@ const weaponData = [
     "Long Sword": {
       "ironkatana": [
         {
-          "weaponName": "Iron Katana",
+          "name": "Iron Katana",
           "id": 277,
           "forgeGrade": 1,
           "attack": "100",
@@ -5369,11 +5369,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Katana",
+          "name": "Iron Katana",
           "id": 278,
           "forgeGrade": 2,
           "attack": "144",
@@ -5384,11 +5384,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Katana",
+          "name": "Iron Katana",
           "id": 279,
           "forgeGrade": 3,
           "attack": "207",
@@ -5399,11 +5399,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Katana",
+          "name": "Iron Katana",
           "id": 280,
           "forgeGrade": 4,
           "attack": "299",
@@ -5414,11 +5414,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Katana",
+          "name": "Iron Katana",
           "id": 281,
           "forgeGrade": 5,
           "attack": "430",
@@ -5429,12 +5429,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Iron Grace",
+          "name": "Iron Grace",
           "id": 282,
           "forgeGrade": 6,
           "attack": "559",
@@ -5445,11 +5445,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Grace",
+          "name": "Iron Grace",
           "id": 283,
           "forgeGrade": 7,
           "attack": "727",
@@ -5460,11 +5460,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Grace",
+          "name": "Iron Grace",
           "id": 284,
           "forgeGrade": 8,
           "attack": "945",
@@ -5475,11 +5475,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Iron Grace",
+          "name": "Iron Grace",
           "id": 285,
           "forgeGrade": 9,
           "attack": "1228",
@@ -5490,11 +5490,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Iron Grace",
+          "name": "Iron Grace",
           "id": 286,
           "forgeGrade": 10,
           "attack": "1596",
@@ -5505,13 +5505,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "firstdance": [
         {
-          "weaponName": "First Dance",
+          "name": "First Dance",
           "id": 287,
           "forgeGrade": 1,
           "attack": "100",
@@ -5522,11 +5522,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "First Dance",
+          "name": "First Dance",
           "id": 288,
           "forgeGrade": 2,
           "attack": "144",
@@ -5537,11 +5537,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "First Dance",
+          "name": "First Dance",
           "id": 289,
           "forgeGrade": 3,
           "attack": "207",
@@ -5552,11 +5552,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "First Dance",
+          "name": "First Dance",
           "id": 290,
           "forgeGrade": 4,
           "attack": "299",
@@ -5567,11 +5567,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "First Dance",
+          "name": "First Dance",
           "id": 291,
           "forgeGrade": 5,
           "attack": "430",
@@ -5582,12 +5582,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Last Dance",
+          "name": "Last Dance",
           "id": 292,
           "forgeGrade": 6,
           "attack": "559",
@@ -5598,11 +5598,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Last Dance",
+          "name": "Last Dance",
           "id": 293,
           "forgeGrade": 7,
           "attack": "727",
@@ -5613,11 +5613,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Last Dance",
+          "name": "Last Dance",
           "id": 294,
           "forgeGrade": 8,
           "attack": "945",
@@ -5628,11 +5628,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Last Dance",
+          "name": "Last Dance",
           "id": 295,
           "forgeGrade": 9,
           "attack": "1228",
@@ -5643,11 +5643,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Last Dance",
+          "name": "Last Dance",
           "id": 296,
           "forgeGrade": 10,
           "attack": "1596",
@@ -5658,13 +5658,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         }
       ],
       "pulsarshotel": [
         {
-          "weaponName": "Pulsar Shotel",
+          "name": "Pulsar Shotel",
           "id": 297,
           "forgeGrade": 2,
           "attack": "128",
@@ -5675,11 +5675,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Shotel",
+          "name": "Pulsar Shotel",
           "id": 298,
           "forgeGrade": 3,
           "attack": "182",
@@ -5690,11 +5690,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Shotel",
+          "name": "Pulsar Shotel",
           "id": 299,
           "forgeGrade": 4,
           "attack": "260",
@@ -5705,11 +5705,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Shotel",
+          "name": "Pulsar Shotel",
           "id": 300,
           "forgeGrade": 5,
           "attack": "370",
@@ -5720,12 +5720,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Kadachi Fang",
+          "name": "Kadachi Fang",
           "id": 301,
           "forgeGrade": 6,
           "attack": "475",
@@ -5736,11 +5736,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kadachi Fang",
+          "name": "Kadachi Fang",
           "id": 302,
           "forgeGrade": 7,
           "attack": "611",
@@ -5751,11 +5751,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kadachi Fang",
+          "name": "Kadachi Fang",
           "id": 303,
           "forgeGrade": 8,
           "attack": "784",
@@ -5766,11 +5766,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kadachi Fang",
+          "name": "Kadachi Fang",
           "id": 304,
           "forgeGrade": 9,
           "attack": "1007",
@@ -5781,11 +5781,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kadachi Fang",
+          "name": "Kadachi Fang",
           "id": 305,
           "forgeGrade": 10,
           "attack": "1293",
@@ -5796,13 +5796,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "jyurashotel": [
         {
-          "weaponName": "Jyura Shotel",
+          "name": "Jyura Shotel",
           "id": 306,
           "forgeGrade": 3,
           "attack": "182",
@@ -5813,11 +5813,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jyura Shotel",
+          "name": "Jyura Shotel",
           "id": 307,
           "forgeGrade": 4,
           "attack": "260",
@@ -5828,11 +5828,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jyura Shotel",
+          "name": "Jyura Shotel",
           "id": 308,
           "forgeGrade": 5,
           "attack": "370",
@@ -5843,12 +5843,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Dipterus",
+          "name": "Dipterus",
           "id": 309,
           "forgeGrade": 6,
           "attack": "475",
@@ -5859,11 +5859,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Dipterus",
+          "name": "Dipterus",
           "id": 310,
           "forgeGrade": 7,
           "attack": "611",
@@ -5874,11 +5874,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Dipterus",
+          "name": "Dipterus",
           "id": 311,
           "forgeGrade": 8,
           "attack": "784",
@@ -5889,11 +5889,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Dipterus",
+          "name": "Dipterus",
           "id": 312,
           "forgeGrade": 9,
           "attack": "1007",
@@ -5904,11 +5904,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Dipterus",
+          "name": "Dipterus",
           "id": 313,
           "forgeGrade": 10,
           "attack": "1293",
@@ -5919,13 +5919,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "blazingshotel": [
         {
-          "weaponName": "Blazing Shotel",
+          "name": "Blazing Shotel",
           "id": 314,
           "forgeGrade": 4,
           "attack": "260",
@@ -5936,11 +5936,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blazing Shotel",
+          "name": "Blazing Shotel",
           "id": 315,
           "forgeGrade": 5,
           "attack": "370",
@@ -5951,12 +5951,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Anja Scimitar",
+          "name": "Anja Scimitar",
           "id": 316,
           "forgeGrade": 6,
           "attack": "475",
@@ -5967,11 +5967,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Scimitar",
+          "name": "Anja Scimitar",
           "id": 317,
           "forgeGrade": 7,
           "attack": "611",
@@ -5982,11 +5982,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Scimitar",
+          "name": "Anja Scimitar",
           "id": 318,
           "forgeGrade": 8,
           "attack": "784",
@@ -5997,11 +5997,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Scimitar",
+          "name": "Anja Scimitar",
           "id": 319,
           "forgeGrade": 9,
           "attack": "1007",
@@ -6012,11 +6012,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Scimitar",
+          "name": "Anja Scimitar",
           "id": 320,
           "forgeGrade": 10,
           "attack": "1293",
@@ -6027,13 +6027,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "wyvernblade\"leaf\"": [
         {
-          "weaponName": "Wyvern Blade \"Leaf\"",
+          "name": "Wyvern Blade \"Leaf\"",
           "id": 321,
           "forgeGrade": 4,
           "attack": "284",
@@ -6044,11 +6044,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Leaf\"",
+          "name": "Wyvern Blade \"Leaf\"",
           "id": 322,
           "forgeGrade": 5,
           "attack": "409",
@@ -6059,12 +6059,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Wyvern Blade \"Verde\"",
+          "name": "Wyvern Blade \"Verde\"",
           "id": 323,
           "forgeGrade": 6,
           "attack": "531",
@@ -6075,11 +6075,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Verde\"",
+          "name": "Wyvern Blade \"Verde\"",
           "id": 324,
           "forgeGrade": 7,
           "attack": "691",
@@ -6090,11 +6090,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Verde\"",
+          "name": "Wyvern Blade \"Verde\"",
           "id": 325,
           "forgeGrade": 8,
           "attack": "898",
@@ -6105,11 +6105,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Wyvern Blade \"Verde\"",
+          "name": "Wyvern Blade \"Verde\"",
           "id": 326,
           "forgeGrade": 9,
           "attack": "1167",
@@ -6120,11 +6120,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Wyvern Blade \"Verde\"",
+          "name": "Wyvern Blade \"Verde\"",
           "id": 327,
           "forgeGrade": 10,
           "attack": "1516",
@@ -6135,13 +6135,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "glacialshotel": [
         {
-          "weaponName": "Glacial Shotel",
+          "name": "Glacial Shotel",
           "id": 328,
           "forgeGrade": 5,
           "attack": "361",
@@ -6152,12 +6152,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Stealer",
+          "name": "Stealer",
           "id": 329,
           "forgeGrade": 6,
           "attack": "461",
@@ -6168,11 +6168,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Stealer",
+          "name": "Stealer",
           "id": 330,
           "forgeGrade": 7,
           "attack": "589",
@@ -6183,11 +6183,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Stealer",
+          "name": "Stealer",
           "id": 331,
           "forgeGrade": 8,
           "attack": "751",
@@ -6198,11 +6198,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Stealer",
+          "name": "Stealer",
           "id": 332,
           "forgeGrade": 9,
           "attack": "958",
@@ -6213,11 +6213,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Stealer",
+          "name": "Stealer",
           "id": 333,
           "forgeGrade": 10,
           "attack": "1221",
@@ -6228,13 +6228,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "wyvernblade\"fall\"": [
         {
-          "weaponName": "Wyvern Blade \"Fall\"",
+          "name": "Wyvern Blade \"Fall\"",
           "id": 334,
           "forgeGrade": 5,
           "attack": "361",
@@ -6245,12 +6245,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Wyvern Blade \"Blood\"",
+          "name": "Wyvern Blade \"Blood\"",
           "id": 335,
           "forgeGrade": 6,
           "attack": "461",
@@ -6261,11 +6261,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Wyvern Blade \"Blood\"",
+          "name": "Wyvern Blade \"Blood\"",
           "id": 336,
           "forgeGrade": 7,
           "attack": "589",
@@ -6276,11 +6276,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Wyvern Blade \"Blood\"",
+          "name": "Wyvern Blade \"Blood\"",
           "id": 337,
           "forgeGrade": 8,
           "attack": "751",
@@ -6291,11 +6291,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Blood\"",
+          "name": "Wyvern Blade \"Blood\"",
           "id": 338,
           "forgeGrade": 9,
           "attack": "958",
@@ -6306,11 +6306,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Blood\"",
+          "name": "Wyvern Blade \"Blood\"",
           "id": 339,
           "forgeGrade": 10,
           "attack": "1221",
@@ -6321,13 +6321,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         }
       ],
       "wyvernblade\"blossom\"": [
         {
-          "weaponName": "Wyvern Blade \"Blossom\"",
+          "name": "Wyvern Blade \"Blossom\"",
           "id": 340,
           "forgeGrade": 5,
           "attack": "473",
@@ -6338,12 +6338,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Wyvern Blade \"Blossom+\"",
+          "name": "Wyvern Blade \"Blossom+\"",
           "id": 341,
           "forgeGrade": 6,
           "attack": "???",
@@ -6354,11 +6354,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Wyvern Blade \"Blossom+\"",
+          "name": "Wyvern Blade \"Blossom+\"",
           "id": 342,
           "forgeGrade": 7,
           "attack": "???",
@@ -6369,11 +6369,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Wyvern Blade \"Blossom+\"",
+          "name": "Wyvern Blade \"Blossom+\"",
           "id": 343,
           "forgeGrade": 8,
           "attack": "???",
@@ -6384,11 +6384,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Blossom+\"",
+          "name": "Wyvern Blade \"Blossom+\"",
           "id": 344,
           "forgeGrade": 9,
           "attack": "???",
@@ -6399,11 +6399,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Wyvern Blade \"Blossom+\"",
+          "name": "Wyvern Blade \"Blossom+\"",
           "id": 345,
           "forgeGrade": 10,
           "attack": "???",
@@ -6414,8 +6414,8 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spirit Helm Breaker Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ]
     }
@@ -6424,7 +6424,7 @@ const weaponData = [
     "Bow Gun": {
       "chainblitz": [
         {
-          "weaponName": "Chain Blitz",
+          "name": "Chain Blitz",
           "id": 346,
           "forgeGrade": 1,
           "attack": 100,
@@ -6435,11 +6435,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chain Blitz",
+          "name": "Chain Blitz",
           "id": 347,
           "forgeGrade": 2,
           "attack": 144,
@@ -6450,11 +6450,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chain Blitz",
+          "name": "Chain Blitz",
           "id": 348,
           "forgeGrade": 3,
           "attack": 207,
@@ -6465,11 +6465,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Chain Blitz",
+          "name": "Chain Blitz",
           "id": 349,
           "forgeGrade": 4,
           "attack": 299,
@@ -6480,11 +6480,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Chain Blitz",
+          "name": "Chain Blitz",
           "id": 350,
           "forgeGrade": 5,
           "attack": 430,
@@ -6495,12 +6495,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "High Chain Blitz",
+          "name": "High Chain Blitz",
           "id": 351,
           "forgeGrade": 6,
           "attack": 559,
@@ -6511,11 +6511,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "High Chain Blitz",
+          "name": "High Chain Blitz",
           "id": 352,
           "forgeGrade": 7,
           "attack": 727,
@@ -6526,11 +6526,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "High Chain Blitz",
+          "name": "High Chain Blitz",
           "id": 353,
           "forgeGrade": 8,
           "attack": 945,
@@ -6541,11 +6541,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "High Chain Blitz",
+          "name": "High Chain Blitz",
           "id": 354,
           "forgeGrade": 9,
           "attack": 1228,
@@ -6556,11 +6556,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "High Chain Blitz",
+          "name": "High Chain Blitz",
           "id": 355,
           "forgeGrade": 10,
           "attack": 1596,
@@ -6571,13 +6571,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "jagrasblitz": [
         {
-          "weaponName": "Jagras Blitz",
+          "name": "Jagras Blitz",
           "id": 356,
           "forgeGrade": 1,
           "attack": 95,
@@ -6588,11 +6588,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blitz",
+          "name": "Jagras Blitz",
           "id": 357,
           "forgeGrade": 2,
           "attack": 135,
@@ -6603,11 +6603,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blitz",
+          "name": "Jagras Blitz",
           "id": 358,
           "forgeGrade": 3,
           "attack": 193,
@@ -6618,11 +6618,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jagras Blitz",
+          "name": "Jagras Blitz",
           "id": 359,
           "forgeGrade": 4,
           "attack": 275,
@@ -6633,11 +6633,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Blitz",
+          "name": "Jagras Blitz",
           "id": 360,
           "forgeGrade": 5,
           "attack": 391,
@@ -6648,12 +6648,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Jagras Fire",
+          "name": "Jagras Fire",
           "id": 361,
           "forgeGrade": 6,
           "attack": 503,
@@ -6664,11 +6664,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Fire",
+          "name": "Jagras Fire",
           "id": 362,
           "forgeGrade": 7,
           "attack": 647,
@@ -6679,11 +6679,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jagras Fire",
+          "name": "Jagras Fire",
           "id": 363,
           "forgeGrade": 8,
           "attack": 832,
@@ -6694,11 +6694,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Fire",
+          "name": "Jagras Fire",
           "id": 364,
           "forgeGrade": 9,
           "attack": 1068,
@@ -6709,11 +6709,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Jagras Fire",
+          "name": "Jagras Fire",
           "id": 365,
           "forgeGrade": 10,
           "attack": 1373,
@@ -6724,13 +6724,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "carapacerifle": [
         {
-          "weaponName": "Carapace Rifle",
+          "name": "Carapace Rifle",
           "id": 366,
           "forgeGrade": 1,
           "attack": 110,
@@ -6741,11 +6741,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Rifle",
+          "name": "Carapace Rifle",
           "id": 367,
           "forgeGrade": 2,
           "attack": 158,
@@ -6756,11 +6756,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Rifle",
+          "name": "Carapace Rifle",
           "id": 368,
           "forgeGrade": 3,
           "attack": 228,
@@ -6771,11 +6771,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Carapace Rifle",
+          "name": "Carapace Rifle",
           "id": 369,
           "forgeGrade": 4,
           "attack": 329,
@@ -6786,11 +6786,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Carapace Rifle",
+          "name": "Carapace Rifle",
           "id": 370,
           "forgeGrade": 5,
           "attack": 473,
@@ -6801,12 +6801,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Barroth Shot",
+          "name": "Barroth Shot",
           "id": 371,
           "forgeGrade": 6,
           "attack": 615,
@@ -6817,11 +6817,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Shot",
+          "name": "Barroth Shot",
           "id": 372,
           "forgeGrade": 7,
           "attack": 800,
@@ -6832,11 +6832,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Defense Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Defense Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Barroth Shot",
+          "name": "Barroth Shot",
           "id": 373,
           "forgeGrade": 8,
           "attack": 1040,
@@ -6847,11 +6847,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Shot",
+          "name": "Barroth Shot",
           "id": 374,
           "forgeGrade": 9,
           "attack": 1351,
@@ -6862,11 +6862,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Barroth Shot",
+          "name": "Barroth Shot",
           "id": 375,
           "forgeGrade": 10,
           "attack": 1756,
@@ -6877,13 +6877,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Defense Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Defense Boost",
+          "skill1Level": 2
         }
       ],
       "thunderblitz": [
         {
-          "weaponName": "Thunder Blitz",
+          "name": "Thunder Blitz",
           "id": 376,
           "forgeGrade": 2,
           "attack": 128,
@@ -6894,11 +6894,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blitz",
+          "name": "Thunder Blitz",
           "id": 377,
           "forgeGrade": 3,
           "attack": 182,
@@ -6909,11 +6909,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blitz",
+          "name": "Thunder Blitz",
           "id": 378,
           "forgeGrade": 4,
           "attack": 260,
@@ -6924,11 +6924,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Thunder Blitz",
+          "name": "Thunder Blitz",
           "id": 379,
           "forgeGrade": 5,
           "attack": 370,
@@ -6939,12 +6939,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Lightning Blitz",
+          "name": "Lightning Blitz",
           "id": 380,
           "forgeGrade": 6,
           "attack": 475,
@@ -6955,11 +6955,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Blitz",
+          "name": "Lightning Blitz",
           "id": 381,
           "forgeGrade": 7,
           "attack": 611,
@@ -6970,11 +6970,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lightning Blitz",
+          "name": "Lightning Blitz",
           "id": 382,
           "forgeGrade": 8,
           "attack": 784,
@@ -6985,11 +6985,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Blitz",
+          "name": "Lightning Blitz",
           "id": 383,
           "forgeGrade": 9,
           "attack": 1007,
@@ -7000,11 +7000,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lightning Blitz",
+          "name": "Lightning Blitz",
           "id": 384,
           "forgeGrade": 10,
           "attack": 1293,
@@ -7015,13 +7015,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "lumublitz": [
         {
-          "weaponName": "Lumu Blitz",
+          "name": "Lumu Blitz",
           "id": 385,
           "forgeGrade": 3,
           "attack": 236,
@@ -7032,11 +7032,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Lumu Blitz",
+          "name": "Lumu Blitz",
           "id": 386,
           "forgeGrade": 4,
           "attack": 339,
@@ -7047,11 +7047,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Blitz",
+          "name": "Lumu Blitz",
           "id": 387,
           "forgeGrade": 5,
           "attack": 486,
@@ -7062,12 +7062,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Lumu Typhon",
+          "name": "Lumu Typhon",
           "id": 388,
           "forgeGrade": 6,
           "attack": 629,
@@ -7078,11 +7078,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Typhon",
+          "name": "Lumu Typhon",
           "id": 389,
           "forgeGrade": 7,
           "attack": 814,
@@ -7093,11 +7093,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Lumu Typhon",
+          "name": "Lumu Typhon",
           "id": 390,
           "forgeGrade": 8,
           "attack": 1054,
@@ -7108,11 +7108,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Lumu Typhon",
+          "name": "Lumu Typhon",
           "id": 391,
           "forgeGrade": 9,
           "attack": 1363,
@@ -7123,11 +7123,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Lumu Typhon",
+          "name": "Lumu Typhon",
           "id": 392,
           "forgeGrade": 10,
           "attack": 1764,
@@ -7138,13 +7138,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "madnessrifle": [
         {
-          "weaponName": "Madness Rifle",
+          "name": "Madness Rifle",
           "id": 393,
           "forgeGrade": 3,
           "attack": 182,
@@ -7155,11 +7155,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Madness Rifle",
+          "name": "Madness Rifle",
           "id": 394,
           "forgeGrade": 4,
           "attack": 260,
@@ -7170,11 +7170,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Madness Rifle",
+          "name": "Madness Rifle",
           "id": 395,
           "forgeGrade": 5,
           "attack": 370,
@@ -7185,12 +7185,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Jyura Bullet",
+          "name": "Jyura Bullet",
           "id": 396,
           "forgeGrade": 6,
           "attack": 475,
@@ -7201,11 +7201,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jyura Bullet",
+          "name": "Jyura Bullet",
           "id": 397,
           "forgeGrade": 7,
           "attack": 611,
@@ -7216,11 +7216,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Jyura Bullet",
+          "name": "Jyura Bullet",
           "id": 398,
           "forgeGrade": 8,
           "attack": 784,
@@ -7231,11 +7231,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jyura Bullet",
+          "name": "Jyura Bullet",
           "id": 399,
           "forgeGrade": 9,
           "attack": 1007,
@@ -7246,11 +7246,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Jyura Bullet",
+          "name": "Jyura Bullet",
           "id": 400,
           "forgeGrade": 10,
           "attack": 1293,
@@ -7261,13 +7261,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "blazingrifle": [
         {
-          "weaponName": "Blazing Rifle",
+          "name": "Blazing Rifle",
           "id": 401,
           "forgeGrade": 4,
           "attack": 260,
@@ -7278,11 +7278,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blazing Rifle",
+          "name": "Blazing Rifle",
           "id": 402,
           "forgeGrade": 5,
           "attack": 370,
@@ -7293,12 +7293,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Anja Buster",
+          "name": "Anja Buster",
           "id": 403,
           "forgeGrade": 6,
           "attack": 475,
@@ -7309,11 +7309,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Buster",
+          "name": "Anja Buster",
           "id": 404,
           "forgeGrade": 7,
           "attack": 611,
@@ -7324,11 +7324,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Buster",
+          "name": "Anja Buster",
           "id": 405,
           "forgeGrade": 8,
           "attack": 784,
@@ -7339,11 +7339,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Buster",
+          "name": "Anja Buster",
           "id": 406,
           "forgeGrade": 9,
           "attack": 1007,
@@ -7354,11 +7354,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Buster",
+          "name": "Anja Buster",
           "id": 407,
           "forgeGrade": 10,
           "attack": 1293,
@@ -7369,13 +7369,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "snowblitz": [
         {
-          "weaponName": "Snow Blitz",
+          "name": "Snow Blitz",
           "id": 408,
           "forgeGrade": 5,
           "attack": 361,
@@ -7386,12 +7386,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Frost Blitz",
+          "name": "Frost Blitz",
           "id": 409,
           "forgeGrade": 6,
           "attack": 461,
@@ -7402,11 +7402,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Frost Blitz",
+          "name": "Frost Blitz",
           "id": 410,
           "forgeGrade": 7,
           "attack": 589,
@@ -7417,11 +7417,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Frost Blitz",
+          "name": "Frost Blitz",
           "id": 411,
           "forgeGrade": 8,
           "attack": 751,
@@ -7432,11 +7432,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Frost Blitz",
+          "name": "Frost Blitz",
           "id": 412,
           "forgeGrade": 9,
           "attack": 958,
@@ -7447,11 +7447,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Frost Blitz",
+          "name": "Frost Blitz",
           "id": 413,
           "forgeGrade": 10,
           "attack": 1221,
@@ -7462,13 +7462,13 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "flameblitz": [
         {
-          "weaponName": "Flame Blitz",
+          "name": "Flame Blitz",
           "id": 414,
           "forgeGrade": 5,
           "attack": 361,
@@ -7479,12 +7479,12 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
 
         {
-          "weaponName": "Rathbuster",
+          "name": "Rathbuster",
           "id": 415,
           "forgeGrade": 6,
           "attack": 461,
@@ -7495,11 +7495,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rathbuster",
+          "name": "Rathbuster",
           "id": 416,
           "forgeGrade": 7,
           "attack": 589,
@@ -7510,11 +7510,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rathbuster",
+          "name": "Rathbuster",
           "id": 417,
           "forgeGrade": 8,
           "attack": 751,
@@ -7525,11 +7525,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rathbuster",
+          "name": "Rathbuster",
           "id": 418,
           "forgeGrade": 9,
           "attack": 958,
@@ -7540,11 +7540,11 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rathbuster",
+          "name": "Rathbuster",
           "id": 419,
           "forgeGrade": 10,
           "attack": 1221,
@@ -7555,8 +7555,8 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         }
       ]
     }
@@ -7565,7 +7565,7 @@ const weaponData = [
     "Bow": {
       "ironbow": [
         {
-          "weaponName": "Iron Bow",
+          "name": "Iron Bow",
           "id": 420,
           "forgeGrade": 1,
           "attack": 100,
@@ -7576,11 +7576,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Bow",
+          "name": "Iron Bow",
           "id": 421,
           "forgeGrade": 2,
           "attack": 144,
@@ -7591,11 +7591,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Bow",
+          "name": "Iron Bow",
           "id": 422,
           "forgeGrade": 3,
           "attack": 207,
@@ -7606,11 +7606,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Iron Bow",
+          "name": "Iron Bow",
           "id": 423,
           "forgeGrade": 4,
           "attack": 299,
@@ -7621,11 +7621,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Iron Bow",
+          "name": "Iron Bow",
           "id": 424,
           "forgeGrade": 5,
           "attack": 430,
@@ -7636,12 +7636,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Steel Bow",
+          "name": "Steel Bow",
           "id": 425,
           "forgeGrade": 6,
           "attack": 559,
@@ -7652,11 +7652,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Steel Bow",
+          "name": "Steel Bow",
           "id": 426,
           "forgeGrade": 7,
           "attack": 727,
@@ -7667,11 +7667,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Poison Resistance Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Poison Resistance",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Steel Bow",
+          "name": "Steel Bow",
           "id": 427,
           "forgeGrade": 8,
           "attack": 945,
@@ -7682,11 +7682,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Steel Bow",
+          "name": "Steel Bow",
           "id": 428,
           "forgeGrade": 9,
           "attack": 1228,
@@ -7697,11 +7697,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Steel Bow",
+          "name": "Steel Bow",
           "id": 429,
           "forgeGrade": 10,
           "attack": 1596,
@@ -7712,13 +7712,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Poison Resistance Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Poison Resistance",
+          "skill1Level": 2
         }
       ],
       "kuluarrow": [
         {
-          "weaponName": "Kulu Arrow",
+          "name": "Kulu Arrow",
           "id": 430,
           "forgeGrade": 1,
           "attack": 100,
@@ -7729,11 +7729,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Arrow",
+          "name": "Kulu Arrow",
           "id": 431,
           "forgeGrade": 2,
           "attack": 144,
@@ -7744,11 +7744,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Arrow",
+          "name": "Kulu Arrow",
           "id": 432,
           "forgeGrade": 3,
           "attack": 207,
@@ -7759,11 +7759,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kulu Arrow",
+          "name": "Kulu Arrow",
           "id": 433,
           "forgeGrade": 4,
           "attack": 299,
@@ -7774,11 +7774,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kulu Arrow",
+          "name": "Kulu Arrow",
           "id": 434,
           "forgeGrade": 5,
           "attack": 430,
@@ -7789,12 +7789,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Archer's Dance",
+          "name": "Archer's Dance",
           "id": 435,
           "forgeGrade": 6,
           "attack": 559,
@@ -7805,11 +7805,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Archer's Dance",
+          "name": "Archer's Dance",
           "id": 436,
           "forgeGrade": 7,
           "attack": 727,
@@ -7820,11 +7820,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Fortify Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Fortify",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Archer's Dance",
+          "name": "Archer's Dance",
           "id": 437,
           "forgeGrade": 8,
           "attack": 945,
@@ -7835,11 +7835,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Archer's Dance",
+          "name": "Archer's Dance",
           "id": 438,
           "forgeGrade": 9,
           "attack": 1228,
@@ -7850,11 +7850,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Archer's Dance",
+          "name": "Archer's Dance",
           "id": 439,
           "forgeGrade": 10,
           "attack": 1596,
@@ -7865,13 +7865,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Fortify Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Fortify",
+          "skill1Level": 2
         }
       ],
       "bloomingarch": [
         {
-          "weaponName": "Blooming Arch",
+          "name": "Blooming Arch",
           "id": 440,
           "forgeGrade": 1,
           "attack": 100,
@@ -7882,11 +7882,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "None",
           "specialSkillLevel": 0,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Arch",
+          "name": "Blooming Arch",
           "id": 441,
           "forgeGrade": 2,
           "attack": 144,
@@ -7897,11 +7897,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Arch",
+          "name": "Blooming Arch",
           "id": 442,
           "forgeGrade": 3,
           "attack": 207,
@@ -7912,11 +7912,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Arch",
+          "name": "Blooming Arch",
           "id": 443,
           "forgeGrade": 4,
           "attack": 299,
@@ -7927,11 +7927,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blooming Arch",
+          "name": "Blooming Arch",
           "id": 444,
           "forgeGrade": 5,
           "attack": 430,
@@ -7942,12 +7942,12 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Datura String",
+          "name": "Datura String",
           "id": 445,
           "forgeGrade": 6,
           "attack": 559,
@@ -7958,11 +7958,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura String",
+          "name": "Datura String",
           "id": 446,
           "forgeGrade": 7,
           "attack": 727,
@@ -7973,11 +7973,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Datura String",
+          "name": "Datura String",
           "id": 447,
           "forgeGrade": 8,
           "attack": 945,
@@ -7988,11 +7988,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura String",
+          "name": "Datura String",
           "id": 448,
           "forgeGrade": 9,
           "attack": 1228,
@@ -8003,11 +8003,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Datura String",
+          "name": "Datura String",
           "id": 449,
           "forgeGrade": 10,
           "attack": 1596,
@@ -8018,13 +8018,13 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Sneak Attack Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Sneak Attack",
+          "skill1Level": 1
         }
       ],
       "pulsarbow": [
         {
-          "weaponName": "Pulsar Bow",
+          "name": "Pulsar Bow",
           "id": 450,
           "forgeGrade": 2,
           "attack": 128,
@@ -8035,11 +8035,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Bow",
+          "name": "Pulsar Bow",
           "id": 451,
           "forgeGrade": 3,
           "attack": 182,
@@ -8050,11 +8050,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Bow",
+          "name": "Pulsar Bow",
           "id": 452,
           "forgeGrade": 4,
           "attack": 260,
@@ -8065,11 +8065,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Pulsar Bow",
+          "name": "Pulsar Bow",
           "id": 453,
           "forgeGrade": 5,
           "attack": 370,
@@ -8080,12 +8080,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Kadachi Strikebow",
+          "name": "Kadachi Strikebow",
           "id": 454,
           "forgeGrade": 6,
           "attack": 475,
@@ -8096,11 +8096,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kadachi Strikebow",
+          "name": "Kadachi Strikebow",
           "id": 455,
           "forgeGrade": 7,
           "attack": 611,
@@ -8111,11 +8111,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Kadachi Strikebow",
+          "name": "Kadachi Strikebow",
           "id": 456,
           "forgeGrade": 8,
           "attack": 784,
@@ -8126,11 +8126,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kadachi Strikebow",
+          "name": "Kadachi Strikebow",
           "id": 457,
           "forgeGrade": 9,
           "attack": 1007,
@@ -8141,11 +8141,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Kadachi Strikebow",
+          "name": "Kadachi Strikebow",
           "id": 458,
           "forgeGrade": 10,
           "attack": 1293,
@@ -8156,13 +8156,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ],
       "aquaarrow": [
         {
-          "weaponName": "Aqua Arrow",
+          "name": "Aqua Arrow",
           "id": 459,
           "forgeGrade": 3,
           "attack": 182,
@@ -8173,11 +8173,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Arrow",
+          "name": "Aqua Arrow",
           "id": 460,
           "forgeGrade": 4,
           "attack": 260,
@@ -8188,11 +8188,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Aqua Arrow",
+          "name": "Aqua Arrow",
           "id": 461,
           "forgeGrade": 5,
           "attack": 370,
@@ -8203,12 +8203,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Water Shot",
+          "name": "Water Shot",
           "id": 462,
           "forgeGrade": 6,
           "attack": 475,
@@ -8219,11 +8219,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Shot",
+          "name": "Water Shot",
           "id": 463,
           "forgeGrade": 7,
           "attack": 611,
@@ -8234,11 +8234,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Water Shot",
+          "name": "Water Shot",
           "id": 464,
           "forgeGrade": 8,
           "attack": 784,
@@ -8249,11 +8249,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Shot",
+          "name": "Water Shot",
           "id": 465,
           "forgeGrade": 9,
           "attack": 1007,
@@ -8264,11 +8264,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Water Shot",
+          "name": "Water Shot",
           "id": 466,
           "forgeGrade": 10,
           "attack": 1293,
@@ -8279,13 +8279,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Last Stand Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Last Stand",
+          "skill1Level": 1
         }
       ],
       "blazingbow": [
         {
-          "weaponName": "Blazing Bow",
+          "name": "Blazing Bow",
           "id": 467,
           "forgeGrade": 4,
           "attack": 260,
@@ -8296,11 +8296,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Blazing Bow",
+          "name": "Blazing Bow",
           "id": 468,
           "forgeGrade": 5,
           "attack": 370,
@@ -8311,12 +8311,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Anja Arch",
+          "name": "Anja Arch",
           "id": 469,
           "forgeGrade": 6,
           "attack": 475,
@@ -8327,11 +8327,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Arch",
+          "name": "Anja Arch",
           "id": 470,
           "forgeGrade": 7,
           "attack": 611,
@@ -8342,11 +8342,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Anja Arch",
+          "name": "Anja Arch",
           "id": 471,
           "forgeGrade": 8,
           "attack": 784,
@@ -8357,11 +8357,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Arch",
+          "name": "Anja Arch",
           "id": 472,
           "forgeGrade": 9,
           "attack": 1007,
@@ -8372,11 +8372,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Anja Arch",
+          "name": "Anja Arch",
           "id": 473,
           "forgeGrade": 10,
           "attack": 1293,
@@ -8387,13 +8387,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Rising Tide",
+          "skill1Level": 1
         }
       ],
       "princessarrow": [
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 474,
           "forgeGrade": 4,
           "attack": 284,
@@ -8404,11 +8404,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 475,
           "forgeGrade": 5,
           "attack": 409,
@@ -8419,11 +8419,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 476,
           "forgeGrade": 6,
           "attack": 531,
@@ -8434,11 +8434,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 477,
           "forgeGrade": 7,
           "attack": 691,
@@ -8449,11 +8449,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Health Boost Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Health Boost",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 478,
           "forgeGrade": 8,
           "attack": 898,
@@ -8464,11 +8464,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 479,
           "forgeGrade": 9,
           "attack": 1167,
@@ -8479,11 +8479,11 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Princess Arrow",
+          "name": "Princess Arrow",
           "id": 480,
           "forgeGrade": 10,
           "attack": 1516,
@@ -8494,13 +8494,13 @@ const weaponData = [
           "coatingType": "Poison Coating",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Health Boost Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Health Boost",
+          "skill1Level": 2
         }
       ],
       "glacialarrow": [
         {
-          "weaponName": "Glacial Arrow",
+          "name": "Glacial Arrow",
           "id": 481,
           "forgeGrade": 5,
           "attack": 361,
@@ -8511,12 +8511,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         }
         ,
         {
-          "weaponName": "Snowfletcher",
+          "name": "Snowfletcher",
           "id": 482,
           "forgeGrade": 6,
           "attack": 461,
@@ -8527,11 +8527,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Snowfletcher",
+          "name": "Snowfletcher",
           "id": 483,
           "forgeGrade": 7,
           "attack": 589,
@@ -8542,11 +8542,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Divine Blessing",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Snowfletcher",
+          "name": "Snowfletcher",
           "id": 484,
           "forgeGrade": 8,
           "attack": 751,
@@ -8557,11 +8557,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Snowfletcher",
+          "name": "Snowfletcher",
           "id": 485,
           "forgeGrade": 9,
           "attack": 958,
@@ -8572,11 +8572,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         },
         {
-          "weaponName": "Snowfletcher",
+          "name": "Snowfletcher",
           "id": 486,
           "forgeGrade": 10,
           "attack": 1221,
@@ -8587,13 +8587,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
+          "skill1": "Divine Blessing",
+          "skill1Level": 2
         }
       ],
       "diablosbow": [
         {
-          "weaponName": "Diablos Bow",
+          "name": "Diablos Bow",
           "id": 487,
           "forgeGrade": 5,
           "attack": 512,
@@ -8604,12 +8604,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Diablos Coilbender",
+          "name": "Diablos Coilbender",
           "id": 488,
           "forgeGrade": 6,
           "attack": 671,
@@ -8620,11 +8620,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Diablos Coilbender",
+          "name": "Diablos Coilbender",
           "id": 489,
           "forgeGrade": 7,
           "attack": 880,
@@ -8635,11 +8635,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Diablos Coilbender",
+          "name": "Diablos Coilbender",
           "id": 490,
           "forgeGrade": 8,
           "attack": 1153,
@@ -8650,11 +8650,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Diablos Coilbender",
+          "name": "Diablos Coilbender",
           "id": 491,
           "forgeGrade": 9,
           "attack": 1510,
@@ -8665,11 +8665,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Diablos Coilbender",
+          "name": "Diablos Coilbender",
           "id": 492,
           "forgeGrade": 10,
           "attack": 1979,
@@ -8680,13 +8680,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Heroics Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Heroics",
+          "skill1Level": 1
         }
       ],
       "rathslinger": [
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 493,
           "forgeGrade": 5,
           "attack": 361,
@@ -8697,11 +8697,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 494,
           "forgeGrade": 6,
           "attack": 461,
@@ -8712,11 +8712,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 495,
           "forgeGrade": 7,
           "attack": 589,
@@ -8727,11 +8727,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 496,
           "forgeGrade": 8,
           "attack": 751,
@@ -8742,11 +8742,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 497,
           "forgeGrade": 9,
           "attack": 958,
@@ -8757,11 +8757,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rathslinger",
+          "name": "Rathslinger",
           "id": 498,
           "forgeGrade": 10,
           "attack": 1221,
@@ -8772,13 +8772,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Earplugs",
+          "skill1Level": 1
         }
       ],
       "galebender": [
         {
-          "weaponName": "Galebender",
+          "name": "Galebender",
           "id": 499,
           "forgeGrade": 5,
           "attack": 576,
@@ -8789,12 +8789,12 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         }
         ,
         {
-          "weaponName": "Cera Coilbender",
+          "name": "Cera Coilbender",
           "id": 500,
           "forgeGrade": 6,
           "attack": 755,
@@ -8805,11 +8805,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Cera Coilbender",
+          "name": "Cera Coilbender",
           "id": 501,
           "forgeGrade": 7,
           "attack": 989,
@@ -8820,11 +8820,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Cera Coilbender",
+          "name": "Cera Coilbender",
           "id": 502,
           "forgeGrade": 8,
           "attack": 1295,
@@ -8835,11 +8835,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Cera Coilbender",
+          "name": "Cera Coilbender",
           "id": 503,
           "forgeGrade": 9,
           "attack": 1695,
@@ -8850,11 +8850,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Cera Coilbender",
+          "name": "Cera Coilbender",
           "id": 504,
           "forgeGrade": 10,
           "attack": 2218,
@@ -8865,13 +8865,13 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Partbreaker Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Partbreaker",
+          "skill1Level": 1
         }
       ],
       "rosenarrow": [
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 505,
           "forgeGrade": 5,
           "attack": 370,
@@ -8882,11 +8882,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.1",
           "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 506,
           "forgeGrade": 6,
           "attack": 475,
@@ -8897,11 +8897,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 507,
           "forgeGrade": 7,
           "attack": 611,
@@ -8912,11 +8912,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.2",
           "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
+          "skill1": "None",
+          "skill1Level": 0
         },
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 508,
           "forgeGrade": 8,
           "attack": 784,
@@ -8927,11 +8927,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 509,
           "forgeGrade": 9,
           "attack": 1007,
@@ -8942,11 +8942,11 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         },
         {
-          "weaponName": "Rosen Arrow",
+          "name": "Rosen Arrow",
           "id": 510,
           "forgeGrade": 10,
           "attack": 1293,
@@ -8957,8 +8957,8 @@ const weaponData = [
           "coatingType": "None",
           "specialSkill": "Dragon Piercer Lv.3",
           "specialSkillLevel": 3,
-          "equipSkills": "Evade Extender Lv.1",
-          "equipSkillLevel": 1
+          "skill1": "Evade Extender",
+          "skill1Level": 1
         }
       ]
     }
