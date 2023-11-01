@@ -1,76 +1,1113 @@
-const armorData = {
-  "leather": {
-    "head": {
-      "name": "Leather Headgear",
-      "skill1": {
-        "name": "Critical Eye",
-        "level": "1",
-        "grade": "2"
+const armorData = [
+  {
+    "leather": [
+      {
+        "name": "Leather Headgear",
+        "slot": "Head",
+        "skill1": "Critical Eye",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Ice Resistance ",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
       },
-      "skill2": {
-        "name": "Ice Resistance",
-        "level": "1",
-        "grade": "4"
-      }
-    },
-    "chest": {
-      "name": "Leather Mail",
-      "skill1": {
-        "name": "Attack Boost",
-        "level": "1",
-        "grade": "2"
+      {
+        "name": "Leather Mail",
+        "slot": "Chest",
+        "skill1": "Attack Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Fire Resistance ",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
       },
-      "skill2": {
-        "name": "Fire Resistance",
-        "level": "1",
-        "grade": "4"
-      }
-    },
-    "hands": {
-      "name": "Leather Gloves",
-      "skill1": {
-        "name": "Defence Boost",
-        "level": "1",
-        "grade": "2"
+      {
+        "name": "Leather Gloves",
+        "slot": "Hands",
+        "skill1": "Defense Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Thunder Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
       },
-      "skill2": {
-        "name": "Thunder Resistance",
-        "level": "1",
-        "grade": "4"
-      }
-    },
-    "waist": {
-      "name": "Leather Belt",
-      "skill1": {
-        "name": "Health Boost",
-        "level": "1",
-        "grade": "2"
+      {
+        "name": "Leather Belt",
+        "slot": "Waist",
+        "skill1": "Health Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Water Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
       },
-      "skill2": {
-        "name": "Water Resistance",
-        "level": "1",
-        "grade": "4"
+      {
+        "name": "Leather Trousers",
+        "slot": "Legs",
+        "skill1": "Poison Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Paralysis Resistance ",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
       }
-    },
-    "legs": {
-      "name": "Leather Trousers",
-      "skill1": {
-        "name": "Poison Resistance",
-        "level": "1",
-        "grade": "2"
+    ]
+  },
+  {
+    "jagras": [
+      {
+        "name": "Jagras Helm",
+        "slot": "Head",
+        "skill1": "Firm Foothold",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Firm Foothold",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
       },
-      "skill2": {
-        "name": "Paralysis Resistance",
-        "level": "1",
-        "grade": "4"
+      {
+        "name": "Jagras Mail",
+        "slot": "Chest",
+        "skill1": "Rising Tide",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Rising Tide",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Jagras Vambraces",
+        "slot": "Hands",
+        "skill1": "Firm Foothold",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Water Attack",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Jagras Coil",
+        "slot": "Waist",
+        "skill1": "Fortify",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Rising Tide",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Fortify",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Jagras Greaves",
+        "slot": "Legs",
+        "skill1": "Water Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Water Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
       }
-    }
+    ]
+  },
+  {
+    "kulu": [
+      {
+        "name": "Kulu Headpiece",
+        "slot": "Head",
+        "skill1": "Lock On",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Critical Eye",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Kulu Mail",
+        "slot": "Chest",
+        "skill1": "Guts",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Guts",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Kulu Vambraces",
+        "slot": "Hands",
+        "skill1": "Last Stand",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Critical Eye",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Kulu Coil",
+        "slot": "Waist",
+        "skill1": "Last Stand",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Evade Extender",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Kulu Greaves",
+        "slot": "Legs",
+        "skill1": "Critical Eye",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Criticle Eye",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "pukei": [
+      {
+        "name": "Pukei Hood",
+        "slot": "Head",
+        "skill1": "Focus",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Health Boost",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Health Boost",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Pukei Mail",
+        "slot": "Chest",
+        "skill1": "Poison Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Focus",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Pukei Vambraces",
+        "slot": "Hands",
+        "skill1": "Poison Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Poison Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Pukei Coil",
+        "slot": "Waist",
+        "skill1": "Poison Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Poison Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Pukei Greaves",
+        "slot": "Legs",
+        "skill1": "Health Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Poison Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "barroth": [
+      {
+        "name": "Barroth Helm",
+        "slot": "Head",
+        "skill1": "Defense Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Offensive Guard",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Barroth Mail",
+        "slot": "Chest",
+        "skill1": "Offensive Guard",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Offensive Guard",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Barroth Vambraces",
+        "slot": "Hands",
+        "skill1": "Guard ",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Guard",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Barroth Coil",
+        "slot": "Waist",
+        "skill1": "Defence Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Guard ",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Barroth Greaves",
+        "slot": "Legs",
+        "skill1": "Recoil Down",
+        "skill1Level": 1,
+        "Skill1Grade": 2,
+        "skill2": "Defense Boost ",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Defense Boost",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "girros": [
+      {
+        "name": "Girros Mask",
+        "slot": "Head",
+        "skill1": "Paralysis Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Paralysis Resistance",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 4
+      },
+      {
+        "name": "Girros Mail",
+        "slot": "Chest",
+        "skill1": "Paralysis Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Sneak Attack ",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Girros Vambraces",
+        "slot": "Hands",
+        "skill1": "Sneak Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Ear Plugs",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Girros Coil",
+        "slot": "Waist",
+        "skill1": "Paralysis Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Ear Plugs",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Girros Greaves",
+        "slot": "Legs",
+        "skill1": "Paralysis Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Paralysis Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "kadachi": [
+      {
+        "name": "Kadachi Helm",
+        "slot": "Head",
+        "skill1": "Reload Speed",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Artful Dodger",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Kadachi Mail",
+        "slot": "Chest",
+        "skill1": "Evade Extender",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Thunder Attack",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Kadachi Vambraces",
+        "slot": "Hands",
+        "skill1": "Evade Extender",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Artful Dodger",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Evade Extender",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Kadachi Coil",
+        "slot": "Waist",
+        "skill1": "Thunder Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Thunder Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Kadachi Greaves",
+        "slot": "Legs",
+        "skill1": "Artful Dodger",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Thunder Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "lumu": [
+      {
+        "name": "Lumu Hat",
+        "slot": "Head",
+        "skill1": "Concentration",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Windproof",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Lumu Mail",
+        "slot": "Chest",
+        "skill1": "Recoil Down",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Recoil Down",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Lumu Vambraces",
+        "slot": "Hands",
+        "skill1": "Concentration",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Divine Blessing",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Concentration",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Lumu Coil",
+        "slot": "Waist",
+        "skill1": "Divine Blessing",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Divine Blessing",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Lumu Greaves",
+        "slot": "Legs",
+        "skill1": "Windproof",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Windproof",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "jyura": [
+      {
+        "name": "Jyura Helm",
+        "slot": "Head",
+        "skill1": "Water Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Last Stand",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Jyura Mail",
+        "slot": "Chest",
+        "skill1": "Water Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Last Stand",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Jyura Vambraces",
+        "slot": "Hands",
+        "skill1": "Water Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Water Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Jyura Coil",
+        "slot": "Waist",
+        "skill1": "Water Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Water Resistance",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 4
+      },
+      {
+        "name": "Jyura Greaves",
+        "slot": "Legs",
+        "skill1": "Focus",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Last Stand",
+        "skill2Level": 1,
+        "skill2Grade": 4,
+        "skillUpgrade": "Focus",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "anja": [
+      {
+        "name": "Anja Helm",
+        "slot": "Head",
+        "skill1": "Fire Attack",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Fire Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Anja Mail",
+        "slot": "Chest",
+        "skill1": "Special Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Special Boost",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Anja Vambraces",
+        "slot": "Hands",
+        "skill1": "Fire Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Fire Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Anja Coil",
+        "slot": "Waist",
+        "skill1": "Fire Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Special Boost",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Anja Greaves",
+        "slot": "Legs",
+        "skill1": "Peak Performance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Peak Performance",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "rathian": [
+      {
+        "name": "Rathian Helm",
+        "slot": "Head",
+        "skill1": "Health Boost",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Poison Attack",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rathian Mail",
+        "slot": "Chest",
+        "skill1": "Poison Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Poison Attack",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Rathian Vambraces",
+        "slot": "Hands",
+        "skill1": "Lock On",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Burst",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "Burst",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Rathian Coil",
+        "slot": "Waist",
+        "skill1": "Poison Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Burst",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rathian Greaves",
+        "slot": "Legs",
+        "skill1": "Health Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Health Boost",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      }
+    ]
+  },
+  {
+    "legiana": [
+      {
+        "name": "Legiana Helm",
+        "slot": "Head",
+        "skill1": "Divine Blessing",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Ice Attack",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Legiana Mail",
+        "slot": "Chest",
+        "skill1": "Divine Blessing",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Windproof",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Legiana Vambraces",
+        "slot": "Hands",
+        "skill1": "Reload Speed",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Reload Speed",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Legiana Coil",
+        "slot": "Waist",
+        "skill1": "Ice Attack",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Windproof",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Legiana Greaves",
+        "slot": "Legs",
+        "skill1": "Reload Speed",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Ice Resistance",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "diablos": [
+      {
+        "name": "Diablos Helm",
+        "slot": "Head",
+        "skill1": "Heroics",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Heroics",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Diablos Mail",
+        "slot": "Chest",
+        "skill1": "Slugger",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Heroics",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Vambraces",
+        "slot": "Hands",
+        "skill1": "Heroics",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Partbreaker",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Coil",
+        "slot": "Waist",
+        "skill1": "Partbreaker",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Offensive Guard",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Greaves",
+        "slot": "Legs",
+        "skill1": "Slugger",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Partbreaker",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "rathalos": [
+      {
+        "name": "Rathalos Helm",
+        "slot": "Head",
+        "skill1": "Attack Boost",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Fire Attack",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rathalos Mail",
+        "slot": "Chest",
+        "skill1": "Weakness Exploit",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Weakness Exploit",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Rathalos Vambraces",
+        "slot": "Hands",
+        "skill1": "Fire Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Attack Boost",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rathalos Coil",
+        "slot": "Waist",
+        "skill1": "Focus",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Fire Attack",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rathalos Greaves",
+        "slot": "Legs",
+        "skill1": "Fire Resistance",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Weakness Exploit",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "blackDiablos": [
+      {
+        "name": "Diablos Nero Helm",
+        "slot": "Head",
+        "skill1": "Partbreaker",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Resentment",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Nero Mail",
+        "slot": "Chest",
+        "skill1": "Resentment",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Firm Foothold",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Nero Vambraces",
+        "slot": "Hands",
+        "skill1": "Resentment",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Focus",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Nero Coil",
+        "slot": "Waist",
+        "skill1": "Lock On",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Heroics",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Diablos Nero Greaves",
+        "slot": "Legs",
+        "skill1": "Heroics",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Offensive Guard",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
+  },
+  {
+    "pinkRathian": [
+      {
+        "name": "Rath Heart Helm",
+        "slot": "Head",
+        "skill1": "Special Boost",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Windproof",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rath Heart Mail",
+        "slot": "Chest",
+        "skill1": "Dragon Attack",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "Focus",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rath Heart Braces",
+        "slot": "Hands",
+        "skill1": "Windproof",
+        "skill1Level": 2,
+        "Skill1Grade": 0,
+        "skill2": "Critical Eye",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      },
+      {
+        "name": "Rath Heart Coil",
+        "slot": "Waist",
+        "skill1": "Critical Eye",
+        "skill1Level": 1,
+        "Skill1Grade": 0,
+        "skill2": "None",
+        "skill2Level": 0,
+        "skill2Grade": 0,
+        "skillUpgrade": "Critical Eye",
+        "skillUpgradeLevel": 2,
+        "skillGradeLevel": 6
+      },
+      {
+        "name": "Rath Heart Greaves",
+        "slot": "Legs",
+        "skill1": "Special Boost",
+        "skill1Level": 3,
+        "Skill1Grade": 0,
+        "skill2": "Dragon Attack",
+        "skill2Level": 1,
+        "skill2Grade": 6,
+        "skillUpgrade": "None",
+        "skillUpgradeLevel": 0,
+        "skillGradeLevel": 0
+      }
+    ]
   }
-}
+]
 
 const weaponData = [
   {
-    "swordAndShield": {
+    "Sword And Shield": {
       "huntersknife": [
         {
           "weaponName": "Hunter's Knife",
@@ -146,9 +1183,7 @@ const weaponData = [
           "specialSkillLevel": 1,
           "equipSkills": "Poison Resistance",
           "equipSkillLevel": 1
-        }
-      ],
-      "steelknife": [
+        },
         {
           "weaponName": "Steel Knife",
           "id": 6,
@@ -301,8 +1336,7 @@ const weaponData = [
           "equipSkills": "Health Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "jagrasgarotte": [
+        ,
         {
           "weaponName": "Jagras Garotte",
           "id": 16,
@@ -455,8 +1489,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "daturablossom": [
+        ,
         {
           "weaponName": "Datura Blossom",
           "id": 26,
@@ -609,8 +1642,7 @@ const weaponData = [
           "equipSkills": "Defense Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "barrothclub": [
+        ,
         {
           "weaponName": "Barroth Club",
           "id": 36,
@@ -748,8 +1780,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "maladystabar": [
+        ,
         {
           "weaponName": "Malady's Tabar",
           "id": 45,
@@ -887,8 +1918,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "lightningnemesis": [
+        ,
         {
           "weaponName": "Lightning Nemesis",
           "id": 54,
@@ -1011,8 +2041,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "lumutabar": [
+        ,
         {
           "weaponName": "Lumu Tabar",
           "id": 62,
@@ -1135,8 +2164,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "roguewave": [
+        ,
         {
           "weaponName": "Rogue Wave",
           "id": 70,
@@ -1244,8 +2272,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "flammensucher": [
+        ,
         {
           "weaponName": "Flammensucher",
           "id": 77,
@@ -1353,8 +2380,7 @@ const weaponData = [
           "equipSkills": "Health Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "queenrapier": [
+        ,
         {
           "weaponName": "Queen Rapier",
           "id": 84,
@@ -1446,9 +2472,7 @@ const weaponData = [
           "specialSkillLevel": 1,
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
-        }
-      ],
-      "rimespire": [
+        },
         {
           "weaponName": "Rimespire",
           "id": 90,
@@ -1541,8 +2565,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "heatedge": [
+        ,
         {
           "weaponName": "Heat Edge",
           "id": 96,
@@ -1635,8 +2658,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "royalrose": [
+        ,
         {
           "weaponName": "Royal Rose",
           "id": 102,
@@ -1716,7 +2738,7 @@ const weaponData = [
     }
   },
   {
-    "greatSword": {
+    "Great Sword": {
       "bustersword": [
         {
           "weaponName": "Buster Sword",
@@ -1793,8 +2815,7 @@ const weaponData = [
           "equipSkills": "Poison Resistance Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "busterblade": [
+        ,
         {
           "weaponName": "Buster Blade",
           "id": 112,
@@ -1947,8 +2968,7 @@ const weaponData = [
           "equipSkills": "Health Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "jagrashacker": [
+        ,
         {
           "weaponName": "Jagras Hacker",
           "id": 122,
@@ -2101,8 +3121,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "daturablaze": [
+        ,
         {
           "weaponName": "Datura Blaze",
           "id": 132,
@@ -2255,8 +3274,7 @@ const weaponData = [
           "equipSkills": "Defense Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "barrothshredder": [
+        ,
         {
           "weaponName": "Barroth Shredder",
           "id": 142,
@@ -2394,8 +3412,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "maladyskiss": [
+        ,
         {
           "weaponName": "Malady's Kiss",
           "id": 151,
@@ -2533,8 +3550,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "lightningpunisher": [
+        ,
         {
           "weaponName": "Lightning Punisher",
           "id": 160,
@@ -2657,8 +3673,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "watergolem": [
+        ,
         {
           "weaponName": "Water Golem",
           "id": 168,
@@ -2766,8 +3781,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "flammenzahn+": [
+        ,
         {
           "weaponName": "Flammenzahn+",
           "id": 175,
@@ -2860,8 +3874,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "frostblaze": [
+        ,
         {
           "weaponName": "Frost Blaze",
           "id": 181,
@@ -2954,8 +3967,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "redwing": [
+        ,
         {
           "weaponName": "Red Wing",
           "id": 187,
@@ -3035,7 +4047,7 @@ const weaponData = [
     }
   },
   {
-    "hammer": {
+    "Hammer": {
       "ironhammer": [
         {
           "weaponName": "Iron Hammer",
@@ -3112,8 +4124,7 @@ const weaponData = [
           "equipSkills": "Poison Resistance Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "irondemon": [
+        ,
         {
           "weaponName": "Iron Demon",
           "id": 197,
@@ -3266,8 +4277,7 @@ const weaponData = [
           "equipSkills": "Fortify Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "crushingbeak": [
+        ,
         {
           "weaponName": "Crushing Beak",
           "id": 207,
@@ -3420,8 +4430,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "buonfiore": [
+        ,
         {
           "weaponName": "Buon Fiore",
           "id": 217,
@@ -3574,8 +4583,7 @@ const weaponData = [
           "equipSkills": "Defense Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "barrothbreaker": [
+        ,
         {
           "weaponName": "Barroth Breaker",
           "id": 227,
@@ -3713,8 +4721,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "maladysfist": [
+        ,
         {
           "weaponName": "Malady's Fist",
           "id": 236,
@@ -3852,8 +4859,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "lightningbash": [
+        ,
         {
           "weaponName": "Lightning Bash",
           "id": 245,
@@ -3976,8 +4982,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "waterbasher": [
+        ,
         {
           "weaponName": "Water Basher",
           "id": 253,
@@ -4085,8 +5090,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "anjastriker": [
+        ,
         {
           "weaponName": "Anja Striker",
           "id": 260,
@@ -4179,8 +5183,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "diablosshatterer": [
+        ,
         {
           "weaponName": "Diablos Shatterer",
           "id": 266,
@@ -4352,7 +5355,7 @@ const weaponData = [
     }
   },
   {
-    "longSword": {
+    "Long Sword": {
       "ironkatana": [
         {
           "weaponName": "Iron Katana",
@@ -4429,8 +5432,7 @@ const weaponData = [
           "equipSkills": "Poison Resistance Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "irongrace": [
+        ,
         {
           "weaponName": "Iron Grace",
           "id": 282,
@@ -4583,8 +5585,7 @@ const weaponData = [
           "equipSkills": "Fortify Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "lastdance": [
+        ,
         {
           "weaponName": "Last Dance",
           "id": 292,
@@ -4722,8 +5723,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "kadachifang": [
+        ,
         {
           "weaponName": "Kadachi Fang",
           "id": 301,
@@ -4846,8 +5846,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "dipterus": [
+        ,
         {
           "weaponName": "Dipterus",
           "id": 309,
@@ -4955,8 +5954,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "anjascimitar": [
+        ,
         {
           "weaponName": "Anja Scimitar",
           "id": 316,
@@ -5064,8 +6062,7 @@ const weaponData = [
           "equipSkills": "Health Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "wyvernblade\"verde\"": [
+        ,
         {
           "weaponName": "Wyvern Blade \"Verde\"",
           "id": 323,
@@ -5158,8 +6155,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "stealer": [
+        ,
         {
           "weaponName": "Stealer",
           "id": 329,
@@ -5252,8 +6248,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "wyvernblade\"blood\"": [
+        ,
         {
           "weaponName": "Wyvern Blade \"Blood\"",
           "id": 335,
@@ -5346,8 +6341,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "wyvernblade\"blossom+\"": [
+        ,
         {
           "weaponName": "Wyvern Blade \"Blossom+\"",
           "id": 341,
@@ -5423,261 +6417,11 @@ const weaponData = [
           "equipSkills": "Evade Extender Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "flammenzahn+": [
-        {
-          "weaponName": "Flammenzahn+",
-          "id": 176,
-          "forgeGrade": 7,
-          "attack": "611",
-          "element": "Fire",
-          "eleDmg": "349",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.2",
-          "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
-        },
-        {
-          "weaponName": "Flammenzahn+",
-          "id": 177,
-          "forgeGrade": 8,
-          "attack": "784",
-          "element": "Fire",
-          "eleDmg": "481",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Flammenzahn+",
-          "id": 178,
-          "forgeGrade": 9,
-          "attack": "1007",
-          "element": "Fire",
-          "eleDmg": "663",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Flammenzahn+",
-          "id": 179,
-          "forgeGrade": 10,
-          "attack": "1293",
-          "element": "Fire",
-          "eleDmg": "910",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Rising Tide Lv.1",
-          "equipSkillLevel": 1
-        }
-      ],
-      "freezeblade": [
-        {
-          "weaponName": "Freeze Blade",
-          "id": 180,
-          "forgeGrade": 5,
-          "attack": "361",
-          "element": "Ice",
-          "eleDmg": "232",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.1",
-          "specialSkillLevel": 1,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
-        }
-      ],
-      "frostblaze": [
-        {
-          "weaponName": "Frost Blaze",
-          "id": 181,
-          "forgeGrade": 6,
-          "attack": "461",
-          "element": "Ice",
-          "eleDmg": "320",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.2",
-          "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Frost Blaze",
-          "id": 182,
-          "forgeGrade": 7,
-          "attack": "589",
-          "element": "Ice",
-          "eleDmg": "443",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.2",
-          "specialSkillLevel": 2,
-          "equipSkills": "Divine Blessing Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Frost Blaze",
-          "id": 183,
-          "forgeGrade": 8,
-          "attack": "751",
-          "element": "Ice",
-          "eleDmg": "608",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
-        },
-        {
-          "weaponName": "Frost Blaze",
-          "id": 184,
-          "forgeGrade": 9,
-          "attack": "958",
-          "element": "Ice",
-          "eleDmg": "835",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
-        },
-        {
-          "weaponName": "Frost Blaze",
-          "id": 185,
-          "forgeGrade": 10,
-          "attack": "1221",
-          "element": "Ice",
-          "eleDmg": "1142",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Divine Blessing Lv.2",
-          "equipSkillLevel": 2
-        }
-      ],
-      "flameblade": [
-        {
-          "weaponName": "Flame Blade",
-          "id": 186,
-          "forgeGrade": 5,
-          "attack": "361",
-          "element": "Fire",
-          "eleDmg": "232",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.1",
-          "specialSkillLevel": 1,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
-        }
-      ],
-      "redwing": [
-        {
-          "weaponName": "Red Wing",
-          "id": 187,
-          "forgeGrade": 6,
-          "attack": "461",
-          "element": "Fire",
-          "eleDmg": "320",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.2",
-          "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
-        },
-        {
-          "weaponName": "Red Wing",
-          "id": 188,
-          "forgeGrade": 7,
-          "attack": "589",
-          "element": "Fire",
-          "eleDmg": "443",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.2",
-          "specialSkillLevel": 2,
-          "equipSkills": "None",
-          "equipSkillLevel": 0
-        },
-        {
-          "weaponName": "Red Wing",
-          "id": 189,
-          "forgeGrade": 8,
-          "attack": "751",
-          "element": "Fire",
-          "eleDmg": "608",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Red Wing",
-          "id": 190,
-          "forgeGrade": 9,
-          "attack": "958",
-          "element": "Fire",
-          "eleDmg": "835",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
-        },
-        {
-          "weaponName": "Red Wing",
-          "id": 191,
-          "forgeGrade": 10,
-          "attack": "1221",
-          "element": "Fire",
-          "eleDmg": "1142",
-          "affinity": "0%",
-          "shot": "",
-          "coatingType": "",
-          "specialSkill": "True Charged Slash Lv.3",
-          "specialSkillLevel": 3,
-          "equipSkills": "Earplugs Lv.1",
-          "equipSkillLevel": 1
-        }
       ]
     }
   },
   {
-    "bowGun": {
+    "Bow Gun": {
       "chainblitz": [
         {
           "weaponName": "Chain Blitz",
@@ -5754,8 +6498,7 @@ const weaponData = [
           "equipSkills": "Poison Resistance Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "highchainblitz": [
+        ,
         {
           "weaponName": "High Chain Blitz",
           "id": 351,
@@ -5908,8 +6651,7 @@ const weaponData = [
           "equipSkills": "Health Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "jagrasfire": [
+        ,
         {
           "weaponName": "Jagras Fire",
           "id": 361,
@@ -6062,8 +6804,7 @@ const weaponData = [
           "equipSkills": "Defense Boost Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "barrothshot": [
+        ,
         {
           "weaponName": "Barroth Shot",
           "id": 371,
@@ -6201,8 +6942,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "lightningblitz": [
+        ,
         {
           "weaponName": "Lightning Blitz",
           "id": 380,
@@ -6325,8 +7065,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "lumutyphon": [
+        ,
         {
           "weaponName": "Lumu Typhon",
           "id": 388,
@@ -6449,8 +7188,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "jyurabullet": [
+        ,
         {
           "weaponName": "Jyura Bullet",
           "id": 396,
@@ -6558,8 +7296,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "anjabuster": [
+        ,
         {
           "weaponName": "Anja Buster",
           "id": 403,
@@ -6652,8 +7389,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "frostblitz": [
+        ,
         {
           "weaponName": "Frost Blitz",
           "id": 409,
@@ -6745,9 +7481,8 @@ const weaponData = [
           "specialSkillLevel": 1,
           "equipSkills": "None",
           "equipSkillLevel": 0
-        }
-      ],
-      "rathbuster": [
+        },
+
         {
           "weaponName": "Rathbuster",
           "id": 415,
@@ -6827,7 +7562,7 @@ const weaponData = [
     }
   },
   {
-    "bow": {
+    "Bow": {
       "ironbow": [
         {
           "weaponName": "Iron Bow",
@@ -6904,8 +7639,7 @@ const weaponData = [
           "equipSkills": "Poison Resistance Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "steelbow": [
+        ,
         {
           "weaponName": "Steel Bow",
           "id": 425,
@@ -7058,8 +7792,7 @@ const weaponData = [
           "equipSkills": "Fortify Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "archersdance": [
+        ,
         {
           "weaponName": "Archer's Dance",
           "id": 435,
@@ -7212,8 +7945,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "daturastring": [
+        ,
         {
           "weaponName": "Datura String",
           "id": 445,
@@ -7351,8 +8083,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "kadachistrikebow": [
+        ,
         {
           "weaponName": "Kadachi Strikebow",
           "id": 454,
@@ -7475,8 +8206,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "watershot": [
+        ,
         {
           "weaponName": "Water Shot",
           "id": 462,
@@ -7584,8 +8314,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "anjaarch": [
+        ,
         {
           "weaponName": "Anja Arch",
           "id": 469,
@@ -7785,8 +8514,7 @@ const weaponData = [
           "equipSkills": "Divine Blessing Lv.1",
           "equipSkillLevel": 1
         }
-      ],
-      "snowfletcher": [
+        ,
         {
           "weaponName": "Snowfletcher",
           "id": 482,
@@ -7879,8 +8607,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "diabloscoilbender": [
+        ,
         {
           "weaponName": "Diablos Coilbender",
           "id": 488,
@@ -8065,8 +8792,7 @@ const weaponData = [
           "equipSkills": "None",
           "equipSkillLevel": 0
         }
-      ],
-      "ceracoilbender": [
+        ,
         {
           "weaponName": "Cera Coilbender",
           "id": 500,
@@ -8239,4 +8965,17 @@ const weaponData = [
   }
 ]
 
-export { armorData, weaponData }
+const defenceData = [
+  20, 22, 25, 27, 29,
+  34, 37, 39, 42, 44,
+  49, 52, 54, 57, 60,
+  65, 68, 71, 74, 77,
+  82, 85, 88, 91, 94,
+  100, 103, 106, 110, 113,
+  119, 122, 126, 129, 133,
+  139, 143, 146, 150, 153,
+  160, 164, 167, 171, 175,
+  182, 186, 190, 194, 198
+]
+
+export { armorData, weaponData, defenceData }

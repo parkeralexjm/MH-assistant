@@ -12,12 +12,12 @@ function Equipment({ characterEquip, setCharacterEquip }) {
           <div className="flex justify-around">
             {characterEquip.weapon ?
               <>
-                <h1>{characterEquip.weapon.weaponName}</h1>
-                <h1>{characterEquip.head.name}</h1>
-                <h1>{characterEquip.chest.name}</h1>
-                <h1>{characterEquip.hands.name}</h1>
-                <h1>{characterEquip.waist.name}</h1>
-                <h1>{characterEquip.legs.name}</h1>
+                <h4>{characterEquip.weapon.weaponName}</h4>
+                <h4>{characterEquip.head.stats.name}</h4>
+                <h4>{characterEquip.chest.stats.name}</h4>
+                <h4>{characterEquip.hands.stats.name}</h4>
+                <h4>{characterEquip.waist.stats.name}</h4>
+                <h4>{characterEquip.legs.stats.name}</h4>
               </>
               :
               <h1>Loading...</h1>

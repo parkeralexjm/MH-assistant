@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { armorData, weaponData } from './data/data'
+import Header from './components/Header'
 import Character from './components/Character'
 import Equipment from './components/Equipment'
-import Header from './components/Header'
+import GearDisplay from './components/GearDisplay'
 
 function App() {
   const [characterEquip, setCharacterEquip] = useState({})
-  // console.log(armorData)
   // Get character equipment from localStorage if it exists else set it to an empty equipment set
   useEffect(() => {
     localStorage.getItem("character_equip")
@@ -16,12 +16,12 @@ function App() {
       :
       setCharacterEquip(
         {
-          "weapon": weaponData[0].swordAndShield.jagrasedge[0],
-          "head": armorData.leather.head,
-          "chest": armorData.leather.chest,
-          "hands": armorData.leather.hands,
-          "waist": armorData.leather.waist,
-          "legs": armorData.leather.legs
+          "weapon": weaponData[0]["Sword And Shield"].jagrasedge[0],
+          "head": { "stats": armorData[0].leather[0], "grade": 0 },
+          "chest": { "stats": armorData[0].leather[1], "grade": 2 },
+          "hands": { "stats": armorData[0].leather[2], "grade": 4 },
+          "waist": { "stats": armorData[0].leather[3], "grade": 2 },
+          "legs": { "stats": armorData[0].leather[4], "grade": 3 }
         }
       )
   }, [])
@@ -31,7 +31,7 @@ function App() {
       <Header />
       <Character characterEquip={characterEquip} />
       <Equipment characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
-      <h3>Home</h3>
+      <GearDisplay characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <h4>Home</h4>
       <h5>Home</h5>
     </>
