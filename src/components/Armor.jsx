@@ -29,7 +29,6 @@ function Armor({ characterEquip, setCharacterEquip }) {
                       item === characterEquip.legs.stats
                     ) {
                       selected = true
-                      console.log(item)
                     }
                     return (
                       // This is the key part for displaying info about the item

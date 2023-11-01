@@ -12,12 +12,10 @@ function Character({ characterEquip }) {
     skills: []
   })
 
-  let calcAttack
   let calcEleDmg = 0
   let calcEle
 
   useEffect(() => {
-    // console.log(characterEquip)
     // If characterEquip has been set correctly
     if (characterEquip.head) {
       // Set the skills to allow calculations to work
@@ -47,7 +45,6 @@ function Character({ characterEquip }) {
         calcEle = characterEquip.weapon.stats.element
         // Get the element skill level for each of the armors then multiply that by 50
         const eleCheck = newSkills.some(obj => obj.name === `${characterEquip.weapon.stats.element} Attack`)
-        const atkCheck = newSkills
         if (eleCheck) {
           const index = newSkills.findIndex(obj => obj.name === `${characterEquip.weapon.stats.element} Attack`)
           // Get the ele skill level
@@ -72,15 +69,31 @@ function Character({ characterEquip }) {
       }
 
       // Take the grade of each weapon and cross reference with the defence number data
-      const calcDefence = (
-        defenceData[characterEquip.head.grade] +
+      const defCheck = newSkills.some(obj => obj.name === "Defence Boost")
+      let calcDefence = defenceData[characterEquip.head.grade] +
         defenceData[characterEquip.chest.grade] +
         defenceData[characterEquip.hands.grade] +
         defenceData[characterEquip.legs.grade] +
         defenceData[characterEquip.waist.grade]
-      )
+      if (defCheck) {
+        const index = newSkills.findIndex(obj => obj.name === "Defence Boost")
+        calcDefence += (20 * newSkills[index].level
+        )
+      } else {
+      }
+      const atkCheck = newSkills.some(obj => obj.name === "Attack Boost")
+      let calcAtk = parseInt(characterEquip.weapon.stats.attack)
+      console.log(calcAtk)
+      if (atkCheck) {
+        const index = newSkills.findIndex(obj => obj.name === "Attack Boost")
+        if (parseInt(newSkills[index].level) < 5) {
+          calcAtk += (newSkills[index].level * 20)
+        } else {
+          calcAtk += 120
+        }
+      }
 
-      setCharacterStats({ ...characterStats, attack: characterEquip.weapon.stats.attack, element: calcEle, eleDmg: calcEleDmg, defence: calcDefence, skills: newSkills })
+      setCharacterStats({ ...characterStats, attack: calcAtk, element: calcEle, eleDmg: calcEleDmg, defence: calcDefence, skills: newSkills })
     }
   }, [characterEquip])
 

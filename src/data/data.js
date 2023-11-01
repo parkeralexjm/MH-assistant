@@ -30,7 +30,7 @@ const armorData = [
       {
         "name": "Leather Gloves",
         "slot": "Hands",
-        "skill1": "Defense Boost",
+        "skill1": "Defence Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
         "skill2": "Thunder Resistance",
@@ -280,7 +280,7 @@ const armorData = [
       {
         "name": "Barroth Helm",
         "slot": "Head",
-        "skill1": "Defense Boost",
+        "skill1": "Defence Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
         "skill2": "Offensive Guard",
@@ -335,10 +335,10 @@ const armorData = [
         "skill1": "Recoil Down",
         "skill1Level": 1,
         "skill1Grade": 2,
-        "skill2": "Defense Boost ",
+        "skill2": "Defence Boost ",
         "skill2Level": 1,
         "skill2Grade": 4,
-        "skillUpgrade": "Defense Boost",
+        "skillUpgrade": "Defence Boost",
         "skillUpgradeLevel": 2,
         "skillGradeLevel": 6
       }
@@ -1624,7 +1624,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -1639,7 +1639,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         }
         ,
@@ -1655,7 +1655,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -1670,7 +1670,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -1685,7 +1685,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -1700,7 +1700,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -1715,7 +1715,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Perfect Rush Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         }
       ],
@@ -3256,7 +3256,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -3271,7 +3271,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         }
         ,
@@ -3287,7 +3287,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -3302,7 +3302,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -3317,7 +3317,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -3332,7 +3332,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -3347,7 +3347,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "True Charged Slash Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         }
       ],
@@ -4565,7 +4565,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -4580,7 +4580,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         }
         ,
@@ -4596,7 +4596,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -4611,7 +4611,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -4626,7 +4626,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -4641,7 +4641,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -4656,7 +4656,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Spinning Bludgeon Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         }
       ],
@@ -6786,7 +6786,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -6801,7 +6801,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.1",
           "specialSkillLevel": 1,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         }
         ,
@@ -6817,7 +6817,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -6832,7 +6832,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.2",
           "specialSkillLevel": 2,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 1
         },
         {
@@ -6847,7 +6847,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -6862,7 +6862,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         },
         {
@@ -6877,7 +6877,7 @@ const weaponData = [
           "coatingType": "",
           "specialSkill": "Wyvernblast Counter Lv.3",
           "specialSkillLevel": 3,
-          "skill1": "Defense Boost",
+          "skill1": "Defence Boost",
           "skill1Level": 2
         }
       ],
