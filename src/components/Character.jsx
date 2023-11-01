@@ -83,7 +83,6 @@ function Character({ characterEquip }) {
       }
       const atkCheck = newSkills.some(obj => obj.name === "Attack Boost")
       let calcAtk = parseInt(characterEquip.weapon.stats.attack)
-      console.log(calcAtk)
       if (atkCheck) {
         const index = newSkills.findIndex(obj => obj.name === "Attack Boost")
         if (parseInt(newSkills[index].level) < 5) {

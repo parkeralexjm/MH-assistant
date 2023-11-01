@@ -1,8 +1,6 @@
-import { weaponData } from "../data/data";
-
 import React from 'react'
 
-function Weapons({ characterEquip, setCharacterEquip }) {
+function Weapons({ weaponData, characterEquip, setCharacterEquip }) {
 
   const handleWeaponChange = (singleWeapon) => {
     setCharacterEquip({ ...characterEquip, "weapon": { "stats": singleWeapon } })

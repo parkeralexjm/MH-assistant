@@ -1,10 +1,15 @@
 import React, { useState } from 'react'
-import { armorData } from '../data/data'
+import { armorData, weaponData } from '../data/data'
 import Armor from './Armor'
 import Weapons from './Weapons'
 
 function GearDisplay({ characterEquip, setCharacterEquip }) {
   const [displayType, setDisplayType] = useState('armor')
+  const [filter, setFilter] = useState({
+    damage: '',
+    defence: '',
+
+  })
 
   const TypeButton = ({ children, type }) => {
     return (
@@ -22,11 +27,11 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
       {displayType === 'weapon'
         ?
         <div>
-          <Weapons characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          <Weapons weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
         </div>
         :
         <div>
-          <Armor characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          <Armor armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
         </div>
       }
     </>

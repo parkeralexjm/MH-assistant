@@ -1,7 +1,6 @@
 import React from "react"
-import { armorData } from '../data/data'
 
-function Equipment({ characterEquip, setCharacterEquip }) {
+function Equipment({ characterEquip }) {
   // console.log(characterEquip)
 
   return (

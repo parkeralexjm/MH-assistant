@@ -1,8 +1,6 @@
-import { armorData } from "../data/data";
-
 import React from 'react'
 
-function Armor({ characterEquip, setCharacterEquip }) {
+function Armor({ armorData, characterEquip, setCharacterEquip }) {
   const handleArmorChange = (item, grade) => {
     const { slot } = item
     setCharacterEquip({ ...characterEquip, [slot.toLowerCase()]: { "stats": item, "grade": grade } })
