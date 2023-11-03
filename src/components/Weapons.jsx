@@ -1,9 +1,17 @@
 import React from 'react'
 
-function Weapons({ weaponData, characterEquip, setCharacterEquip }) {
+function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEquip }) {
 
   const handleWeaponChange = (weaponSet) => {
     setCharacterEquip({ ...characterEquip, "weapon": { "stats": weaponSet, "grade": weaponSet[0].startGrade } })
+  }
+
+  const WeaponSetDisplay = ({ weaponSet }) => {
+    return (
+      <div >
+        <h5 className={'border rounded m-1 p-1'} onClick={() => handleWeaponChange(weaponSet)}>{weaponSet[0].name}</h5>
+      </div>
+    )
   }
 
   return (
@@ -16,14 +24,21 @@ function Weapons({ weaponData, characterEquip, setCharacterEquip }) {
               <div className="flex flex-wrap">
                 {
                   Object.values(weaponType).map((weapons) => {
-                    // console.log(weapons)
                     return (
                       Object.values(weapons).map((weaponSet, index) => {
-                        return (
-                          <div key={index} >
-                            <h5 className={'border rounded m-1 p-1'} onClick={() => handleWeaponChange(weaponSet)}>{weaponSet[0].name}</h5>
-                          </div>
-                        )
+                        let found = false
+                        if (selectedOptions) {
+                          found = selectedOptions.some(el => el.label === `${weaponSet[0].element} Attack`)
+                        }
+                        if (selectedOptions.length === 0) {
+                          return (
+                            <WeaponSetDisplay key={index} weaponSet={weaponSet} />
+                          )
+                        } else if (found) {
+                          return (
+                            <WeaponSetDisplay key={index} weaponSet={weaponSet} />
+                          )
+                        }
                       })
                     )
                   })

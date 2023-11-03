@@ -1593,8 +1593,7 @@ const weaponData = [
           "specialSkillLevel": 1,
           "skill1": "None",
           "skill1Level": 0
-        }
-        ,
+        },
         {
           "name": "Datura Blossom",
           "id": 26,
@@ -9582,4 +9581,1217 @@ const defenceDataBackup = [
   182, 186, 190, 194, 198
 ]
 
-export { armorData, weaponData, defenceData }
+const skillData = [
+  {
+    "Artful Dodger": [
+      {
+        "description": "Increases the window to perform a perfect evade.",
+        "level": 1,
+        "effect": "Makes perfect evades ever so slightly easier to perform."
+      },
+      {
+        "description": "Increases the window to perform a perfect evade.",
+        "level": 2,
+        "effect": "Makes perfect evades slightly easier to perform."
+      },
+      {
+        "description": "Increases the window to perform a perfect evade.",
+        "level": 3,
+        "effect": "Makes perfect evades moderately easier to perform."
+      },
+      {
+        "description": "Increases the window to perform a perfect evade.",
+        "level": 4,
+        "effect": "Makes perfect evades much easier to perform."
+      },
+      {
+        "description": "Increases the window to perform a perfect evade.",
+        "level": 5,
+        "effect": "Makes perfect evades significantly easier to perform."
+      }
+    ]
+  },
+  {
+    "Attack Boost": [
+      {
+        "description": "Increases Attack Power.",
+        "level": 1,
+        "effect": "Increases attack power by 20."
+      },
+      {
+        "description": "Increases Attack Power.",
+        "level": 2,
+        "effect": "Increases attack power by 40."
+      },
+      {
+        "description": "Increases Attack Power.",
+        "level": 3,
+        "effect": "Increases attack power by 60."
+      },
+      {
+        "description": "Increases Attack Power.",
+        "level": 4,
+        "effect": "Increases attack power by 80."
+      },
+      {
+        "description": "Increases Attack Power.",
+        "level": 5,
+        "effect": "Increases attack power by 120."
+      }
+    ]
+  },
+  {
+    "Burst": [
+      {
+        "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
+        "level": 1,
+        "effect": "Landing consecutive hits in a short span of time increases attack power by 5% for 4 seconds."
+      },
+      {
+        "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
+        "level": 2,
+        "effect": "Landing consecutive hits in a short span of time increases attack power by 10% for 4 seconds."
+      },
+      {
+        "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
+        "level": 3,
+        "effect": "Landing consecutive hits in a short span of time increases attack power by 15% for 4 seconds."
+      },
+      {
+        "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
+        "level": 4,
+        "effect": "Landing consecutive hits in a short span of time increases attack power by 20% for 4 seconds."
+      },
+      {
+        "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
+        "level": 5,
+        "effect": "Landing consecutive hits in a short span of time increases attack power by 30% for 4 seconds."
+      }
+    ]
+  },
+  {
+    "Concentration": [
+      {
+        "description": "Increases Special Gauge fill rate.",
+        "level": 1,
+        "effect": "Increases Special Gauge fill rate by 5%."
+      },
+      {
+        "description": "Increases Special Gauge fill rate.",
+        "level": 2,
+        "effect": "Increases Special Gauge fill rate by 10%."
+      },
+      {
+        "description": "Increases Special Gauge fill rate.",
+        "level": 3,
+        "effect": "Increases Special Gauge fill rate by 15%."
+      },
+      {
+        "description": "Increases Special Gauge fill rate.",
+        "level": 4,
+        "effect": "Increases Special Gauge fill rate by 20%."
+      },
+      {
+        "description": "Increases Special Gauge fill rate.",
+        "level": 5,
+        "effect": "Increases Special Gauge fill rate by 30%."
+      }
+    ]
+  },
+  {
+    "Critical Eye": [
+      {
+        "description": "Increases affinity.",
+        "level": 1,
+        "effect": "Increases affinity by 10%."
+      },
+      {
+        "description": "Increases affinity.",
+        "level": 2,
+        "effect": "Increases affinity by 15%."
+      },
+      {
+        "description": "Increases affinity.",
+        "level": 3,
+        "effect": "Increases affinity by 20%."
+      },
+      {
+        "description": "Increases affinity.",
+        "level": 4,
+        "effect": "Increases affinity by 30%."
+      },
+      {
+        "description": "Increases affinity.",
+        "level": 5,
+        "effect": "Increases affinity by 40%."
+      }
+    ]
+  },
+  {
+    "Defense Boost": [
+      {
+        "description": "Increases defense.",
+        "level": 1,
+        "effect": "Increases defense by 20."
+      },
+      {
+        "description": "Increases defense.",
+        "level": 2,
+        "effect": "Increases defense by 40."
+      },
+      {
+        "description": "Increases defense.",
+        "level": 3,
+        "effect": "Increases defense by 60."
+      },
+      {
+        "description": "Increases defense.",
+        "level": 4,
+        "effect": "Increases defense by 80."
+      },
+      {
+        "description": "Increases defense.",
+        "level": 5,
+        "effect": "Increases defense by 100."
+      }
+    ]
+  },
+  {
+    "Divine Blessing": [
+      {
+        "description": "Provides a chance to reduce damage taken from an attack.",
+        "level": 1,
+        "effect": "30% chance of reducing damage from a monster's attack by 50%."
+      },
+      {
+        "description": "Provides a chance to reduce damage taken from an attack.",
+        "level": 2,
+        "effect": "40% chance of reducing damage from a monster's attack by 50%."
+      },
+      {
+        "description": "Provides a chance to reduce damage taken from an attack.",
+        "level": 3,
+        "effect": "50% chance of reducing damage from a monster's attack by 50%."
+      },
+      {
+        "description": "Provides a chance to reduce damage taken from an attack.",
+        "level": 4,
+        "effect": "50% chance of reducing damage from a monster's attack by 60%."
+      },
+      {
+        "description": "Provides a chance to reduce damage taken from an attack.",
+        "level": 5,
+        "effect": "50% chance of reducing damage from a monster's attack by 80%."
+      }
+    ]
+  },
+  {
+    "Dragon Attack": [
+      {
+        "description": "Increases weapon's dragon-element value.",
+        "level": 1,
+        "effect": "Increases weapon's dragon-element value by 50."
+      },
+      {
+        "description": "Increases weapon's dragon-element value.",
+        "level": 2,
+        "effect": "Increases weapon's dragon-element value by 100."
+      },
+      {
+        "description": "Increases weapon's dragon-element value.",
+        "level": 3,
+        "effect": "Increases weapon's dragon-element value by 200."
+      },
+      {
+        "description": "Increases weapon's dragon-element value.",
+        "level": 4,
+        "effect": "Increases weapon's dragon-element value by 350."
+      },
+      {
+        "description": "Increases weapon's dragon-element value.",
+        "level": 5,
+        "effect": "Increases weapon's dragon-element value by 500."
+      }
+    ]
+  },
+  {
+    "Earplugs": [
+      {
+        "description": "Reduces the effect of monster roars.",
+        "level": 1,
+        "effect": "Moderately reduces the effects of weak monster roars."
+      },
+      {
+        "description": "Reduces the effect of monster roars.",
+        "level": 2,
+        "effect": "Nullifies the effects of weak monster roars, and slightly reduces the effects of strong monster roars."
+      },
+      {
+        "description": "Reduces the effect of monster roars.",
+        "level": 3,
+        "effect": "Nullifies the effects of weak monster roars, and moderately reduces the effects of strong monster roars."
+      },
+      {
+        "description": "Reduces the effect of monster roars.",
+        "level": 4,
+        "effect": "Nullifies the effects of weak monster roars, and significantly reduces the effects of strong monster roars."
+      },
+      {
+        "description": "Reduces the effect of monster roars.",
+        "level": 5,
+        "effect": "Nullifies the effects of both weak and strong monster roars."
+      }
+    ]
+  },
+  {
+    "Evade Extender": [
+      {
+        "description": "Extends evasion distance.",
+        "level": 1,
+        "effect": "Very slightly extends evasion distance."
+      },
+      {
+        "description": "Extends evasion distance.",
+        "level": 2,
+        "effect": "Slightly extends evasion distance."
+      },
+      {
+        "description": "Extends evasion distance.",
+        "level": 3,
+        "effect": "Moderately extends evasion distance."
+      },
+      {
+        "description": "Extends evasion distance.",
+        "level": 4,
+        "effect": "Greatly extends evasion distance."
+      },
+      {
+        "description": "Extends evasion distance.",
+        "level": 5,
+        "effect": "Massively extends evasion distance."
+      }
+    ]
+  },
+  {
+    "Fire Attack": [
+      {
+        "description": "Increases weapon's fire-element value.",
+        "level": 1,
+        "effect": "Increases weapon's fire-element value by 50."
+      },
+      {
+        "description": "Increases weapon's fire-element value.",
+        "level": 2,
+        "effect": "Increases weapon's fire-element value by 100."
+      },
+      {
+        "description": "Increases weapon's fire-element value.",
+        "level": 3,
+        "effect": "Increases weapon's fire-element value by 200."
+      },
+      {
+        "description": "Increases weapon's fire-element value.",
+        "level": 4,
+        "effect": "Increases weapon's fire-element value by 350."
+      },
+      {
+        "description": "Increases weapon's fire-element value.",
+        "level": 5,
+        "effect": "Increases weapon's fire-element value by 500."
+      }
+    ]
+  },
+  {
+    "Fire Resistance": [
+      {
+        "description": "Decreases damage taken from fire-element monsters.",
+        "level": 1,
+        "effect": "Decreases damage taken from fire-element monsters by 10%."
+      },
+      {
+        "description": "Decreases damage taken from fire-element monsters.",
+        "level": 2,
+        "effect": "Decreases damage taken from fire-element monsters by 20%."
+      },
+      {
+        "description": "Decreases damage taken from fire-element monsters.",
+        "level": 3,
+        "effect": "Decreases damage taken from fire-element monsters by 30%."
+      },
+      {
+        "description": "Decreases damage taken from fire-element monsters.",
+        "level": 4,
+        "effect": "Decreases damage taken from fire-element monsters by 40%."
+      },
+      {
+        "description": "Decreases damage taken from fire-element monsters.",
+        "level": 5,
+        "effect": "Decreases damage taken from fire-element monsters by 50%."
+      }
+    ]
+  },
+  {
+    "Firm Foothold": [
+      {
+        "description": "Reduces knockback when taking damage.",
+        "level": 1,
+        "effect": "Very slightly reduces knockback when taking damage."
+      },
+      {
+        "description": "Reduces knockback when taking damage.",
+        "level": 2,
+        "effect": "Slightly reduces knockback when taking damage."
+      },
+      {
+        "description": "Reduces knockback when taking damage.",
+        "level": 3,
+        "effect": "Moderately reduces knockback when taking damage."
+      }
+    ]
+  },
+  {
+    "Focus": [
+      {
+        "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
+        "level": 1,
+        "effect": "Shortens charging time for weapons with charge attacks by 5%, and increases the fill rate of the Spirit Gauge by 5%."
+      },
+      {
+        "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
+        "level": 2,
+        "effect": "Shortens charging time for weapons with charge attacks by 10%, and increases the fill rate of the Spirit Gauge by 10%."
+      },
+      {
+        "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
+        "level": 3,
+        "effect": "Shortens charging time for weapons with charge attacks by 15%, and increases the fill rate of the Spirit Gauge by 15%."
+      },
+      {
+        "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
+        "level": 4,
+        "effect": "Shortens charging time for weapons with charge attacks by 20%, and increases the fill rate of the Spirit Gauge by 20%."
+      },
+      {
+        "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
+        "level": 5,
+        "effect": "Shortens charging time for weapons with charge attacks by 30%, and increases the fill rate of the Spirit Gauge by 30%."
+      }
+    ]
+  },
+  {
+    "Fortify": [
+      {
+        "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
+        "level": 1,
+        "effect": "Increases attack power by 10% for 10 seconds each time you revive after fainting during a hunt."
+      },
+      {
+        "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
+        "level": 2,
+        "effect": "Increases attack power by 15% for 10 seconds each time you revive after fainting during a hunt."
+      },
+      {
+        "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
+        "level": 3,
+        "effect": "Increases attack power by 20% for 10 seconds each time you revive after fainting during a hunt."
+      },
+      {
+        "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
+        "level": 4,
+        "effect": "Increases attack power by 30% for 10 seconds each time you revive after fainting during a hunt."
+      },
+      {
+        "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
+        "level": 5,
+        "effect": "Increases attack power by 40% for 10 seconds each time you revive after fainting during a hunt."
+      }
+    ]
+  },
+  {
+    "Guard": [
+      {
+        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "level": 1,
+        "effect": "Very slightly reduces damage and knockback guarding against monster attacks."
+      },
+      {
+        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "level": 2,
+        "effect": "Slightly reduces damage and knockback guarding against monster attacks."
+      },
+      {
+        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "level": 3,
+        "effect": "Moderately reduces damage and knockback guarding against monster attacks."
+      },
+      {
+        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "level": 4,
+        "effect": "Greatly reduces damage and knockback guarding against monster attacks."
+      },
+      {
+        "description": "Reduces damage and knockback when guarding against monster attacks.",
+        "level": 5,
+        "effect": "Massively reduces damage and knockback guarding against monster attacks."
+      }
+    ]
+  },
+  {
+    "Guts": [
+      {
+        "description": "Survive lethal damage taken above a certain health threshold.",
+        "level": 1,
+        "effect": "Up to 1 time(s) per hunt, survive lethal damage taken at 80 health or above."
+      },
+      {
+        "description": "Survive lethal damage taken above a certain health threshold.",
+        "level": 2,
+        "effect": "Up to 1 time(s) per hunt, survive lethal damage taken at 70 health or above."
+      },
+      {
+        "description": "Survive lethal damage taken above a certain health threshold.",
+        "level": 3,
+        "effect": "Up to 1 time(s) per hunt, survive lethal damage taken at 60 health or above."
+      },
+      {
+        "description": "Survive lethal damage taken above a certain health threshold.",
+        "level": 4,
+        "effect": "Up to 1 time(s) per hunt, survive lethal damage taken at 50 health or above."
+      },
+      {
+        "description": "Survive lethal damage taken above a certain health threshold.",
+        "level": 5,
+        "effect": "Up to 1 time(s) per hunt, survive lethal damage taken at 40 health or above."
+      }
+    ]
+  },
+  {
+    "Health Boost": [
+      {
+        "description": "Increases maximum health.",
+        "level": 1,
+        "effect": "Increases health by 10."
+      },
+      {
+        "description": "Increases maximum health.",
+        "level": 2,
+        "effect": "Increases health by 20."
+      },
+      {
+        "description": "Increases maximum health.",
+        "level": 3,
+        "effect": "Increases health by 30."
+      },
+      {
+        "description": "Increases maximum health.",
+        "level": 4,
+        "effect": "Increases health by 40."
+      },
+      {
+        "description": "Increases maximum health.",
+        "level": 5,
+        "effect": "Increases health by 50."
+      }
+    ]
+  },
+  {
+    "Heroics": [
+      {
+        "description": "Increases attack power at low health.",
+        "level": 1,
+        "effect": "Increases attack power by 10% when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases attack power at low health.",
+        "level": 2,
+        "effect": "Increases attack power by 20% when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases attack power at low health.",
+        "level": 3,
+        "effect": "Increases attack power by 30% when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases attack power at low health.",
+        "level": 4,
+        "effect": "Increases attack power by 40% when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases attack power at low health.",
+        "level": 5,
+        "effect": "Increases attack power by 50% when your health drops to 29% or lower."
+      }
+    ]
+  },
+  {
+    "Ice Attack": [
+      {
+        "description": "Increases weapon's ice-element value.",
+        "level": 1,
+        "effect": "Increases weapon's ice-element value by 50."
+      },
+      {
+        "description": "Increases weapon's ice-element value.",
+        "level": 2,
+        "effect": "Increases weapon's ice-element value by 100."
+      },
+      {
+        "description": "Increases weapon's ice-element value.",
+        "level": 3,
+        "effect": "Increases weapon's ice-element value by 200."
+      },
+      {
+        "description": "Increases weapon's ice-element value.",
+        "level": 4,
+        "effect": "Increases weapon's ice-element value by 350."
+      },
+      {
+        "description": "Increases weapon's ice-element value.",
+        "level": 5,
+        "effect": "Increases weapon's ice-element value by 500."
+      }
+    ]
+  },
+  {
+    "Ice Resistance": [
+      {
+        "description": "Decreases damage taken from ice-element monsters.",
+        "level": 1,
+        "effect": "Decreases damage taken from ice-element monsters by 10%."
+      },
+      {
+        "description": "Decreases damage taken from ice-element monsters.",
+        "level": 2,
+        "effect": "Decreases damage taken from ice-element monsters by 20%."
+      },
+      {
+        "description": "Decreases damage taken from ice-element monsters.",
+        "level": 3,
+        "effect": "Decreases damage taken from ice-element monsters by 30%."
+      },
+      {
+        "description": "Decreases damage taken from ice-element monsters.",
+        "level": 4,
+        "effect": "Decreases damage taken from ice-element monsters by 40%."
+      },
+      {
+        "description": "Decreases damage taken from ice-element monsters.",
+        "level": 5,
+        "effect": "Decreases damage taken from ice-element monsters by 50%."
+      }
+    ]
+  },
+  {
+    "Last Stand": [
+      {
+        "description": "Increases defense when health drops below a threshold.",
+        "level": 1,
+        "effect": "Increases defense by 50 when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases defense when health drops below a threshold.",
+        "level": 2,
+        "effect": "Increases defense by 100 when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases defense when health drops below a threshold.",
+        "level": 3,
+        "effect": "Increases defense by 150 when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases defense when health drops below a threshold.",
+        "level": 4,
+        "effect": "Increases defense by 200 when your health drops to 29% or lower."
+      },
+      {
+        "description": "Increases defense when health drops below a threshold.",
+        "level": 5,
+        "effect": "Increases defense by 300 when your health drops to 29% or lower."
+      }
+    ]
+  },
+  {
+    "Lock On": [
+      {
+        "description": "Allows the use of the lock-on button while hunting with a melee weapon.",
+        "level": 1,
+        "effect": "Displays a lock-on button while hunting with a close-range weapon, allowing a specific monster body part to be targeted."
+      }
+    ]
+  },
+  {
+    "Offensive Guard": [
+      {
+        "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
+        "level": 1,
+        "effect": "Increases attack power by 10% for 10 seconds after executing a well-timed guard."
+      },
+      {
+        "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
+        "level": 2,
+        "effect": "Increases attack power by 15% for 10 seconds after executing a well-timed guard."
+      },
+      {
+        "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
+        "level": 3,
+        "effect": "Increases attack power by 20% for 10 seconds after executing a well-timed guard."
+      },
+      {
+        "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
+        "level": 4,
+        "effect": "Increases attack power by 30% for 10 seconds after executing a well-timed guard."
+      },
+      {
+        "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
+        "level": 5,
+        "effect": "Increases attack power by 40% for 10 seconds after executing a well-timed guard."
+      }
+    ]
+  },
+  {
+    "Paralysis Attack": [
+      {
+        "description": "Increases weapon's paralysis buildup value.",
+        "level": 1,
+        "effect": "Increases weapon's paralysis buildup value by 50."
+      },
+      {
+        "description": "Increases weapon's paralysis buildup value.",
+        "level": 2,
+        "effect": "Increases weapon's paralysis buildup value by 75."
+      },
+      {
+        "description": "Increases weapon's paralysis buildup value.",
+        "level": 3,
+        "effect": "Increases weapon's paralysis buildup value by 100."
+      },
+      {
+        "description": "Increases weapon's paralysis buildup value.",
+        "level": 4,
+        "effect": "Increases weapon's paralysis buildup value by 125."
+      },
+      {
+        "description": "Increases weapon's paralysis buildup value.",
+        "level": 5,
+        "effect": "Increases weapon's paralysis buildup value by 150."
+      }
+    ]
+  },
+  {
+    "Paralysis Resistance": [
+      {
+        "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
+        "level": 1,
+        "effect": "Grants a 20% chance of preventing paralysis status when damage by a paralysis-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
+        "level": 2,
+        "effect": "Grants a 40% chance of preventing paralysis status when damage by a paralysis-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
+        "level": 3,
+        "effect": "Grants a 60% chance of preventing paralysis status when damage by a paralysis-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
+        "level": 4,
+        "effect": "Grants a 80% chance of preventing paralysis status when damage by a paralysis-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
+        "level": 5,
+        "effect": "Prevents paralysis."
+      }
+    ]
+  },
+  {
+    "Partbreaker": [
+      {
+        "description": "Increases damage to breakable parts.",
+        "level": 1,
+        "effect": "Increases part damage accumulated on breakable parts by 5%."
+      },
+      {
+        "description": "Increases damage to breakable parts.",
+        "level": 2,
+        "effect": "Increases part damage accumulated on breakable parts by 10%."
+      },
+      {
+        "description": "Increases damage to breakable parts.",
+        "level": 3,
+        "effect": "Increases part damage accumulated on breakable parts by 20%."
+      },
+      {
+        "description": "Increases damage to breakable parts.",
+        "level": 4,
+        "effect": "Increases part damage accumulated on breakable parts by 30%."
+      },
+      {
+        "description": "Increases damage to breakable parts.",
+        "level": 5,
+        "effect": "Increases part damage accumulated on breakable parts by 40%."
+      }
+    ]
+  },
+  {
+    "Peak Performance": [
+      {
+        "description": "Increases Attack Power when HP is full.",
+        "level": 1,
+        "effect": "Increases attack power by 30 when your health is full."
+      },
+      {
+        "description": "Increases Attack Power when HP is full.",
+        "level": 2,
+        "effect": "Increases attack power by 60 when your health is full."
+      },
+      {
+        "description": "Increases Attack Power when HP is full.",
+        "level": 3,
+        "effect": "Increases attack power by 90 when your health is full."
+      },
+      {
+        "description": "Increases Attack Power when HP is full.",
+        "level": 4,
+        "effect": "Increases attack power by 130 when your health is full."
+      },
+      {
+        "description": "Increases Attack Power when HP is full.",
+        "level": 5,
+        "effect": "Increases attack power by 180 when your health is full."
+      }
+    ]
+  },
+  {
+    "Poison Attack": [
+      {
+        "description": "Increases weapon's poison buildup value.",
+        "level": 1,
+        "effect": "Increases weapon's poison buildup value by 50."
+      },
+      {
+        "description": "Increases weapon's poison buildup value.",
+        "level": 2,
+        "effect": "Increases weapon's poison buildup value by 75."
+      },
+      {
+        "description": "Increases weapon's poison buildup value.",
+        "level": 3,
+        "effect": "Increases weapon's poison buildup value by 100."
+      },
+      {
+        "description": "Increases weapon's poison buildup value.",
+        "level": 4,
+        "effect": "Increases weapon's poison buildup value by 125."
+      },
+      {
+        "description": "Increases weapon's poison buildup value.",
+        "level": 5,
+        "effect": "Increases weapon's poison buildup value by 150."
+      }
+    ]
+  },
+  {
+    "Poison Resistance": [
+      {
+        "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
+        "level": 1,
+        "effect": "Grants a 20% chance of preventing poison status when damage by a poison-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
+        "level": 2,
+        "effect": "Grants a 40% chance of preventing poison status when damage by a poison-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
+        "level": 3,
+        "effect": "Grants a 60% chance of preventing poison status when damage by a poison-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
+        "level": 4,
+        "effect": "Grants a 80% chance of preventing poison status when damage by a poison-element attack."
+      },
+      {
+        "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
+        "level": 5,
+        "effect": "Prevents poisoning."
+      }
+    ]
+  },
+  {
+    "Recoil Down": [
+      {
+        "description": "Reduces bowgun recoil.",
+        "level": 1,
+        "effect": "Slightly reduces bowgun recoil."
+      },
+      {
+        "description": "Reduces bowgun recoil.",
+        "level": 2,
+        "effect": "Moderately reduces bowgun recoil."
+      },
+      {
+        "description": "Reduces bowgun recoil.",
+        "level": 3,
+        "effect": "Greatly reduces bowgun recoil."
+      }
+    ]
+  },
+  {
+    "Reload Speed": [
+      {
+        "description": "Reduces reload time for bowguns.",
+        "level": 1,
+        "effect": "Slightly reduces reload time for bowguns."
+      },
+      {
+        "description": "Reduces reload time for bowguns.",
+        "level": 2,
+        "effect": "Moderately reduces reload time for bowguns."
+      },
+      {
+        "description": "Reduces reload time for bowguns.",
+        "level": 3,
+        "effect": "Greatly reduces reload time for bowguns."
+      }
+    ]
+  },
+  {
+    "Resentment": [
+      {
+        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "level": 1,
+        "effect": "When taking damage, attack power is increased by 10% for 15 seconds."
+      },
+      {
+        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "level": 2,
+        "effect": "When taking damage, attack power is increased by 15% for 15 seconds."
+      },
+      {
+        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "level": 3,
+        "effect": "When taking damage, attack power is increased by 20% for 15 seconds."
+      },
+      {
+        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "level": 4,
+        "effect": "When taking damage, attack power is increased by 25% for 15 seconds."
+      },
+      {
+        "description": "When taking damage, attack power is increased for 15 seconds.",
+        "level": 5,
+        "effect": "When taking damage, attack power is increased by 30% for 15 seconds."
+      }
+    ]
+  },
+  {
+    "Rising Tide": [
+      {
+        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "level": 1,
+        "effect": "Very slightly increases attack power and defense as the hunt timer runs out."
+      },
+      {
+        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "level": 2,
+        "effect": "Slightly increases attack power and defense as the hunt timer runs out."
+      },
+      {
+        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "level": 3,
+        "effect": "Moderately increases attack power and defense as the hunt timer runs out."
+      },
+      {
+        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "level": 4,
+        "effect": "Greatly increases attack power and defense as the hunt timer runs out."
+      },
+      {
+        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "level": 5,
+        "effect": "Massively increases attack power and defense as the hunt timer runs out."
+      }
+    ]
+  },
+  {
+    "Slugger": [
+      {
+        "description": "Increases stun power.",
+        "level": 1,
+        "effect": "Increases stun power by 10%."
+      },
+      {
+        "description": "Increases stun power.",
+        "level": 2,
+        "effect": "Increases stun power by 15%."
+      },
+      {
+        "description": "Increases stun power.",
+        "level": 3,
+        "effect": "Increases stun power by 20%."
+      },
+      {
+        "description": "Increases stun power.",
+        "level": 4,
+        "effect": "Increases stun power by 25%."
+      },
+      {
+        "description": "Increases stun power.",
+        "level": 5,
+        "effect": "Increases stun power by 30%."
+      }
+    ]
+  },
+  {
+    "Sneak Attack": [
+      {
+        "description": "Increases damage when attacking a monster from behind.",
+        "level": 1,
+        "effect": "Increases damage by 10% when attacking a monster from behind."
+      },
+      {
+        "description": "Increases damage when attacking a monster from behind.",
+        "level": 2,
+        "effect": "Increases damage by 15% when attacking a monster from behind."
+      },
+      {
+        "description": "Increases damage when attacking a monster from behind.",
+        "level": 3,
+        "effect": "Increases damage by 20% when attacking a monster from behind."
+      },
+      {
+        "description": "Increases damage when attacking a monster from behind.",
+        "level": 4,
+        "effect": "Increases damage by 25% when attacking a monster from behind."
+      },
+      {
+        "description": "Increases damage when attacking a monster from behind.",
+        "level": 5,
+        "effect": "Increases damage by 30% when attacking a monster from behind."
+      }
+    ]
+  },
+  {
+    "Special Boost": [
+      {
+        "description": "Increases the damage of Special Skills.",
+        "level": 1,
+        "effect": "Increases the damage of Special Skills by 10%."
+      },
+      {
+        "description": "Increases the damage of Special Skills.",
+        "level": 2,
+        "effect": "Increases the damage of Special Skills by 15%."
+      },
+      {
+        "description": "Increases the damage of Special Skills.",
+        "level": 3,
+        "effect": "Increases the damage of Special Skills by 20%."
+      },
+      {
+        "description": "Increases the damage of Special Skills.",
+        "level": 4,
+        "effect": "Increases the damage of Special Skills by 25%."
+      },
+      {
+        "description": "Increases the damage of Special Skills.",
+        "level": 5,
+        "effect": "Increases the damage of Special Skills by 30%."
+      }
+    ]
+  },
+  {
+    "Thunder Attack": [
+      {
+        "description": "Increases weapon's thunder-element value.",
+        "level": 1,
+        "effect": "Increases weapon's thunder-element value by 50."
+      },
+      {
+        "description": "Increases weapon's thunder-element value.",
+        "level": 2,
+        "effect": "Increases weapon's thunder-element value by 100."
+      },
+      {
+        "description": "Increases weapon's thunder-element value.",
+        "level": 3,
+        "effect": "Increases weapon's thunder-element value by 200."
+      },
+      {
+        "description": "Increases weapon's thunder-element value.",
+        "level": 4,
+        "effect": "Increases weapon's thunder-element value by 350."
+      },
+      {
+        "description": "Increases weapon's thunder-element value.",
+        "level": 5,
+        "effect": "Increases weapon's thunder-element value by 500."
+      }
+    ]
+  },
+  {
+    "Thunder Resistance": [
+      {
+        "description": "Decreases damage taken from thunder-element monsters.",
+        "level": 1,
+        "effect": "Decreases damage taken from thunder-element monsters by 10%."
+      },
+      {
+        "description": "Decreases damage taken from thunder-element monsters.",
+        "level": 2,
+        "effect": "Decreases damage taken from thunder-element monsters by 20%."
+      },
+      {
+        "description": "Decreases damage taken from thunder-element monsters.",
+        "level": 3,
+        "effect": "Decreases damage taken from thunder-element monsters by 30%."
+      },
+      {
+        "description": "Decreases damage taken from thunder-element monsters.",
+        "level": 4,
+        "effect": "Decreases damage taken from thunder-element monsters by 40%."
+      },
+      {
+        "description": "Decreases damage taken from thunder-element monsters.",
+        "level": 5,
+        "effect": "Decreases damage taken from thunder-element monsters by 50%."
+      }
+    ]
+  },
+  {
+    "Water Attack": [
+      {
+        "description": "Increases weapon's water-element value.",
+        "level": 1,
+        "effect": "Increases weapon's water-element value by 50."
+      },
+      {
+        "description": "Increases weapon's water-element value.",
+        "level": 2,
+        "effect": "Increases weapon's water-element value by 100."
+      },
+      {
+        "description": "Increases weapon's water-element value.",
+        "level": 3,
+        "effect": "Increases weapon's water-element value by 200."
+      },
+      {
+        "description": "Increases weapon's water-element value.",
+        "level": 4,
+        "effect": "Increases weapon's water-element value by 350."
+      },
+      {
+        "description": "Increases weapon's water-element value.",
+        "level": 5,
+        "effect": "Increases weapon's water-element value by 500."
+      }
+    ]
+  },
+  {
+    "Water Resistance": [
+      {
+        "description": "Decreases damage taken from water-element monsters.",
+        "level": 1,
+        "effect": "Decreases damage taken from water-element monsters by 10%."
+      },
+      {
+        "description": "Decreases damage taken from water-element monsters.",
+        "level": 2,
+        "effect": "Decreases damage taken from water-element monsters by 20%."
+      },
+      {
+        "description": "Decreases damage taken from water-element monsters.",
+        "level": 3,
+        "effect": "Decreases damage taken from water-element monsters by 30%."
+      },
+      {
+        "description": "Decreases damage taken from water-element monsters.",
+        "level": 4,
+        "effect": "Decreases damage taken from water-element monsters by 40%."
+      },
+      {
+        "description": "Decreases damage taken from water-element monsters.",
+        "level": 5,
+        "effect": "Decreases damage taken from water-element monsters by 50%."
+      }
+    ]
+  },
+  {
+    "Weakness Exploit": [
+      {
+        "description": "Increases affinity when attacking a monster's weak spot.",
+        "level": 1,
+        "effect": "Increases affinity by 20% when attacking a monster's weak spot."
+      },
+      {
+        "description": "Increases affinity when attacking a monster's weak spot.",
+        "level": 2,
+        "effect": "Increases affinity by 25% when attacking a monster's weak spot."
+      },
+      {
+        "description": "Increases affinity when attacking a monster's weak spot.",
+        "level": 3,
+        "effect": "Increases affinity by 30% when attacking a monster's weak spot."
+      },
+      {
+        "description": "Increases affinity when attacking a monster's weak spot.",
+        "level": 4,
+        "effect": "Increases affinity by 40% when attacking a monster's weak spot."
+      },
+      {
+        "description": "Increases affinity when attacking a monster's weak spot.",
+        "level": 5,
+        "effect": "Increases affinity by 50% when attacking a monster's weak spot."
+      }
+    ]
+  },
+  {
+    "Windproof": [
+      {
+        "description": "Reduces the effects of wind pressure.",
+        "level": 1,
+        "effect": "Slightly reduces the effects of minor wind pressure."
+      },
+      {
+        "description": "Reduces the effects of wind pressure.",
+        "level": 2,
+        "effect": "Reduces the effects of minor wind pressure."
+      },
+      {
+        "description": "Reduces the effects of wind pressure.",
+        "level": 3,
+        "effect": "Negates minor wind pressure and slightly reduces the effects of major wind pressure."
+      },
+      {
+        "description": "Reduces the effects of wind pressure.",
+        "level": 4,
+        "effect": "Negates minor wind pressure and reduces the effects of major wind pressure."
+      },
+      {
+        "description": "Reduces the effects of wind pressure.",
+        "level": 5,
+        "effect": "Negates minor and major wind pressure."
+      }
+    ]
+  }
+]
+
+const gradeColors = [
+  'text-gray-400',
+  'text-green-400',
+  'text-sky-400',
+  'text-violet-400',
+  'text-amber-400',
+  'text-orange-400',
+  'text-red-400',
+  'text-red-400',
+  'text-red-400',
+  'text-red-400'
+]
+
+export { armorData, weaponData, defenceData, skillData, gradeColors }

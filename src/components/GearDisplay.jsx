@@ -1,15 +1,25 @@
 import React, { useState } from 'react'
-import { armorData, weaponData } from '../data/data'
+import { armorData, weaponData, skillData } from '../data/data'
+import makeAnimated from 'react-select/animated'
 import Armor from './Armor'
 import Weapons from './Weapons'
+import Select from 'react-select'
 
 function GearDisplay({ characterEquip, setCharacterEquip }) {
   const [displayType, setDisplayType] = useState('armor')
-  const [filter, setFilter] = useState({
-    damage: '',
-    defence: '',
+  const [selectedOptions, setSelectedOptions] = useState([])
 
-  })
+  const animatedComponents = makeAnimated()
+
+  const skillOptions = [
+    skillData.map((skill) => {
+      return { value: Object.keys(skill)[0].toLowerCase().replace(/\s/g, ''), label: Object.keys(skill)[0] }
+    })
+  ]
+
+  const handleSelect = (data) => {
+    setSelectedOptions(data)
+  }
 
   const TypeButton = ({ children, type }) => {
     return (
@@ -20,6 +30,17 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
   return (
     <>
       <h4>GearDisplay</h4>
+      <Select
+        placeholder="Select skills..."
+        isMulti
+        name="skills"
+        options={skillOptions[0]}
+        components={animatedComponents}
+        className="basic-multi-select"
+        classNamePrefix="select"
+        value={selectedOptions}
+        onChange={handleSelect}
+      />
       <div>
         <TypeButton type='weapon'>Weapon</TypeButton>
         <TypeButton type='armor'>Armor</TypeButton>
@@ -27,11 +48,11 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
       {displayType === 'weapon'
         ?
         <div>
-          <Weapons weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          <Weapons selectedOptions={selectedOptions} weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
         </div>
         :
         <div>
-          <Armor armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          <Armor selectedOptions={selectedOptions} armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
         </div>
       }
     </>
