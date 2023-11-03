@@ -16,12 +16,12 @@ function App() {
       :
       setCharacterEquip(
         {
-          "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge[0] },
-          "head": { "stats": armorData[0].leather[0], "grade": 0 },
-          "chest": { "stats": armorData[0].leather[1], "grade": 2 },
-          "hands": { "stats": armorData[0].leather[2], "grade": 4 },
-          "waist": { "stats": armorData[0].leather[3], "grade": 2 },
-          "legs": { "stats": armorData[0].leather[4], "grade": 3 }
+          "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge, "grade": weaponData[0]["Sword And Shield"].jagrasedge[0].startGrade },
+          "head": { "stats": armorData[0].leather[0], "grade": armorData[0].leather[0].startGrade },
+          "chest": { "stats": armorData[0].leather[1], "grade": armorData[0].leather[1].startGrade },
+          "hands": { "stats": armorData[0].leather[2], "grade": armorData[0].leather[2].startGrade },
+          "waist": { "stats": armorData[0].leather[3], "grade": armorData[0].leather[3].startGrade },
+          "legs": { "stats": armorData[0].leather[4], "grade": armorData[0].leather[4].startGrade }
         }
       )
   }, [])
@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <Header />
-      <Character characterEquip={characterEquip} />
+      <Character characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <Equipment characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <GearDisplay characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <h4>Home</h4>

@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { defenceData } from "../data/data"
 
 
@@ -18,52 +18,125 @@ function Character({ characterEquip }) {
   useEffect(() => {
     // If characterEquip has been set correctly
     if (characterEquip.head) {
+      const currentWeapon = characterEquip.weapon.stats[characterEquip.weapon.grade - characterEquip.weapon.stats[0].startGrade]
       // Set the skills to allow calculations to work
       const newSkills = []
+      // Gear check
       Object.keys(characterEquip).forEach(key => {
-        if (characterEquip[key].stats && characterEquip[key].stats["skill1"] !== "None") {
-          const exists = newSkills.filter((element) => {
-            return element.name === characterEquip[key].stats["skill1"]
-          }).length > 0
-          // If the skill is not in the array then push it
-          if (!exists) {
-            newSkills.push({ "name": characterEquip[key].stats["skill1"], "level": parseInt(characterEquip[key].stats["skill1Level"]) })
+        // If the stats are loaded, its not a weapon, its not equal to none and the grade selected is higher than the requirement
+        if (characterEquip[key].stats &&
+          characterEquip[key] !== 'weapon' &&
+          characterEquip[key].stats["skill1"] !== "None" &&
+          characterEquip[key].grade >= parseInt(characterEquip[key].stats["skill1Grade"])
+        ) {
+          // Check if an upgrade exists with the same name
+          if (characterEquip[key].stats["skill1"] === characterEquip[key].stats["skillUpgrade"] && characterEquip[key].grade >= parseInt(characterEquip[key].stats["skillUpgradeGrade"])) {
+            const exists = newSkills.filter((element) => {
+              return element.name === characterEquip[key].stats["skillUpgrade"]
+            }).length > 0
+            // If the skill is not in the array then push it
+            if (!exists) {
+              newSkills.push({ "name": characterEquip[key].stats["skillUpgrade"], "level": parseInt(characterEquip[key].stats["skillUpgradeLevel"]) })
+            } else {
+              // If the skill is in the array then increase it by the skill level
+              const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skillUpgrade"])
+              itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"])
+            }
           } else {
-            // If the skill is in the array then increase it by the skill level
-            const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skill1"])
-            itemToIncrease.level += parseInt(characterEquip[key].stats["skill1Level"])
+            // Filter to find if the skill exists in the array
+            const exists = newSkills.filter((element) => {
+              return element.name === characterEquip[key].stats["skill1"]
+            }).length > 0
+            // If the skill is not in the array then push it
+            if (!exists) {
+              newSkills.push({ "name": characterEquip[key].stats["skill1"], "level": parseInt(characterEquip[key].stats["skill1Level"]) })
+            } else {
+              // If the skill is in the array then increase it by the skill level
+              const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skill1"])
+              itemToIncrease.level += parseInt(characterEquip[key].stats["skill1Level"])
+            }
+          }
+        }
+        // If the stats are loaded, its skill2, its not equal to none and the grade selected is higher than the requirement
+        if (characterEquip[key].stats &&
+          characterEquip[key].stats["skill2"] !== "None" &&
+          characterEquip[key].grade >= parseInt(characterEquip[key].stats["skill2Grade"])
+        ) {
+          // Check if an upgrade exists with the same name
+          if (characterEquip[key].stats["skill2"] === characterEquip[key].stats["skillUpgrade"] && characterEquip[key].grade >= parseInt(characterEquip[key].stats["skillUpgradeGrade"])) {
+            const exists = newSkills.filter((element) => {
+              return element.name === characterEquip[key].stats["skillUpgrade"]
+            }).length > 0
+            // If the skill is not in the array then push it
+            if (!exists) {
+              newSkills.push({ "name": characterEquip[key].stats["skillUpgrade"], "level": parseInt(characterEquip[key].stats["skillUpgradeLevel"]) })
+            } else {
+              // If the skill is in the array then increase it by the skill level
+              const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skillUpgrade"])
+              itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"])
+            }
+          } else {
+            // Filter to find if the skill exists in the array
+            const exists = newSkills.filter((element) => {
+              return element.name === characterEquip[key].stats["skill2"]
+            }).length > 0
+            // If the skill is not in the array then push it
+            if (!exists) {
+              newSkills.push({ "name": characterEquip[key].stats["skill2"], "level": parseInt(characterEquip[key].stats["skill2Level"]) })
+            } else {
+              // If the skill is in the array then increase it by the skill level
+              const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skill2"])
+              itemToIncrease.level += parseInt(characterEquip[key].stats["skill2Level"])
+            }
           }
         }
       })
+      // Check if the weapon skill exists
+      if (currentWeapon["skill1"] &&
+        currentWeapon["skill1"] !== "None" &&
+        characterEquip.weapon.grade >= currentWeapon["skill1Level"]
+      ) {
+        const exists = newSkills.filter((element) => {
+          return element.name === currentWeapon["skill1"]
+        }).length > 0
+        // If the skill is not in the array then push it
+        if (!exists) {
+          newSkills.push({ "name": currentWeapon["skill1"], "level": parseInt(currentWeapon["skill1Level"]) })
+        } else {
+          // If the skill is in the array then increase it by the skill level
+          const itemToIncrease = newSkills.find((element) => element.name === currentWeapon["skill1"])
+          itemToIncrease.level += parseInt(currentWeapon["skill1Level"])
+        }
+      }
 
       // If no element on weapon then set element to zero
-      if (characterEquip.weapon.stats.element === "None") {
+      if (currentWeapon.element === "None") {
         calcEleDmg = "None"
         calcEle = ""
       } else {
         // Set the element icon
-        calcEle = characterEquip.weapon.stats.element
+        calcEle = currentWeapon.element
         // Get the element skill level for each of the armors then multiply that by 50
-        const eleCheck = newSkills.some(obj => obj.name === `${characterEquip.weapon.stats.element} Attack`)
+        const eleCheck = newSkills.some(obj => obj.name === `${currentWeapon.element} Attack`)
         if (eleCheck) {
-          const index = newSkills.findIndex(obj => obj.name === `${characterEquip.weapon.stats.element} Attack`)
+          const index = newSkills.findIndex(obj => obj.name === `${currentWeapon.element} Attack`)
           // Get the ele skill level
           // Add ele skill level * 50 to weapon ele dmg
           if (parseInt(newSkills[index].level) === 1) {
-            calcEleDmg = (parseInt(characterEquip.weapon.stats.eleDmg) + 50)
+            calcEleDmg = (parseInt(currentWeapon.eleDmg) + 50)
           } else if (parseInt(newSkills[index].level) === 2) {
-            calcEleDmg = (parseInt(characterEquip.weapon.stats.eleDmg) + 100)
+            calcEleDmg = (parseInt(currentWeapon.eleDmg) + 100)
           } else if (parseInt(newSkills[index].level) === 3) {
-            calcEleDmg = (parseInt(characterEquip.weapon.stats.eleDmg) + 200)
+            calcEleDmg = (parseInt(currentWeapon.eleDmg) + 200)
           } else if (parseInt(newSkills[index].level) === 4) {
-            calcEleDmg = (parseInt(characterEquip.weapon.stats.eleDmg) + 350)
+            calcEleDmg = (parseInt(currentWeapon.eleDmg) + 350)
           } else if (parseInt(newSkills[index].level) === 5) {
-            calcEleDmg = (parseInt(characterEquip.weapon.stats.eleDmg) + 500)
+            calcEleDmg = (parseInt(currentWeapon.eleDmg) + 500)
           }
         } else {
           // Set the elemental damage based only on weapon
           calcEleDmg = (
-            parseInt(characterEquip.weapon.stats.eleDmg)
+            parseInt(currentWeapon.eleDmg)
           )
         }
       }
@@ -82,7 +155,7 @@ function Character({ characterEquip }) {
       } else {
       }
       const atkCheck = newSkills.some(obj => obj.name === "Attack Boost")
-      let calcAtk = parseInt(characterEquip.weapon.stats.attack)
+      let calcAtk = parseInt(currentWeapon.attack)
       if (atkCheck) {
         const index = newSkills.findIndex(obj => obj.name === "Attack Boost")
         if (parseInt(newSkills[index].level) < 5) {
@@ -117,7 +190,7 @@ function Character({ characterEquip }) {
             <h3>Defence</h3>
             <h3>{characterStats.defence}</h3>
           </div>
-          <div className="character-skills">
+          <div className="h-48 overflow-auto character-skills">
             {
               characterStats.skills.map((skill, index) => {
                 return (<div key={index} className="flex justify-between ">

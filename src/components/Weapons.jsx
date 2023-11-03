@@ -2,8 +2,8 @@ import React from 'react'
 
 function Weapons({ weaponData, characterEquip, setCharacterEquip }) {
 
-  const handleWeaponChange = (singleWeapon) => {
-    setCharacterEquip({ ...characterEquip, "weapon": { "stats": singleWeapon } })
+  const handleWeaponChange = (weaponSet) => {
+    setCharacterEquip({ ...characterEquip, "weapon": { "stats": weaponSet, "grade": weaponSet[0].startGrade } })
   }
 
   return (
@@ -16,19 +16,18 @@ function Weapons({ weaponData, characterEquip, setCharacterEquip }) {
               <div className="flex flex-wrap">
                 {
                   Object.values(weaponType).map((weapons) => {
+                    // console.log(weapons)
                     return (
-                      Object.values(weapons).map((singleWeapon, index) => {
-                        let selected = false
-                        if (singleWeapon[0] === characterEquip.weapon.stats) {
-                          selected = true
-                        }
+                      Object.values(weapons).map((weaponSet, index) => {
                         return (
-                          <div key={index} className={`flex flex-col border ${selected ? "border-green-400" : "border-red-400"}`} onClick={() => handleWeaponChange(singleWeapon[0])}>
-                            <h5>{singleWeapon[0]["name"]}</h5>
-                          </div>)
+                          <div key={index} >
+                            <h5 className={'border rounded m-1 p-1'} onClick={() => handleWeaponChange(weaponSet)}>{weaponSet[0].name}</h5>
+                          </div>
+                        )
                       })
                     )
-                  })}
+                  })
+                }
               </div>
             </div>
           )

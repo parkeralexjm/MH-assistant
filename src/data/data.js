@@ -3,7 +3,8 @@ const armorData = [
     "leather": [
       {
         "name": "Leather Headgear",
-        "slot": "Head",
+        "startGrade": 1,
+        "slot": "head",
         "skill1": "Critical Eye",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -12,11 +13,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Leather Mail",
-        "slot": "Chest",
+        "startGrade": 1,
+        "slot": "chest",
         "skill1": "Attack Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -25,11 +27,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Leather Gloves",
-        "slot": "Hands",
+        "startGrade": 1,
+        "slot": "hands",
         "skill1": "Defence Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -38,11 +41,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Leather Belt",
-        "slot": "Waist",
+        "startGrade": 1,
+        "slot": "waist",
         "skill1": "Health Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -51,11 +55,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Leather Trousers",
-        "slot": "Legs",
+        "startGrade": 1,
+        "slot": "legs",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -64,7 +69,7 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -72,7 +77,8 @@ const armorData = [
     "jagras": [
       {
         "name": "Jagras Helm",
-        "slot": "Head",
+        "startGrade": 1,
+        "slot": "head",
         "skill1": "Firm Foothold",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -81,11 +87,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Firm Foothold",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Jagras Mail",
-        "slot": "Chest",
+        "startGrade": 1,
+        "slot": "chest",
         "skill1": "Rising Tide",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -94,11 +101,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Rising Tide",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Jagras Vambraces",
-        "slot": "Hands",
+        "startGrade": 1,
+        "slot": "hands",
         "skill1": "Firm Foothold",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -107,11 +115,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Jagras Coil",
-        "slot": "Waist",
+        "startGrade": 1,
+        "slot": "waist",
         "skill1": "Fortify",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -120,11 +129,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Fortify",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Jagras Greaves",
-        "slot": "Legs",
+        "startGrade": 1,
+        "slot": "legs",
         "skill1": "Water Attack",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -133,7 +143,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Water Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -141,7 +151,8 @@ const armorData = [
     "kulu": [
       {
         "name": "Kulu Headpiece",
-        "slot": "Head",
+        "startGrade": 1,
+        "slot": "head",
         "skill1": "Lock On",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -150,11 +161,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Kulu Mail",
-        "slot": "Chest",
+        "startGrade": 1,
+        "slot": "chest",
         "skill1": "Guts",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -163,11 +175,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Guts",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Kulu Vambraces",
-        "slot": "Hands",
+        "startGrade": 1,
+        "slot": "hands",
         "skill1": "Last Stand",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -176,11 +189,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Kulu Coil",
-        "slot": "Waist",
+        "startGrade": 1,
+        "slot": "waist",
         "skill1": "Last Stand",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -189,11 +203,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Kulu Greaves",
-        "slot": "Legs",
+        "startGrade": 1,
+        "slot": "legs",
         "skill1": "Critical Eye",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -202,7 +217,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Criticle Eye",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -210,7 +225,8 @@ const armorData = [
     "pukei": [
       {
         "name": "Pukei Hood",
-        "slot": "Head",
+        "startGrade": 1,
+        "slot": "head",
         "skill1": "Focus",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -219,11 +235,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Health Boost",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Pukei Mail",
-        "slot": "Chest",
+        "startGrade": 1,
+        "slot": "chest",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -232,11 +249,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Pukei Vambraces",
-        "slot": "Hands",
+        "startGrade": 1,
+        "slot": "hands",
         "skill1": "Poison Attack",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -245,11 +263,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Pukei Coil",
-        "slot": "Waist",
+        "startGrade": 1,
+        "slot": "waist",
         "skill1": "Poison Attack",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -258,11 +277,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Poison Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Pukei Greaves",
-        "slot": "Legs",
+        "startGrade": 1,
+        "slot": "legs",
         "skill1": "Health Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -271,7 +291,7 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -279,7 +299,8 @@ const armorData = [
     "barroth": [
       {
         "name": "Barroth Helm",
-        "slot": "Head",
+        "startGrade": 1,
+        "slot": "head",
         "skill1": "Defence Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -288,11 +309,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Barroth Mail",
-        "slot": "Chest",
+        "startGrade": 1,
+        "slot": "chest",
         "skill1": "Offensive Guard",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -301,11 +323,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Offensive Guard",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Barroth Vambraces",
-        "slot": "Hands",
+        "startGrade": 1,
+        "slot": "hands",
         "skill1": "Guard ",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -314,11 +337,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Guard",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Barroth Coil",
-        "slot": "Waist",
+        "startGrade": 1,
+        "slot": "waist",
         "skill1": "Defence Boost",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -327,11 +351,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Barroth Greaves",
-        "slot": "Legs",
+        "startGrade": 1,
+        "slot": "legs",
         "skill1": "Recoil Down",
         "skill1Level": 1,
         "skill1Grade": 2,
@@ -340,7 +365,7 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Defence Boost",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -348,7 +373,8 @@ const armorData = [
     "girros": [
       {
         "name": "Girros Mask",
-        "slot": "Head",
+        "startGrade": 2,
+        "slot": "head",
         "skill1": "Paralysis Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -357,11 +383,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Paralysis Resistance",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 4
+        "skillUpgradeGrade": 4
       },
       {
         "name": "Girros Mail",
-        "slot": "Chest",
+        "startGrade": 2,
+        "slot": "chest",
         "skill1": "Paralysis Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -370,11 +397,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Girros Vambraces",
-        "slot": "Hands",
+        "startGrade": 2,
+        "slot": "hands",
         "skill1": "Sneak Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -383,11 +411,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Girros Coil",
-        "slot": "Waist",
+        "startGrade": 2,
+        "slot": "waist",
         "skill1": "Paralysis Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -396,11 +425,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Girros Greaves",
-        "slot": "Legs",
+        "startGrade": 2,
+        "slot": "legs",
         "skill1": "Paralysis Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -409,7 +439,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Paralysis Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -417,7 +447,8 @@ const armorData = [
     "kadachi": [
       {
         "name": "Kadachi Helm",
-        "slot": "Head",
+        "startGrade": 2,
+        "slot": "head",
         "skill1": "Reload Speed",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -426,11 +457,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Kadachi Mail",
-        "slot": "Chest",
+        "startGrade": 2,
+        "slot": "chest",
         "skill1": "Evade Extender",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -439,11 +471,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Kadachi Vambraces",
-        "slot": "Hands",
+        "startGrade": 2,
+        "slot": "hands",
         "skill1": "Evade Extender",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -452,11 +485,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Evade Extender",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Kadachi Coil",
-        "slot": "Waist",
+        "startGrade": 2,
+        "slot": "waist",
         "skill1": "Thunder Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -465,11 +499,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Thunder Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Kadachi Greaves",
-        "slot": "Legs",
+        "startGrade": 2,
+        "slot": "legs",
         "skill1": "Artful Dodger",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -478,7 +513,7 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -486,7 +521,8 @@ const armorData = [
     "lumu": [
       {
         "name": "Lumu Hat",
-        "slot": "Head",
+        "startGrade": 4,
+        "slot": "head",
         "skill1": "Concentration",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -495,11 +531,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Lumu Mail",
-        "slot": "Chest",
+        "startGrade": 3,
+        "slot": "chest",
         "skill1": "Recoil Down",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -508,11 +545,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Recoil Down",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Lumu Vambraces",
-        "slot": "Hands",
+        "startGrade": 3,
+        "slot": "hands",
         "skill1": "Concentration",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -521,11 +559,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Concentration",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Lumu Coil",
-        "slot": "Waist",
+        "startGrade": 3,
+        "slot": "waist",
         "skill1": "Divine Blessing",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -534,11 +573,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Divine Blessing",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Lumu Greaves",
-        "slot": "Legs",
+        "startGrade": 3,
+        "slot": "legs",
         "skill1": "Windproof",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -547,7 +587,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Windproof",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -555,7 +595,8 @@ const armorData = [
     "jyura": [
       {
         "name": "Jyura Helm",
-        "slot": "Head",
+        "startGrade": 3,
+        "slot": "head",
         "skill1": "Water Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -564,11 +605,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Jyura Mail",
-        "slot": "Chest",
+        "startGrade": 3,
+        "slot": "chest",
         "skill1": "Water Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -577,11 +619,12 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Jyura Vambraces",
-        "slot": "Hands",
+        "startGrade": 3,
+        "slot": "hands",
         "skill1": "Water Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -590,11 +633,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Water Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Jyura Coil",
-        "slot": "Waist",
+        "startGrade": 3,
+        "slot": "waist",
         "skill1": "Water Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -603,11 +647,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Water Resistance",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 4
+        "skillUpgradeGrade": 4
       },
       {
         "name": "Jyura Greaves",
-        "slot": "Legs",
+        "startGrade": 3,
+        "slot": "legs",
         "skill1": "Focus",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -616,7 +661,7 @@ const armorData = [
         "skill2Grade": 4,
         "skillUpgrade": "Focus",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -624,7 +669,8 @@ const armorData = [
     "anja": [
       {
         "name": "Anja Helm",
-        "slot": "Head",
+        "startGrade": 4,
+        "slot": "head",
         "skill1": "Fire Attack",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -633,11 +679,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Anja Mail",
-        "slot": "Chest",
+        "startGrade": 4,
+        "slot": "chest",
         "skill1": "Special Boost",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -646,11 +693,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Special Boost",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Anja Vambraces",
-        "slot": "Hands",
+        "startGrade": 4,
+        "slot": "hands",
         "skill1": "Fire Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -659,11 +707,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Fire Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Anja Coil",
-        "slot": "Waist",
+        "startGrade": 4,
+        "slot": "waist",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -672,11 +721,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Anja Greaves",
-        "slot": "Legs",
+        "startGrade": 4,
+        "slot": "legs",
         "skill1": "Peak Performance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -685,7 +735,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Peak Performance",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -693,7 +743,8 @@ const armorData = [
     "rathian": [
       {
         "name": "Rathian Helm",
-        "slot": "Head",
+        "startGrade": 4,
+        "slot": "head",
         "skill1": "Health Boost",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -702,11 +753,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rathian Mail",
-        "slot": "Chest",
+        "startGrade": 4,
+        "slot": "chest",
         "skill1": "Poison Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -715,11 +767,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Poison Attack",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Rathian Vambraces",
-        "slot": "Hands",
+        "startGrade": 4,
+        "slot": "hands",
         "skill1": "Lock On",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -728,11 +781,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "Burst",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Rathian Coil",
-        "slot": "Waist",
+        "startGrade": 4,
+        "slot": "waist",
         "skill1": "Poison Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -741,11 +795,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rathian Greaves",
-        "slot": "Legs",
+        "startGrade": 4,
+        "slot": "legs",
         "skill1": "Health Boost",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -754,7 +809,7 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Health Boost",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       }
     ]
   },
@@ -762,7 +817,8 @@ const armorData = [
     "legiana": [
       {
         "name": "Legiana Helm",
-        "slot": "Head",
+        "startGrade": 5,
+        "slot": "head",
         "skill1": "Divine Blessing",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -771,11 +827,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Legiana Mail",
-        "slot": "Chest",
+        "startGrade": 5,
+        "slot": "chest",
         "skill1": "Divine Blessing",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -784,11 +841,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Legiana Vambraces",
-        "slot": "Hands",
+        "startGrade": 5,
+        "slot": "hands",
         "skill1": "Reload Speed",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -797,11 +855,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Reload Speed",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Legiana Coil",
-        "slot": "Waist",
+        "startGrade": 5,
+        "slot": "waist",
         "skill1": "Ice Attack",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -810,11 +869,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Legiana Greaves",
-        "slot": "Legs",
+        "startGrade": 5,
+        "slot": "legs",
         "skill1": "Reload Speed",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -823,7 +883,7 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -831,7 +891,8 @@ const armorData = [
     "diablos": [
       {
         "name": "Diablos Helm",
-        "slot": "Head",
+        "startGrade": 5,
+        "slot": "head",
         "skill1": "Heroics",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -840,11 +901,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Heroics",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Diablos Mail",
-        "slot": "Chest",
+        "startGrade": 5,
+        "slot": "chest",
         "skill1": "Slugger",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -853,11 +915,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Vambraces",
-        "slot": "Hands",
+        "startGrade": 5,
+        "slot": "hands",
         "skill1": "Heroics",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -866,11 +929,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Coil",
-        "slot": "Waist",
+        "startGrade": 5,
+        "slot": "waist",
         "skill1": "Partbreaker",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -879,11 +943,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Greaves",
-        "slot": "Legs",
+        "startGrade": 5,
+        "slot": "legs",
         "skill1": "Slugger",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -892,7 +957,7 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -900,7 +965,8 @@ const armorData = [
     "rathalos": [
       {
         "name": "Rathalos Helm",
-        "slot": "Head",
+        "startGrade": 5,
+        "slot": "head",
         "skill1": "Attack Boost",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -909,11 +975,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rathalos Mail",
-        "slot": "Chest",
+        "startGrade": 5,
+        "slot": "chest",
         "skill1": "Weakness Exploit",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -922,11 +989,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Weakness Exploit",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Rathalos Vambraces",
-        "slot": "Hands",
+        "startGrade": 5,
+        "slot": "hands",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -935,11 +1003,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rathalos Coil",
-        "slot": "Waist",
+        "startGrade": 5,
+        "slot": "waist",
         "skill1": "Focus",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -948,11 +1017,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rathalos Greaves",
-        "slot": "Legs",
+        "startGrade": 5,
+        "slot": "legs",
         "skill1": "Fire Resistance",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -961,7 +1031,7 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -969,7 +1039,8 @@ const armorData = [
     "blackDiablos": [
       {
         "name": "Diablos Nero Helm",
-        "slot": "Head",
+        "startGrade": 5,
+        "slot": "head",
         "skill1": "Partbreaker",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -978,11 +1049,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Nero Mail",
-        "slot": "Chest",
+        "startGrade": 5,
+        "slot": "chest",
         "skill1": "Resentment",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -991,11 +1063,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Nero Vambraces",
-        "slot": "Hands",
+        "startGrade": 5,
+        "slot": "hands",
         "skill1": "Resentment",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1004,11 +1077,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Nero Coil",
-        "slot": "Waist",
+        "startGrade": 5,
+        "slot": "waist",
         "skill1": "Lock On",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1017,11 +1091,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Diablos Nero Greaves",
-        "slot": "Legs",
+        "startGrade": 5,
+        "slot": "legs",
         "skill1": "Heroics",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1030,7 +1105,7 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   },
@@ -1038,7 +1113,8 @@ const armorData = [
     "pinkRathian": [
       {
         "name": "Rath Heart Helm",
-        "slot": "Head",
+        "startGrade": 5,
+        "slot": "head",
         "skill1": "Special Boost",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1047,11 +1123,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rath Heart Mail",
-        "slot": "Chest",
+        "startGrade": 5,
+        "slot": "chest",
         "skill1": "Dragon Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1060,11 +1137,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rath Heart Braces",
-        "slot": "Hands",
+        "startGrade": 5,
+        "slot": "hands",
         "skill1": "Windproof",
         "skill1Level": 2,
         "skill1Grade": 0,
@@ -1073,11 +1151,12 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       },
       {
         "name": "Rath Heart Coil",
-        "slot": "Waist",
+        "startGrade": 5,
+        "slot": "waist",
         "skill1": "Critical Eye",
         "skill1Level": 1,
         "skill1Grade": 0,
@@ -1086,11 +1165,12 @@ const armorData = [
         "skill2Grade": 0,
         "skillUpgrade": "Critical Eye",
         "skillUpgradeLevel": 2,
-        "skillGradeLevel": 6
+        "skillUpgradeGrade": 6
       },
       {
         "name": "Rath Heart Greaves",
-        "slot": "Legs",
+        "startGrade": 5,
+        "slot": "legs",
         "skill1": "Special Boost",
         "skill1Level": 3,
         "skill1Grade": 0,
@@ -1099,7 +1179,7 @@ const armorData = [
         "skill2Grade": 6,
         "skillUpgrade": "None",
         "skillUpgradeLevel": 0,
-        "skillGradeLevel": 0
+        "skillUpgradeGrade": 0
       }
     ]
   }
@@ -1112,6 +1192,7 @@ const weaponData = [
         {
           "name": "Hunter's Knife",
           "id": 1,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -1127,6 +1208,7 @@ const weaponData = [
         {
           "name": "Hunter's Knife",
           "id": 2,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -1142,6 +1224,7 @@ const weaponData = [
         {
           "name": "Hunter's Knife",
           "id": 3,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -1157,6 +1240,7 @@ const weaponData = [
         {
           "name": "Hunter's Knife",
           "id": 4,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -1172,6 +1256,7 @@ const weaponData = [
         {
           "name": "Hunter's Knife",
           "id": 5,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -1187,6 +1272,7 @@ const weaponData = [
         {
           "name": "Steel Knife",
           "id": 6,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -1202,6 +1288,7 @@ const weaponData = [
         {
           "name": "Steel Knife",
           "id": 7,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -1217,6 +1304,7 @@ const weaponData = [
         {
           "name": "Steel Knife",
           "id": 8,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -1232,6 +1320,7 @@ const weaponData = [
         {
           "name": "Steel Knife",
           "id": 9,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -1247,6 +1336,7 @@ const weaponData = [
         {
           "name": "Steel Knife",
           "id": 10,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -1264,6 +1354,7 @@ const weaponData = [
         {
           "name": "Jagras Edge",
           "id": 11,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 95,
           "element": "Water",
@@ -1279,6 +1370,7 @@ const weaponData = [
         {
           "name": "Jagras Edge",
           "id": 12,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 135,
           "element": "Water",
@@ -1294,6 +1386,7 @@ const weaponData = [
         {
           "name": "Jagras Edge",
           "id": 13,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 193,
           "element": "Water",
@@ -1309,6 +1402,7 @@ const weaponData = [
         {
           "name": "Jagras Edge",
           "id": 14,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 275,
           "element": "Water",
@@ -1324,6 +1418,7 @@ const weaponData = [
         {
           "name": "Jagras Edge",
           "id": 15,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 391,
           "element": "Water",
@@ -1340,6 +1435,7 @@ const weaponData = [
         {
           "name": "Jagras Garotte",
           "id": 16,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 503,
           "element": "Water",
@@ -1355,6 +1451,7 @@ const weaponData = [
         {
           "name": "Jagras Garotte",
           "id": 17,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 647,
           "element": "Water",
@@ -1370,6 +1467,7 @@ const weaponData = [
         {
           "name": "Jagras Garotte",
           "id": 18,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 832,
           "element": "Water",
@@ -1385,6 +1483,7 @@ const weaponData = [
         {
           "name": "Jagras Garotte",
           "id": 19,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1068,
           "element": "Water",
@@ -1400,6 +1499,7 @@ const weaponData = [
         {
           "name": "Jagras Garotte",
           "id": 20,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1373,
           "element": "Water",
@@ -1417,6 +1517,7 @@ const weaponData = [
         {
           "name": "Blooming Knife",
           "id": 21,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "Poison",
@@ -1432,6 +1533,7 @@ const weaponData = [
         {
           "name": "Blooming Knife",
           "id": 22,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Poison",
@@ -1447,6 +1549,7 @@ const weaponData = [
         {
           "name": "Blooming Knife",
           "id": 23,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Poison",
@@ -1462,6 +1565,7 @@ const weaponData = [
         {
           "name": "Blooming Knife",
           "id": 24,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Poison",
@@ -1477,6 +1581,7 @@ const weaponData = [
         {
           "name": "Blooming Knife",
           "id": 25,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Poison",
@@ -1493,6 +1598,7 @@ const weaponData = [
         {
           "name": "Datura Blossom",
           "id": 26,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Poison",
@@ -1508,6 +1614,7 @@ const weaponData = [
         {
           "name": "Datura Blossom",
           "id": 27,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Poison",
@@ -1523,6 +1630,7 @@ const weaponData = [
         {
           "name": "Datura Blossom",
           "id": 28,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Poison",
@@ -1538,6 +1646,7 @@ const weaponData = [
         {
           "name": "Datura Blossom",
           "id": 29,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Poison",
@@ -1553,6 +1662,7 @@ const weaponData = [
         {
           "name": "Datura Blossom",
           "id": 30,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Poison",
@@ -1570,6 +1680,7 @@ const weaponData = [
         {
           "name": "Carapace Edge",
           "id": 31,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 110,
           "element": "None",
@@ -1585,6 +1696,7 @@ const weaponData = [
         {
           "name": "Carapace Edge",
           "id": 32,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 158,
           "element": "None",
@@ -1600,6 +1712,7 @@ const weaponData = [
         {
           "name": "Carapace Edge",
           "id": 33,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 228,
           "element": "None",
@@ -1615,6 +1728,7 @@ const weaponData = [
         {
           "name": "Carapace Edge",
           "id": 34,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 329,
           "element": "None",
@@ -1630,6 +1744,7 @@ const weaponData = [
         {
           "name": "Carapace Edge",
           "id": 35,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 473,
           "element": "None",
@@ -1646,6 +1761,7 @@ const weaponData = [
         {
           "name": "Barroth Club",
           "id": 36,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 615,
           "element": "None",
@@ -1661,6 +1777,7 @@ const weaponData = [
         {
           "name": "Barroth Club",
           "id": 37,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 800,
           "element": "None",
@@ -1676,6 +1793,7 @@ const weaponData = [
         {
           "name": "Barroth Club",
           "id": 38,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 1040,
           "element": "None",
@@ -1691,6 +1809,7 @@ const weaponData = [
         {
           "name": "Barroth Club",
           "id": 39,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1351,
           "element": "None",
@@ -1706,6 +1825,7 @@ const weaponData = [
         {
           "name": "Barroth Club",
           "id": 40,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1756,
           "element": "None",
@@ -1723,6 +1843,7 @@ const weaponData = [
         {
           "name": "Girros Knife",
           "id": 41,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Paralysis",
@@ -1738,6 +1859,7 @@ const weaponData = [
         {
           "name": "Girros Knife",
           "id": 42,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Paralysis",
@@ -1753,6 +1875,7 @@ const weaponData = [
         {
           "name": "Girros Knife",
           "id": 43,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Paralysis",
@@ -1768,6 +1891,7 @@ const weaponData = [
         {
           "name": "Girros Knife",
           "id": 44,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Paralysis",
@@ -1784,6 +1908,7 @@ const weaponData = [
         {
           "name": "Malady's Tabar",
           "id": 45,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Paralysis",
@@ -1799,6 +1924,7 @@ const weaponData = [
         {
           "name": "Malady's Tabar",
           "id": 46,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Paralysis",
@@ -1814,6 +1940,7 @@ const weaponData = [
         {
           "name": "Malady's Tabar",
           "id": 47,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Paralysis",
@@ -1829,6 +1956,7 @@ const weaponData = [
         {
           "name": "Malady's Tabar",
           "id": 48,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Paralysis",
@@ -1844,6 +1972,7 @@ const weaponData = [
         {
           "name": "Malady's Tabar",
           "id": 49,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Paralysis",
@@ -1861,6 +1990,7 @@ const weaponData = [
         {
           "name": "Thunder Edge",
           "id": 50,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 128,
           "element": "Thunder",
@@ -1876,6 +2006,7 @@ const weaponData = [
         {
           "name": "Thunder Edge",
           "id": 51,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Thunder",
@@ -1891,6 +2022,7 @@ const weaponData = [
         {
           "name": "Thunder Edge",
           "id": 52,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Thunder",
@@ -1906,6 +2038,7 @@ const weaponData = [
         {
           "name": "Thunder Edge",
           "id": 53,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Thunder",
@@ -1922,6 +2055,7 @@ const weaponData = [
         {
           "name": "Lightning Nemesis",
           "id": 54,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Thunder",
@@ -1937,6 +2071,7 @@ const weaponData = [
         {
           "name": "Lightning Nemesis",
           "id": 55,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Thunder",
@@ -1952,6 +2087,7 @@ const weaponData = [
         {
           "name": "Lightning Nemesis",
           "id": 56,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Thunder",
@@ -1967,6 +2103,7 @@ const weaponData = [
         {
           "name": "Lightning Nemesis",
           "id": 57,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Thunder",
@@ -1982,6 +2119,7 @@ const weaponData = [
         {
           "name": "Lightning Nemesis",
           "id": 58,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Thunder",
@@ -1999,6 +2137,7 @@ const weaponData = [
         {
           "name": "Lumu Knife",
           "id": 59,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 236,
           "element": "None",
@@ -2014,6 +2153,7 @@ const weaponData = [
         {
           "name": "Lumu Knife",
           "id": 60,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 339,
           "element": "None",
@@ -2029,6 +2169,7 @@ const weaponData = [
         {
           "name": "Lumu Knife",
           "id": 61,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 486,
           "element": "None",
@@ -2045,6 +2186,7 @@ const weaponData = [
         {
           "name": "Lumu Tabar",
           "id": 62,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 629,
           "element": "None",
@@ -2060,6 +2202,7 @@ const weaponData = [
         {
           "name": "Lumu Tabar",
           "id": 63,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 814,
           "element": "None",
@@ -2075,6 +2218,7 @@ const weaponData = [
         {
           "name": "Lumu Tabar",
           "id": 64,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 1054,
           "element": "None",
@@ -2090,6 +2234,7 @@ const weaponData = [
         {
           "name": "Lumu Tabar",
           "id": 65,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1363,
           "element": "None",
@@ -2105,6 +2250,7 @@ const weaponData = [
         {
           "name": "Lumu Tabar",
           "id": 66,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1764,
           "element": "None",
@@ -2122,6 +2268,7 @@ const weaponData = [
         {
           "name": "Aqua Messer",
           "id": 67,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Water",
@@ -2137,6 +2284,7 @@ const weaponData = [
         {
           "name": "Aqua Messer",
           "id": 68,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Water",
@@ -2152,6 +2300,7 @@ const weaponData = [
         {
           "name": "Aqua Messer",
           "id": 69,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Water",
@@ -2168,6 +2317,7 @@ const weaponData = [
         {
           "name": "Rogue Wave",
           "id": 70,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Water",
@@ -2183,6 +2333,7 @@ const weaponData = [
         {
           "name": "Rogue Wave",
           "id": 71,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Water",
@@ -2198,6 +2349,7 @@ const weaponData = [
         {
           "name": "Rogue Wave",
           "id": 72,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Water",
@@ -2213,6 +2365,7 @@ const weaponData = [
         {
           "name": "Rogue Wave",
           "id": 73,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Water",
@@ -2228,6 +2381,7 @@ const weaponData = [
         {
           "name": "Rogue Wave",
           "id": 74,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Water",
@@ -2245,6 +2399,7 @@ const weaponData = [
         {
           "name": "Blazing Edge",
           "id": 75,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Fire",
@@ -2260,6 +2415,7 @@ const weaponData = [
         {
           "name": "Blazing Edge",
           "id": 76,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Fire",
@@ -2276,6 +2432,7 @@ const weaponData = [
         {
           "name": "Flammensucher",
           "id": 77,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Fire",
@@ -2291,6 +2448,7 @@ const weaponData = [
         {
           "name": "Flammensucher",
           "id": 78,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Fire",
@@ -2306,6 +2464,7 @@ const weaponData = [
         {
           "name": "Flammensucher",
           "id": 79,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Fire",
@@ -2321,6 +2480,7 @@ const weaponData = [
         {
           "name": "Flammensucher",
           "id": 80,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Fire",
@@ -2336,6 +2496,7 @@ const weaponData = [
         {
           "name": "Flammensucher",
           "id": 81,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Fire",
@@ -2353,6 +2514,7 @@ const weaponData = [
         {
           "name": "Princess Rapier",
           "id": 82,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 284,
           "element": "Poison",
@@ -2368,6 +2530,7 @@ const weaponData = [
         {
           "name": "Princess Rapier",
           "id": 83,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 409,
           "element": "Poison",
@@ -2384,6 +2547,7 @@ const weaponData = [
         {
           "name": "Queen Rapier",
           "id": 84,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 531,
           "element": "Poison",
@@ -2399,6 +2563,7 @@ const weaponData = [
         {
           "name": "Queen Rapier",
           "id": 85,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 691,
           "element": "Poison",
@@ -2414,6 +2579,7 @@ const weaponData = [
         {
           "name": "Queen Rapier",
           "id": 86,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 898,
           "element": "Poison",
@@ -2429,6 +2595,7 @@ const weaponData = [
         {
           "name": "Queen Rapier",
           "id": 87,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1167,
           "element": "Poison",
@@ -2444,6 +2611,7 @@ const weaponData = [
         {
           "name": "Queen Rapier",
           "id": 88,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1516,
           "element": "Poison",
@@ -2461,6 +2629,7 @@ const weaponData = [
         {
           "name": "Glacial Grace",
           "id": 89,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Ice",
@@ -2476,6 +2645,7 @@ const weaponData = [
         {
           "name": "Rimespire",
           "id": 90,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Ice",
@@ -2491,6 +2661,7 @@ const weaponData = [
         {
           "name": "Rimespire",
           "id": 91,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Ice",
@@ -2506,6 +2677,7 @@ const weaponData = [
         {
           "name": "Rimespire",
           "id": 92,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Ice",
@@ -2521,6 +2693,7 @@ const weaponData = [
         {
           "name": "Rimespire",
           "id": 93,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Ice",
@@ -2536,6 +2709,7 @@ const weaponData = [
         {
           "name": "Rimespire",
           "id": 94,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Ice",
@@ -2553,6 +2727,7 @@ const weaponData = [
         {
           "name": "Flame Knife",
           "id": 95,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Fire",
@@ -2569,6 +2744,7 @@ const weaponData = [
         {
           "name": "Heat Edge",
           "id": 96,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Fire",
@@ -2584,6 +2760,7 @@ const weaponData = [
         {
           "name": "Heat Edge",
           "id": 97,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Fire",
@@ -2599,6 +2776,7 @@ const weaponData = [
         {
           "name": "Heat Edge",
           "id": 98,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Fire",
@@ -2614,6 +2792,7 @@ const weaponData = [
         {
           "name": "Heat Edge",
           "id": 99,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Fire",
@@ -2629,6 +2808,7 @@ const weaponData = [
         {
           "name": "Heat Edge",
           "id": 100,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Fire",
@@ -2646,6 +2826,7 @@ const weaponData = [
         {
           "name": "Queen Rose",
           "id": 101,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 473,
           "element": "Poison",
@@ -2662,6 +2843,7 @@ const weaponData = [
         {
           "name": "Royal Rose",
           "id": 102,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 615,
           "element": "Poison",
@@ -2677,6 +2859,7 @@ const weaponData = [
         {
           "name": "Royal Rose",
           "id": 103,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 800,
           "element": "Poison",
@@ -2692,6 +2875,7 @@ const weaponData = [
         {
           "name": "Royal Rose",
           "id": 104,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 1040,
           "element": "Poison",
@@ -2707,6 +2891,7 @@ const weaponData = [
         {
           "name": "Royal Rose",
           "id": 105,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1351,
           "element": "Poison",
@@ -2722,6 +2907,7 @@ const weaponData = [
         {
           "name": "Royal Rose",
           "id": 106,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1756,
           "element": "Poison",
@@ -2743,6 +2929,7 @@ const weaponData = [
         {
           "name": "Buster Sword",
           "id": 107,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -2758,6 +2945,7 @@ const weaponData = [
         {
           "name": "Buster Sword",
           "id": 108,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -2773,6 +2961,7 @@ const weaponData = [
         {
           "name": "Buster Sword",
           "id": 109,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -2788,6 +2977,7 @@ const weaponData = [
         {
           "name": "Buster Sword",
           "id": 110,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -2803,6 +2993,7 @@ const weaponData = [
         {
           "name": "Buster Sword",
           "id": 111,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -2819,6 +3010,7 @@ const weaponData = [
         {
           "name": "Buster Blade",
           "id": 112,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -2834,6 +3026,7 @@ const weaponData = [
         {
           "name": "Buster Blade",
           "id": 113,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -2849,6 +3042,7 @@ const weaponData = [
         {
           "name": "Buster Blade",
           "id": 114,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -2864,6 +3058,7 @@ const weaponData = [
         {
           "name": "Buster Blade",
           "id": 115,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -2879,6 +3074,7 @@ const weaponData = [
         {
           "name": "Buster Blade",
           "id": 116,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -2896,6 +3092,7 @@ const weaponData = [
         {
           "name": "Jagras Blade",
           "id": 117,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 95,
           "element": "Water",
@@ -2911,6 +3108,7 @@ const weaponData = [
         {
           "name": "Jagras Blade",
           "id": 118,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 135,
           "element": "Water",
@@ -2926,6 +3124,7 @@ const weaponData = [
         {
           "name": "Jagras Blade",
           "id": 119,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 193,
           "element": "Water",
@@ -2941,6 +3140,7 @@ const weaponData = [
         {
           "name": "Jagras Blade",
           "id": 120,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 275,
           "element": "Water",
@@ -2956,6 +3156,7 @@ const weaponData = [
         {
           "name": "Jagras Blade",
           "id": 121,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 391,
           "element": "Water",
@@ -2972,6 +3173,7 @@ const weaponData = [
         {
           "name": "Jagras Hacker",
           "id": 122,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 503,
           "element": "Water",
@@ -2987,6 +3189,7 @@ const weaponData = [
         {
           "name": "Jagras Hacker",
           "id": 123,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 647,
           "element": "Water",
@@ -3002,6 +3205,7 @@ const weaponData = [
         {
           "name": "Jagras Hacker",
           "id": 124,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 832,
           "element": "Water",
@@ -3017,6 +3221,7 @@ const weaponData = [
         {
           "name": "Jagras Hacker",
           "id": 125,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1068,
           "element": "Water",
@@ -3032,6 +3237,7 @@ const weaponData = [
         {
           "name": "Jagras Hacker",
           "id": 126,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1373,
           "element": "Water",
@@ -3049,6 +3255,7 @@ const weaponData = [
         {
           "name": "Blooming Blade",
           "id": 127,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "Poison",
@@ -3064,6 +3271,7 @@ const weaponData = [
         {
           "name": "Blooming Blade",
           "id": 128,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Poison",
@@ -3079,6 +3287,7 @@ const weaponData = [
         {
           "name": "Blooming Blade",
           "id": 129,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Poison",
@@ -3094,6 +3303,7 @@ const weaponData = [
         {
           "name": "Blooming Blade",
           "id": 130,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Poison",
@@ -3109,6 +3319,7 @@ const weaponData = [
         {
           "name": "Blooming Blade",
           "id": 131,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Poison",
@@ -3125,6 +3336,7 @@ const weaponData = [
         {
           "name": "Datura Blaze",
           "id": 132,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Poison",
@@ -3140,6 +3352,7 @@ const weaponData = [
         {
           "name": "Datura Blaze",
           "id": 133,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Poison",
@@ -3155,6 +3368,7 @@ const weaponData = [
         {
           "name": "Datura Blaze",
           "id": 134,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Poison",
@@ -3170,6 +3384,7 @@ const weaponData = [
         {
           "name": "Datura Blaze",
           "id": 135,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Poison",
@@ -3185,6 +3400,7 @@ const weaponData = [
         {
           "name": "Datura Blaze",
           "id": 136,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Poison",
@@ -3202,6 +3418,7 @@ const weaponData = [
         {
           "name": "Carapace Buster",
           "id": 137,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 110,
           "element": "None",
@@ -3217,6 +3434,7 @@ const weaponData = [
         {
           "name": "Carapace Buster",
           "id": 138,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 158,
           "element": "None",
@@ -3232,6 +3450,7 @@ const weaponData = [
         {
           "name": "Carapace Buster",
           "id": 139,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 228,
           "element": "None",
@@ -3247,6 +3466,7 @@ const weaponData = [
         {
           "name": "Carapace Buster",
           "id": 140,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 329,
           "element": "None",
@@ -3262,6 +3482,7 @@ const weaponData = [
         {
           "name": "Carapace Buster",
           "id": 141,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 473,
           "element": "None",
@@ -3278,6 +3499,7 @@ const weaponData = [
         {
           "name": "Barroth Shredder",
           "id": 142,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 615,
           "element": "None",
@@ -3293,6 +3515,7 @@ const weaponData = [
         {
           "name": "Barroth Shredder",
           "id": 143,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 800,
           "element": "None",
@@ -3308,6 +3531,7 @@ const weaponData = [
         {
           "name": "Barroth Shredder",
           "id": 144,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 1040,
           "element": "None",
@@ -3323,6 +3547,7 @@ const weaponData = [
         {
           "name": "Barroth Shredder",
           "id": 145,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1351,
           "element": "None",
@@ -3338,6 +3563,7 @@ const weaponData = [
         {
           "name": "Barroth Shredder",
           "id": 146,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1756,
           "element": "None",
@@ -3355,6 +3581,7 @@ const weaponData = [
         {
           "name": "Girros Blade",
           "id": 147,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Paralysis",
@@ -3370,6 +3597,7 @@ const weaponData = [
         {
           "name": "Girros Blade",
           "id": 148,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Paralysis",
@@ -3385,6 +3613,7 @@ const weaponData = [
         {
           "name": "Girros Blade",
           "id": 149,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Paralysis",
@@ -3400,6 +3629,7 @@ const weaponData = [
         {
           "name": "Girros Blade",
           "id": 150,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Paralysis",
@@ -3416,6 +3646,7 @@ const weaponData = [
         {
           "name": "Malady's Kiss",
           "id": 151,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Paralysis",
@@ -3431,6 +3662,7 @@ const weaponData = [
         {
           "name": "Malady's Kiss",
           "id": 152,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Paralysis",
@@ -3446,6 +3678,7 @@ const weaponData = [
         {
           "name": "Malady's Kiss",
           "id": 153,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Paralysis",
@@ -3461,6 +3694,7 @@ const weaponData = [
         {
           "name": "Malady's Kiss",
           "id": 154,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Paralysis",
@@ -3476,6 +3710,7 @@ const weaponData = [
         {
           "name": "Malady's Kiss",
           "id": 155,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Paralysis",
@@ -3493,6 +3728,7 @@ const weaponData = [
         {
           "name": "Thunder Blade",
           "id": 156,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 128,
           "element": "Thunder",
@@ -3508,6 +3744,7 @@ const weaponData = [
         {
           "name": "Thunder Blade",
           "id": 157,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Thunder",
@@ -3523,6 +3760,7 @@ const weaponData = [
         {
           "name": "Thunder Blade",
           "id": 158,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Thunder",
@@ -3538,6 +3776,7 @@ const weaponData = [
         {
           "name": "Thunder Blade",
           "id": 159,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Thunder",
@@ -3554,6 +3793,7 @@ const weaponData = [
         {
           "name": "Lightning Punisher",
           "id": 160,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Thunder",
@@ -3569,6 +3809,7 @@ const weaponData = [
         {
           "name": "Lightning Punisher",
           "id": 161,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Thunder",
@@ -3584,6 +3825,7 @@ const weaponData = [
         {
           "name": "Lightning Punisher",
           "id": 162,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Thunder",
@@ -3599,6 +3841,7 @@ const weaponData = [
         {
           "name": "Lightning Punisher",
           "id": 163,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Thunder",
@@ -3614,6 +3857,7 @@ const weaponData = [
         {
           "name": "Lightning Punisher",
           "id": 164,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Thunder",
@@ -3631,6 +3875,7 @@ const weaponData = [
         {
           "name": "Aqua Slasher",
           "id": 165,
+          "startGrade": 4,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Water",
@@ -3646,6 +3891,7 @@ const weaponData = [
         {
           "name": "Aqua Slasher",
           "id": 166,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Water",
@@ -3661,6 +3907,7 @@ const weaponData = [
         {
           "name": "Aqua Slasher",
           "id": 167,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Water",
@@ -3677,6 +3924,7 @@ const weaponData = [
         {
           "name": "Water Golem",
           "id": 168,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Water",
@@ -3692,6 +3940,7 @@ const weaponData = [
         {
           "name": "Water Golem",
           "id": 169,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Water",
@@ -3707,6 +3956,7 @@ const weaponData = [
         {
           "name": "Water Golem",
           "id": 170,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Water",
@@ -3722,6 +3972,7 @@ const weaponData = [
         {
           "name": "Water Golem",
           "id": 171,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Water",
@@ -3737,6 +3988,7 @@ const weaponData = [
         {
           "name": "Water Golem",
           "id": 172,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Water",
@@ -3754,6 +4006,7 @@ const weaponData = [
         {
           "name": "Flammenzahn",
           "id": 173,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Fire",
@@ -3769,6 +4022,7 @@ const weaponData = [
         {
           "name": "Flammenzahn",
           "id": 174,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Fire",
@@ -3785,6 +4039,7 @@ const weaponData = [
         {
           "name": "Flammenzahn+",
           "id": 175,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Fire",
@@ -3800,6 +4055,7 @@ const weaponData = [
         {
           "name": "Flammenzahn+",
           "id": 176,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Fire",
@@ -3815,6 +4071,7 @@ const weaponData = [
         {
           "name": "Flammenzahn+",
           "id": 177,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Fire",
@@ -3830,6 +4087,7 @@ const weaponData = [
         {
           "name": "Flammenzahn+",
           "id": 178,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Fire",
@@ -3845,6 +4103,7 @@ const weaponData = [
         {
           "name": "Flammenzahn+",
           "id": 179,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Fire",
@@ -3862,6 +4121,7 @@ const weaponData = [
         {
           "name": "Freeze Blade",
           "id": 180,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Ice",
@@ -3878,6 +4138,7 @@ const weaponData = [
         {
           "name": "Frost Blaze",
           "id": 181,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Ice",
@@ -3893,6 +4154,7 @@ const weaponData = [
         {
           "name": "Frost Blaze",
           "id": 182,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Ice",
@@ -3908,6 +4170,7 @@ const weaponData = [
         {
           "name": "Frost Blaze",
           "id": 183,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Ice",
@@ -3923,6 +4186,7 @@ const weaponData = [
         {
           "name": "Frost Blaze",
           "id": 184,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Ice",
@@ -3938,6 +4202,7 @@ const weaponData = [
         {
           "name": "Frost Blaze",
           "id": 185,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Ice",
@@ -3955,6 +4220,7 @@ const weaponData = [
         {
           "name": "Flame Blade",
           "id": 186,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Fire",
@@ -3971,6 +4237,7 @@ const weaponData = [
         {
           "name": "Red Wing",
           "id": 187,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Fire",
@@ -3986,6 +4253,7 @@ const weaponData = [
         {
           "name": "Red Wing",
           "id": 188,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Fire",
@@ -4001,6 +4269,7 @@ const weaponData = [
         {
           "name": "Red Wing",
           "id": 189,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Fire",
@@ -4016,6 +4285,7 @@ const weaponData = [
         {
           "name": "Red Wing",
           "id": 190,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Fire",
@@ -4031,6 +4301,7 @@ const weaponData = [
         {
           "name": "Red Wing",
           "id": 191,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Fire",
@@ -4052,6 +4323,7 @@ const weaponData = [
         {
           "name": "Iron Hammer",
           "id": 192,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -4067,6 +4339,7 @@ const weaponData = [
         {
           "name": "Iron Hammer",
           "id": 193,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -4082,6 +4355,7 @@ const weaponData = [
         {
           "name": "Iron Hammer",
           "id": 194,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -4097,6 +4371,7 @@ const weaponData = [
         {
           "name": "Iron Hammer",
           "id": 195,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -4112,6 +4387,7 @@ const weaponData = [
         {
           "name": "Iron Hammer",
           "id": 196,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -4128,6 +4404,7 @@ const weaponData = [
         {
           "name": "Iron Demon",
           "id": 197,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -4143,6 +4420,7 @@ const weaponData = [
         {
           "name": "Iron Demon",
           "id": 198,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -4158,6 +4436,7 @@ const weaponData = [
         {
           "name": "Iron Demon",
           "id": 199,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -4173,6 +4452,7 @@ const weaponData = [
         {
           "name": "Iron Demon",
           "id": 200,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -4188,6 +4468,7 @@ const weaponData = [
         {
           "name": "Iron Demon",
           "id": 201,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -4205,6 +4486,7 @@ const weaponData = [
         {
           "name": "Kulu Beak",
           "id": 202,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -4220,6 +4502,7 @@ const weaponData = [
         {
           "name": "Kulu Beak",
           "id": 203,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -4235,6 +4518,7 @@ const weaponData = [
         {
           "name": "Kulu Beak",
           "id": 204,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -4250,6 +4534,7 @@ const weaponData = [
         {
           "name": "Kulu Beak",
           "id": 205,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -4265,6 +4550,7 @@ const weaponData = [
         {
           "name": "Kulu Beak",
           "id": 206,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -4281,6 +4567,7 @@ const weaponData = [
         {
           "name": "Crushing Beak",
           "id": 207,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -4296,6 +4583,7 @@ const weaponData = [
         {
           "name": "Crushing Beak",
           "id": 208,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -4311,6 +4599,7 @@ const weaponData = [
         {
           "name": "Crushing Beak",
           "id": 209,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -4326,6 +4615,7 @@ const weaponData = [
         {
           "name": "Crushing Beak",
           "id": 210,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -4341,6 +4631,7 @@ const weaponData = [
         {
           "name": "Crushing Beak",
           "id": 211,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -4358,6 +4649,7 @@ const weaponData = [
         {
           "name": "Blooming Hammer",
           "id": 212,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "Poison",
@@ -4373,6 +4665,7 @@ const weaponData = [
         {
           "name": "Blooming Hammer",
           "id": 213,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Poison",
@@ -4388,6 +4681,7 @@ const weaponData = [
         {
           "name": "Blooming Hammer",
           "id": 214,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Poison",
@@ -4403,6 +4697,7 @@ const weaponData = [
         {
           "name": "Blooming Hammer",
           "id": 215,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Poison",
@@ -4418,6 +4713,7 @@ const weaponData = [
         {
           "name": "Blooming Hammer",
           "id": 216,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Poison",
@@ -4434,6 +4730,7 @@ const weaponData = [
         {
           "name": "Buon Fiore",
           "id": 217,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Poison",
@@ -4449,6 +4746,7 @@ const weaponData = [
         {
           "name": "Buon Fiore",
           "id": 218,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Poison",
@@ -4464,6 +4762,7 @@ const weaponData = [
         {
           "name": "Buon Fiore",
           "id": 219,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Poison",
@@ -4479,6 +4778,7 @@ const weaponData = [
         {
           "name": "Buon Fiore",
           "id": 220,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Poison",
@@ -4494,6 +4794,7 @@ const weaponData = [
         {
           "name": "Buon Fiore",
           "id": 221,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Poison",
@@ -4511,6 +4812,7 @@ const weaponData = [
         {
           "name": "Carapace Sledge",
           "id": 222,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 110,
           "element": "None",
@@ -4526,6 +4828,7 @@ const weaponData = [
         {
           "name": "Carapace Sledge",
           "id": 223,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 158,
           "element": "None",
@@ -4541,6 +4844,7 @@ const weaponData = [
         {
           "name": "Carapace Sledge",
           "id": 224,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 228,
           "element": "None",
@@ -4556,6 +4860,7 @@ const weaponData = [
         {
           "name": "Carapace Sledge",
           "id": 225,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 329,
           "element": "None",
@@ -4571,6 +4876,7 @@ const weaponData = [
         {
           "name": "Carapace Sledge",
           "id": 226,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 473,
           "element": "None",
@@ -4587,6 +4893,7 @@ const weaponData = [
         {
           "name": "Barroth Breaker",
           "id": 227,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 615,
           "element": "None",
@@ -4602,6 +4909,7 @@ const weaponData = [
         {
           "name": "Barroth Breaker",
           "id": 228,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 800,
           "element": "None",
@@ -4617,6 +4925,7 @@ const weaponData = [
         {
           "name": "Barroth Breaker",
           "id": 229,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 1040,
           "element": "None",
@@ -4632,6 +4941,7 @@ const weaponData = [
         {
           "name": "Barroth Breaker",
           "id": 230,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1351,
           "element": "None",
@@ -4647,6 +4957,7 @@ const weaponData = [
         {
           "name": "Barroth Breaker",
           "id": 231,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1756,
           "element": "None",
@@ -4664,6 +4975,7 @@ const weaponData = [
         {
           "name": "Girros Hammer",
           "id": 232,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Paralysis",
@@ -4679,6 +4991,7 @@ const weaponData = [
         {
           "name": "Girros Hammer",
           "id": 233,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Paralysis",
@@ -4694,6 +5007,7 @@ const weaponData = [
         {
           "name": "Girros Hammer",
           "id": 234,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Paralysis",
@@ -4709,6 +5023,7 @@ const weaponData = [
         {
           "name": "Girros Hammer",
           "id": 235,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Paralysis",
@@ -4725,6 +5040,7 @@ const weaponData = [
         {
           "name": "Malady's Fist",
           "id": 236,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Paralysis",
@@ -4740,6 +5056,7 @@ const weaponData = [
         {
           "name": "Malady's Fist",
           "id": 237,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Paralysis",
@@ -4755,6 +5072,7 @@ const weaponData = [
         {
           "name": "Malady's Fist",
           "id": 238,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Paralysis",
@@ -4770,6 +5088,7 @@ const weaponData = [
         {
           "name": "Malady's Fist",
           "id": 239,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Paralysis",
@@ -4785,6 +5104,7 @@ const weaponData = [
         {
           "name": "Malady's Fist",
           "id": 240,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Paralysis",
@@ -4802,6 +5122,7 @@ const weaponData = [
         {
           "name": "Thunder Hammer",
           "id": 241,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 128,
           "element": "Thunder",
@@ -4817,6 +5138,7 @@ const weaponData = [
         {
           "name": "Thunder Hammer",
           "id": 242,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Thunder",
@@ -4832,6 +5154,7 @@ const weaponData = [
         {
           "name": "Thunder Hammer",
           "id": 243,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Thunder",
@@ -4847,6 +5170,7 @@ const weaponData = [
         {
           "name": "Thunder Hammer",
           "id": 244,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Thunder",
@@ -4863,6 +5187,7 @@ const weaponData = [
         {
           "name": "Lightning Bash",
           "id": 245,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Thunder",
@@ -4878,6 +5203,7 @@ const weaponData = [
         {
           "name": "Lightning Bash",
           "id": 246,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Thunder",
@@ -4893,6 +5219,7 @@ const weaponData = [
         {
           "name": "Lightning Bash",
           "id": 247,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Thunder",
@@ -4908,6 +5235,7 @@ const weaponData = [
         {
           "name": "Lightning Bash",
           "id": 248,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Thunder",
@@ -4923,6 +5251,7 @@ const weaponData = [
         {
           "name": "Lightning Bash",
           "id": 249,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Thunder",
@@ -4940,6 +5269,7 @@ const weaponData = [
         {
           "name": "Aqua Hammer",
           "id": 250,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Water",
@@ -4955,6 +5285,7 @@ const weaponData = [
         {
           "name": "Aqua Hammer",
           "id": 251,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Water",
@@ -4970,6 +5301,7 @@ const weaponData = [
         {
           "name": "Aqua Hammer",
           "id": 252,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Water",
@@ -4986,6 +5318,7 @@ const weaponData = [
         {
           "name": "Water Basher",
           "id": 253,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Water",
@@ -5001,6 +5334,7 @@ const weaponData = [
         {
           "name": "Water Basher",
           "id": 254,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Water",
@@ -5016,6 +5350,7 @@ const weaponData = [
         {
           "name": "Water Basher",
           "id": 255,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Water",
@@ -5031,6 +5366,7 @@ const weaponData = [
         {
           "name": "Water Basher",
           "id": 256,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Water",
@@ -5046,6 +5382,7 @@ const weaponData = [
         {
           "name": "Water Basher",
           "id": 257,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Water",
@@ -5063,6 +5400,7 @@ const weaponData = [
         {
           "name": "Blazing Hammer",
           "id": 258,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Fire",
@@ -5078,6 +5416,7 @@ const weaponData = [
         {
           "name": "Blazing Hammer",
           "id": 259,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Fire",
@@ -5094,6 +5433,7 @@ const weaponData = [
         {
           "name": "Anja Striker",
           "id": 260,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Fire",
@@ -5109,6 +5449,7 @@ const weaponData = [
         {
           "name": "Anja Striker",
           "id": 261,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Fire",
@@ -5124,6 +5465,7 @@ const weaponData = [
         {
           "name": "Anja Striker",
           "id": 262,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Fire",
@@ -5139,6 +5481,7 @@ const weaponData = [
         {
           "name": "Anja Striker",
           "id": 263,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Fire",
@@ -5154,6 +5497,7 @@ const weaponData = [
         {
           "name": "Anja Striker",
           "id": 264,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Fire",
@@ -5171,6 +5515,7 @@ const weaponData = [
         {
           "name": "Diablos Sledge",
           "id": 265,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 512,
           "element": "None",
@@ -5187,6 +5532,7 @@ const weaponData = [
         {
           "name": "Diablos Shatterer",
           "id": 266,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 671,
           "element": "None",
@@ -5202,6 +5548,7 @@ const weaponData = [
         {
           "name": "Diablos Shatterer",
           "id": 267,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 880,
           "element": "None",
@@ -5217,6 +5564,7 @@ const weaponData = [
         {
           "name": "Diablos Shatterer",
           "id": 268,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 1153,
           "element": "None",
@@ -5232,6 +5580,7 @@ const weaponData = [
         {
           "name": "Diablos Shatterer",
           "id": 269,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1510,
           "element": "None",
@@ -5247,6 +5596,7 @@ const weaponData = [
         {
           "name": "Diablos Shatterer",
           "id": 270,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1979,
           "element": "None",
@@ -5264,6 +5614,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 271,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 576,
           "element": "None",
@@ -5279,6 +5630,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 272,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 755,
           "element": "None",
@@ -5294,6 +5646,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 273,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 989,
           "element": "None",
@@ -5309,6 +5662,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 274,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 1295,
           "element": "None",
@@ -5324,6 +5678,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 275,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1695,
           "element": "None",
@@ -5339,6 +5694,7 @@ const weaponData = [
         {
           "name": "Chaos Shatterer",
           "id": 276,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 2218,
           "element": "None",
@@ -5360,6 +5716,7 @@ const weaponData = [
         {
           "name": "Iron Katana",
           "id": 277,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": "100",
           "element": "None",
@@ -5375,6 +5732,7 @@ const weaponData = [
         {
           "name": "Iron Katana",
           "id": 278,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": "144",
           "element": "None",
@@ -5390,6 +5748,7 @@ const weaponData = [
         {
           "name": "Iron Katana",
           "id": 279,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": "207",
           "element": "None",
@@ -5405,6 +5764,7 @@ const weaponData = [
         {
           "name": "Iron Katana",
           "id": 280,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": "299",
           "element": "None",
@@ -5420,6 +5780,7 @@ const weaponData = [
         {
           "name": "Iron Katana",
           "id": 281,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": "430",
           "element": "None",
@@ -5436,6 +5797,7 @@ const weaponData = [
         {
           "name": "Iron Grace",
           "id": 282,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": "559",
           "element": "None",
@@ -5451,6 +5813,7 @@ const weaponData = [
         {
           "name": "Iron Grace",
           "id": 283,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": "727",
           "element": "None",
@@ -5466,6 +5829,7 @@ const weaponData = [
         {
           "name": "Iron Grace",
           "id": 284,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": "945",
           "element": "None",
@@ -5481,6 +5845,7 @@ const weaponData = [
         {
           "name": "Iron Grace",
           "id": 285,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": "1228",
           "element": "None",
@@ -5496,6 +5861,7 @@ const weaponData = [
         {
           "name": "Iron Grace",
           "id": 286,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": "1596",
           "element": "None",
@@ -5513,6 +5879,7 @@ const weaponData = [
         {
           "name": "First Dance",
           "id": 287,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": "100",
           "element": "None",
@@ -5528,6 +5895,7 @@ const weaponData = [
         {
           "name": "First Dance",
           "id": 288,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": "144",
           "element": "None",
@@ -5543,6 +5911,7 @@ const weaponData = [
         {
           "name": "First Dance",
           "id": 289,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": "207",
           "element": "None",
@@ -5558,6 +5927,7 @@ const weaponData = [
         {
           "name": "First Dance",
           "id": 290,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": "299",
           "element": "None",
@@ -5573,6 +5943,7 @@ const weaponData = [
         {
           "name": "First Dance",
           "id": 291,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": "430",
           "element": "None",
@@ -5589,6 +5960,7 @@ const weaponData = [
         {
           "name": "Last Dance",
           "id": 292,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": "559",
           "element": "None",
@@ -5604,6 +5976,7 @@ const weaponData = [
         {
           "name": "Last Dance",
           "id": 293,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": "727",
           "element": "None",
@@ -5619,6 +5992,7 @@ const weaponData = [
         {
           "name": "Last Dance",
           "id": 294,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": "945",
           "element": "None",
@@ -5634,6 +6008,7 @@ const weaponData = [
         {
           "name": "Last Dance",
           "id": 295,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": "1228",
           "element": "None",
@@ -5649,6 +6024,7 @@ const weaponData = [
         {
           "name": "Last Dance",
           "id": 296,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": "1596",
           "element": "None",
@@ -5666,6 +6042,7 @@ const weaponData = [
         {
           "name": "Pulsar Shotel",
           "id": 297,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": "128",
           "element": "Thunder",
@@ -5681,6 +6058,7 @@ const weaponData = [
         {
           "name": "Pulsar Shotel",
           "id": 298,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": "182",
           "element": "Thunder",
@@ -5696,6 +6074,7 @@ const weaponData = [
         {
           "name": "Pulsar Shotel",
           "id": 299,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": "260",
           "element": "Thunder",
@@ -5711,6 +6090,7 @@ const weaponData = [
         {
           "name": "Pulsar Shotel",
           "id": 300,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": "370",
           "element": "Thunder",
@@ -5727,6 +6107,7 @@ const weaponData = [
         {
           "name": "Kadachi Fang",
           "id": 301,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": "475",
           "element": "Thunder",
@@ -5742,6 +6123,7 @@ const weaponData = [
         {
           "name": "Kadachi Fang",
           "id": 302,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": "611",
           "element": "Thunder",
@@ -5757,6 +6139,7 @@ const weaponData = [
         {
           "name": "Kadachi Fang",
           "id": 303,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": "784",
           "element": "Thunder",
@@ -5772,6 +6155,7 @@ const weaponData = [
         {
           "name": "Kadachi Fang",
           "id": 304,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": "1007",
           "element": "Thunder",
@@ -5787,6 +6171,7 @@ const weaponData = [
         {
           "name": "Kadachi Fang",
           "id": 305,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": "1293",
           "element": "Thunder",
@@ -5804,6 +6189,7 @@ const weaponData = [
         {
           "name": "Jyura Shotel",
           "id": 306,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": "182",
           "element": "Water",
@@ -5819,6 +6205,7 @@ const weaponData = [
         {
           "name": "Jyura Shotel",
           "id": 307,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": "260",
           "element": "Water",
@@ -5834,6 +6221,7 @@ const weaponData = [
         {
           "name": "Jyura Shotel",
           "id": 308,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": "370",
           "element": "Water",
@@ -5850,6 +6238,7 @@ const weaponData = [
         {
           "name": "Dipterus",
           "id": 309,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": "475",
           "element": "Water",
@@ -5865,6 +6254,7 @@ const weaponData = [
         {
           "name": "Dipterus",
           "id": 310,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": "611",
           "element": "Water",
@@ -5880,6 +6270,7 @@ const weaponData = [
         {
           "name": "Dipterus",
           "id": 311,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": "784",
           "element": "Water",
@@ -5895,6 +6286,7 @@ const weaponData = [
         {
           "name": "Dipterus",
           "id": 312,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": "1007",
           "element": "Water",
@@ -5910,6 +6302,7 @@ const weaponData = [
         {
           "name": "Dipterus",
           "id": 313,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": "1293",
           "element": "Water",
@@ -5927,6 +6320,7 @@ const weaponData = [
         {
           "name": "Blazing Shotel",
           "id": 314,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": "260",
           "element": "Fire",
@@ -5942,6 +6336,7 @@ const weaponData = [
         {
           "name": "Blazing Shotel",
           "id": 315,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": "370",
           "element": "Fire",
@@ -5958,6 +6353,7 @@ const weaponData = [
         {
           "name": "Anja Scimitar",
           "id": 316,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": "475",
           "element": "Fire",
@@ -5973,6 +6369,7 @@ const weaponData = [
         {
           "name": "Anja Scimitar",
           "id": 317,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": "611",
           "element": "Fire",
@@ -5988,6 +6385,7 @@ const weaponData = [
         {
           "name": "Anja Scimitar",
           "id": 318,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": "784",
           "element": "Fire",
@@ -6003,6 +6401,7 @@ const weaponData = [
         {
           "name": "Anja Scimitar",
           "id": 319,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": "1007",
           "element": "Fire",
@@ -6018,6 +6417,7 @@ const weaponData = [
         {
           "name": "Anja Scimitar",
           "id": 320,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": "1293",
           "element": "Fire",
@@ -6035,6 +6435,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Leaf\"",
           "id": 321,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": "284",
           "element": "Poison",
@@ -6050,6 +6451,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Leaf\"",
           "id": 322,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": "409",
           "element": "Poison",
@@ -6066,6 +6468,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Verde\"",
           "id": 323,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": "531",
           "element": "Poison",
@@ -6081,6 +6484,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Verde\"",
           "id": 324,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": "691",
           "element": "Poison",
@@ -6096,6 +6500,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Verde\"",
           "id": 325,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": "898",
           "element": "Poison",
@@ -6111,6 +6516,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Verde\"",
           "id": 326,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": "1167",
           "element": "Poison",
@@ -6126,6 +6532,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Verde\"",
           "id": 327,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": "1516",
           "element": "Poison",
@@ -6143,6 +6550,7 @@ const weaponData = [
         {
           "name": "Glacial Shotel",
           "id": 328,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": "361",
           "element": "Ice",
@@ -6159,6 +6567,7 @@ const weaponData = [
         {
           "name": "Stealer",
           "id": 329,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": "461",
           "element": "Ice",
@@ -6174,6 +6583,7 @@ const weaponData = [
         {
           "name": "Stealer",
           "id": 330,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": "589",
           "element": "Ice",
@@ -6189,6 +6599,7 @@ const weaponData = [
         {
           "name": "Stealer",
           "id": 331,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": "751",
           "element": "Ice",
@@ -6204,6 +6615,7 @@ const weaponData = [
         {
           "name": "Stealer",
           "id": 332,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": "958",
           "element": "Ice",
@@ -6219,6 +6631,7 @@ const weaponData = [
         {
           "name": "Stealer",
           "id": 333,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": "1221",
           "element": "Ice",
@@ -6236,6 +6649,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Fall\"",
           "id": 334,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": "361",
           "element": "Fire",
@@ -6252,6 +6666,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blood\"",
           "id": 335,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": "461",
           "element": "Fire",
@@ -6267,6 +6682,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blood\"",
           "id": 336,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": "589",
           "element": "Fire",
@@ -6282,6 +6698,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blood\"",
           "id": 337,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": "751",
           "element": "Fire",
@@ -6297,6 +6714,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blood\"",
           "id": 338,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": "958",
           "element": "Fire",
@@ -6312,6 +6730,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blood\"",
           "id": 339,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": "1221",
           "element": "Fire",
@@ -6329,6 +6748,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom\"",
           "id": 340,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": "473",
           "element": "Poison",
@@ -6345,6 +6765,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom+\"",
           "id": 341,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": "???",
           "element": "Poison",
@@ -6360,6 +6781,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom+\"",
           "id": 342,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": "???",
           "element": "Poison",
@@ -6375,6 +6797,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom+\"",
           "id": 343,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": "???",
           "element": "Poison",
@@ -6390,6 +6813,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom+\"",
           "id": 344,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": "???",
           "element": "Poison",
@@ -6405,6 +6829,7 @@ const weaponData = [
         {
           "name": "Wyvern Blade \"Blossom+\"",
           "id": 345,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": "???",
           "element": "Poison",
@@ -6426,6 +6851,7 @@ const weaponData = [
         {
           "name": "Chain Blitz",
           "id": 346,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -6441,6 +6867,7 @@ const weaponData = [
         {
           "name": "Chain Blitz",
           "id": 347,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -6456,6 +6883,7 @@ const weaponData = [
         {
           "name": "Chain Blitz",
           "id": 348,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -6471,6 +6899,7 @@ const weaponData = [
         {
           "name": "Chain Blitz",
           "id": 349,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -6486,6 +6915,7 @@ const weaponData = [
         {
           "name": "Chain Blitz",
           "id": 350,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -6502,6 +6932,7 @@ const weaponData = [
         {
           "name": "High Chain Blitz",
           "id": 351,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -6517,6 +6948,7 @@ const weaponData = [
         {
           "name": "High Chain Blitz",
           "id": 352,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -6532,6 +6964,7 @@ const weaponData = [
         {
           "name": "High Chain Blitz",
           "id": 353,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -6547,6 +6980,7 @@ const weaponData = [
         {
           "name": "High Chain Blitz",
           "id": 354,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -6562,6 +6996,7 @@ const weaponData = [
         {
           "name": "High Chain Blitz",
           "id": 355,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -6579,6 +7014,7 @@ const weaponData = [
         {
           "name": "Jagras Blitz",
           "id": 356,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 95,
           "element": "Water",
@@ -6594,6 +7030,7 @@ const weaponData = [
         {
           "name": "Jagras Blitz",
           "id": 357,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 135,
           "element": "Water",
@@ -6609,6 +7046,7 @@ const weaponData = [
         {
           "name": "Jagras Blitz",
           "id": 358,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 193,
           "element": "Water",
@@ -6624,6 +7062,7 @@ const weaponData = [
         {
           "name": "Jagras Blitz",
           "id": 359,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 275,
           "element": "Water",
@@ -6639,6 +7078,7 @@ const weaponData = [
         {
           "name": "Jagras Blitz",
           "id": 360,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 391,
           "element": "Water",
@@ -6655,6 +7095,7 @@ const weaponData = [
         {
           "name": "Jagras Fire",
           "id": 361,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 503,
           "element": "Water",
@@ -6670,6 +7111,7 @@ const weaponData = [
         {
           "name": "Jagras Fire",
           "id": 362,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 647,
           "element": "Water",
@@ -6685,6 +7127,7 @@ const weaponData = [
         {
           "name": "Jagras Fire",
           "id": 363,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 832,
           "element": "Water",
@@ -6700,6 +7143,7 @@ const weaponData = [
         {
           "name": "Jagras Fire",
           "id": 364,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1068,
           "element": "Water",
@@ -6715,6 +7159,7 @@ const weaponData = [
         {
           "name": "Jagras Fire",
           "id": 365,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1373,
           "element": "Water",
@@ -6732,6 +7177,7 @@ const weaponData = [
         {
           "name": "Carapace Rifle",
           "id": 366,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 110,
           "element": "None",
@@ -6747,6 +7193,7 @@ const weaponData = [
         {
           "name": "Carapace Rifle",
           "id": 367,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 158,
           "element": "None",
@@ -6762,6 +7209,7 @@ const weaponData = [
         {
           "name": "Carapace Rifle",
           "id": 368,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 228,
           "element": "None",
@@ -6777,6 +7225,7 @@ const weaponData = [
         {
           "name": "Carapace Rifle",
           "id": 369,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 329,
           "element": "None",
@@ -6792,6 +7241,7 @@ const weaponData = [
         {
           "name": "Carapace Rifle",
           "id": 370,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 473,
           "element": "None",
@@ -6808,6 +7258,7 @@ const weaponData = [
         {
           "name": "Barroth Shot",
           "id": 371,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 615,
           "element": "None",
@@ -6823,6 +7274,7 @@ const weaponData = [
         {
           "name": "Barroth Shot",
           "id": 372,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 800,
           "element": "None",
@@ -6838,6 +7290,7 @@ const weaponData = [
         {
           "name": "Barroth Shot",
           "id": 373,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 1040,
           "element": "None",
@@ -6853,6 +7306,7 @@ const weaponData = [
         {
           "name": "Barroth Shot",
           "id": 374,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1351,
           "element": "None",
@@ -6868,6 +7322,7 @@ const weaponData = [
         {
           "name": "Barroth Shot",
           "id": 375,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1756,
           "element": "None",
@@ -6885,6 +7340,7 @@ const weaponData = [
         {
           "name": "Thunder Blitz",
           "id": 376,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 128,
           "element": "Thunder",
@@ -6900,6 +7356,7 @@ const weaponData = [
         {
           "name": "Thunder Blitz",
           "id": 377,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Thunder",
@@ -6915,6 +7372,7 @@ const weaponData = [
         {
           "name": "Thunder Blitz",
           "id": 378,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Thunder",
@@ -6930,6 +7388,7 @@ const weaponData = [
         {
           "name": "Thunder Blitz",
           "id": 379,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Thunder",
@@ -6946,6 +7405,7 @@ const weaponData = [
         {
           "name": "Lightning Blitz",
           "id": 380,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Thunder",
@@ -6961,6 +7421,7 @@ const weaponData = [
         {
           "name": "Lightning Blitz",
           "id": 381,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Thunder",
@@ -6976,6 +7437,7 @@ const weaponData = [
         {
           "name": "Lightning Blitz",
           "id": 382,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Thunder",
@@ -6991,6 +7453,7 @@ const weaponData = [
         {
           "name": "Lightning Blitz",
           "id": 383,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Thunder",
@@ -7006,6 +7469,7 @@ const weaponData = [
         {
           "name": "Lightning Blitz",
           "id": 384,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Thunder",
@@ -7023,6 +7487,7 @@ const weaponData = [
         {
           "name": "Lumu Blitz",
           "id": 385,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 236,
           "element": "None",
@@ -7038,6 +7503,7 @@ const weaponData = [
         {
           "name": "Lumu Blitz",
           "id": 386,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 339,
           "element": "None",
@@ -7053,6 +7519,7 @@ const weaponData = [
         {
           "name": "Lumu Blitz",
           "id": 387,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 486,
           "element": "None",
@@ -7069,6 +7536,7 @@ const weaponData = [
         {
           "name": "Lumu Typhon",
           "id": 388,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 629,
           "element": "None",
@@ -7084,6 +7552,7 @@ const weaponData = [
         {
           "name": "Lumu Typhon",
           "id": 389,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 814,
           "element": "None",
@@ -7099,6 +7568,7 @@ const weaponData = [
         {
           "name": "Lumu Typhon",
           "id": 390,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 1054,
           "element": "None",
@@ -7114,6 +7584,7 @@ const weaponData = [
         {
           "name": "Lumu Typhon",
           "id": 391,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1363,
           "element": "None",
@@ -7129,6 +7600,7 @@ const weaponData = [
         {
           "name": "Lumu Typhon",
           "id": 392,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1764,
           "element": "None",
@@ -7146,6 +7618,7 @@ const weaponData = [
         {
           "name": "Madness Rifle",
           "id": 393,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Water",
@@ -7161,6 +7634,7 @@ const weaponData = [
         {
           "name": "Madness Rifle",
           "id": 394,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Water",
@@ -7176,6 +7650,7 @@ const weaponData = [
         {
           "name": "Madness Rifle",
           "id": 395,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Water",
@@ -7192,6 +7667,7 @@ const weaponData = [
         {
           "name": "Jyura Bullet",
           "id": 396,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Water",
@@ -7207,6 +7683,7 @@ const weaponData = [
         {
           "name": "Jyura Bullet",
           "id": 397,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Water",
@@ -7222,6 +7699,7 @@ const weaponData = [
         {
           "name": "Jyura Bullet",
           "id": 398,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Water",
@@ -7237,6 +7715,7 @@ const weaponData = [
         {
           "name": "Jyura Bullet",
           "id": 399,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Water",
@@ -7252,6 +7731,7 @@ const weaponData = [
         {
           "name": "Jyura Bullet",
           "id": 400,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Water",
@@ -7269,6 +7749,7 @@ const weaponData = [
         {
           "name": "Blazing Rifle",
           "id": 401,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Fire",
@@ -7284,6 +7765,7 @@ const weaponData = [
         {
           "name": "Blazing Rifle",
           "id": 402,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Fire",
@@ -7300,6 +7782,7 @@ const weaponData = [
         {
           "name": "Anja Buster",
           "id": 403,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Fire",
@@ -7315,6 +7798,7 @@ const weaponData = [
         {
           "name": "Anja Buster",
           "id": 404,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Fire",
@@ -7330,6 +7814,7 @@ const weaponData = [
         {
           "name": "Anja Buster",
           "id": 405,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Fire",
@@ -7345,6 +7830,7 @@ const weaponData = [
         {
           "name": "Anja Buster",
           "id": 406,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Fire",
@@ -7360,6 +7846,7 @@ const weaponData = [
         {
           "name": "Anja Buster",
           "id": 407,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Fire",
@@ -7377,6 +7864,7 @@ const weaponData = [
         {
           "name": "Snow Blitz",
           "id": 408,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Ice",
@@ -7393,6 +7881,7 @@ const weaponData = [
         {
           "name": "Frost Blitz",
           "id": 409,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Ice",
@@ -7408,6 +7897,7 @@ const weaponData = [
         {
           "name": "Frost Blitz",
           "id": 410,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Ice",
@@ -7423,6 +7913,7 @@ const weaponData = [
         {
           "name": "Frost Blitz",
           "id": 411,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Ice",
@@ -7438,6 +7929,7 @@ const weaponData = [
         {
           "name": "Frost Blitz",
           "id": 412,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Ice",
@@ -7453,6 +7945,7 @@ const weaponData = [
         {
           "name": "Frost Blitz",
           "id": 413,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Ice",
@@ -7470,6 +7963,7 @@ const weaponData = [
         {
           "name": "Flame Blitz",
           "id": 414,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Fire",
@@ -7486,6 +7980,7 @@ const weaponData = [
         {
           "name": "Rathbuster",
           "id": 415,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Fire",
@@ -7501,6 +7996,7 @@ const weaponData = [
         {
           "name": "Rathbuster",
           "id": 416,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Fire",
@@ -7516,6 +8012,7 @@ const weaponData = [
         {
           "name": "Rathbuster",
           "id": 417,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Fire",
@@ -7531,6 +8028,7 @@ const weaponData = [
         {
           "name": "Rathbuster",
           "id": 418,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Fire",
@@ -7546,6 +8044,7 @@ const weaponData = [
         {
           "name": "Rathbuster",
           "id": 419,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Fire",
@@ -7567,6 +8066,7 @@ const weaponData = [
         {
           "name": "Iron Bow",
           "id": 420,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -7582,6 +8082,7 @@ const weaponData = [
         {
           "name": "Iron Bow",
           "id": 421,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -7597,6 +8098,7 @@ const weaponData = [
         {
           "name": "Iron Bow",
           "id": 422,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -7612,6 +8114,7 @@ const weaponData = [
         {
           "name": "Iron Bow",
           "id": 423,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -7627,6 +8130,7 @@ const weaponData = [
         {
           "name": "Iron Bow",
           "id": 424,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -7643,6 +8147,7 @@ const weaponData = [
         {
           "name": "Steel Bow",
           "id": 425,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -7658,6 +8163,7 @@ const weaponData = [
         {
           "name": "Steel Bow",
           "id": 426,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -7673,6 +8179,7 @@ const weaponData = [
         {
           "name": "Steel Bow",
           "id": 427,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -7688,6 +8195,7 @@ const weaponData = [
         {
           "name": "Steel Bow",
           "id": 428,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -7703,6 +8211,7 @@ const weaponData = [
         {
           "name": "Steel Bow",
           "id": 429,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -7720,6 +8229,7 @@ const weaponData = [
         {
           "name": "Kulu Arrow",
           "id": 430,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "None",
@@ -7735,6 +8245,7 @@ const weaponData = [
         {
           "name": "Kulu Arrow",
           "id": 431,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "None",
@@ -7750,6 +8261,7 @@ const weaponData = [
         {
           "name": "Kulu Arrow",
           "id": 432,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "None",
@@ -7765,6 +8277,7 @@ const weaponData = [
         {
           "name": "Kulu Arrow",
           "id": 433,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "None",
@@ -7780,6 +8293,7 @@ const weaponData = [
         {
           "name": "Kulu Arrow",
           "id": 434,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "None",
@@ -7796,6 +8310,7 @@ const weaponData = [
         {
           "name": "Archer's Dance",
           "id": 435,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "None",
@@ -7811,6 +8326,7 @@ const weaponData = [
         {
           "name": "Archer's Dance",
           "id": 436,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "None",
@@ -7826,6 +8342,7 @@ const weaponData = [
         {
           "name": "Archer's Dance",
           "id": 437,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "None",
@@ -7841,6 +8358,7 @@ const weaponData = [
         {
           "name": "Archer's Dance",
           "id": 438,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "None",
@@ -7856,6 +8374,7 @@ const weaponData = [
         {
           "name": "Archer's Dance",
           "id": 439,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "None",
@@ -7873,6 +8392,7 @@ const weaponData = [
         {
           "name": "Blooming Arch",
           "id": 440,
+          "startGrade": 1,
           "forgeGrade": 1,
           "attack": 100,
           "element": "Poison",
@@ -7888,6 +8408,7 @@ const weaponData = [
         {
           "name": "Blooming Arch",
           "id": 441,
+          "startGrade": 1,
           "forgeGrade": 2,
           "attack": 144,
           "element": "Poison",
@@ -7903,6 +8424,7 @@ const weaponData = [
         {
           "name": "Blooming Arch",
           "id": 442,
+          "startGrade": 1,
           "forgeGrade": 3,
           "attack": 207,
           "element": "Poison",
@@ -7918,6 +8440,7 @@ const weaponData = [
         {
           "name": "Blooming Arch",
           "id": 443,
+          "startGrade": 1,
           "forgeGrade": 4,
           "attack": 299,
           "element": "Poison",
@@ -7933,6 +8456,7 @@ const weaponData = [
         {
           "name": "Blooming Arch",
           "id": 444,
+          "startGrade": 1,
           "forgeGrade": 5,
           "attack": 430,
           "element": "Poison",
@@ -7949,6 +8473,7 @@ const weaponData = [
         {
           "name": "Datura String",
           "id": 445,
+          "startGrade": 1,
           "forgeGrade": 6,
           "attack": 559,
           "element": "Poison",
@@ -7964,6 +8489,7 @@ const weaponData = [
         {
           "name": "Datura String",
           "id": 446,
+          "startGrade": 1,
           "forgeGrade": 7,
           "attack": 727,
           "element": "Poison",
@@ -7979,6 +8505,7 @@ const weaponData = [
         {
           "name": "Datura String",
           "id": 447,
+          "startGrade": 1,
           "forgeGrade": 8,
           "attack": 945,
           "element": "Poison",
@@ -7994,6 +8521,7 @@ const weaponData = [
         {
           "name": "Datura String",
           "id": 448,
+          "startGrade": 1,
           "forgeGrade": 9,
           "attack": 1228,
           "element": "Poison",
@@ -8009,6 +8537,7 @@ const weaponData = [
         {
           "name": "Datura String",
           "id": 449,
+          "startGrade": 1,
           "forgeGrade": 10,
           "attack": 1596,
           "element": "Poison",
@@ -8026,6 +8555,7 @@ const weaponData = [
         {
           "name": "Pulsar Bow",
           "id": 450,
+          "startGrade": 2,
           "forgeGrade": 2,
           "attack": 128,
           "element": "Thunder",
@@ -8041,6 +8571,7 @@ const weaponData = [
         {
           "name": "Pulsar Bow",
           "id": 451,
+          "startGrade": 2,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Thunder",
@@ -8056,6 +8587,7 @@ const weaponData = [
         {
           "name": "Pulsar Bow",
           "id": 452,
+          "startGrade": 2,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Thunder",
@@ -8071,6 +8603,7 @@ const weaponData = [
         {
           "name": "Pulsar Bow",
           "id": 453,
+          "startGrade": 2,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Thunder",
@@ -8087,6 +8620,7 @@ const weaponData = [
         {
           "name": "Kadachi Strikebow",
           "id": 454,
+          "startGrade": 2,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Thunder",
@@ -8102,6 +8636,7 @@ const weaponData = [
         {
           "name": "Kadachi Strikebow",
           "id": 455,
+          "startGrade": 2,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Thunder",
@@ -8117,6 +8652,7 @@ const weaponData = [
         {
           "name": "Kadachi Strikebow",
           "id": 456,
+          "startGrade": 2,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Thunder",
@@ -8132,6 +8668,7 @@ const weaponData = [
         {
           "name": "Kadachi Strikebow",
           "id": 457,
+          "startGrade": 2,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Thunder",
@@ -8147,6 +8684,7 @@ const weaponData = [
         {
           "name": "Kadachi Strikebow",
           "id": 458,
+          "startGrade": 2,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Thunder",
@@ -8164,6 +8702,7 @@ const weaponData = [
         {
           "name": "Aqua Arrow",
           "id": 459,
+          "startGrade": 3,
           "forgeGrade": 3,
           "attack": 182,
           "element": "Water",
@@ -8179,6 +8718,7 @@ const weaponData = [
         {
           "name": "Aqua Arrow",
           "id": 460,
+          "startGrade": 3,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Water",
@@ -8194,6 +8734,7 @@ const weaponData = [
         {
           "name": "Aqua Arrow",
           "id": 461,
+          "startGrade": 3,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Water",
@@ -8210,6 +8751,7 @@ const weaponData = [
         {
           "name": "Water Shot",
           "id": 462,
+          "startGrade": 3,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Water",
@@ -8225,6 +8767,7 @@ const weaponData = [
         {
           "name": "Water Shot",
           "id": 463,
+          "startGrade": 3,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Water",
@@ -8240,6 +8783,7 @@ const weaponData = [
         {
           "name": "Water Shot",
           "id": 464,
+          "startGrade": 3,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Water",
@@ -8255,6 +8799,7 @@ const weaponData = [
         {
           "name": "Water Shot",
           "id": 465,
+          "startGrade": 3,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Water",
@@ -8270,6 +8815,7 @@ const weaponData = [
         {
           "name": "Water Shot",
           "id": 466,
+          "startGrade": 3,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Water",
@@ -8287,6 +8833,7 @@ const weaponData = [
         {
           "name": "Blazing Bow",
           "id": 467,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 260,
           "element": "Fire",
@@ -8302,6 +8849,7 @@ const weaponData = [
         {
           "name": "Blazing Bow",
           "id": 468,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Fire",
@@ -8318,6 +8866,7 @@ const weaponData = [
         {
           "name": "Anja Arch",
           "id": 469,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Fire",
@@ -8333,6 +8882,7 @@ const weaponData = [
         {
           "name": "Anja Arch",
           "id": 470,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Fire",
@@ -8348,6 +8898,7 @@ const weaponData = [
         {
           "name": "Anja Arch",
           "id": 471,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Fire",
@@ -8363,6 +8914,7 @@ const weaponData = [
         {
           "name": "Anja Arch",
           "id": 472,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Fire",
@@ -8378,6 +8930,7 @@ const weaponData = [
         {
           "name": "Anja Arch",
           "id": 473,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Fire",
@@ -8395,6 +8948,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 474,
+          "startGrade": 4,
           "forgeGrade": 4,
           "attack": 284,
           "element": "Poison",
@@ -8410,6 +8964,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 475,
+          "startGrade": 4,
           "forgeGrade": 5,
           "attack": 409,
           "element": "Poison",
@@ -8425,6 +8980,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 476,
+          "startGrade": 4,
           "forgeGrade": 6,
           "attack": 531,
           "element": "Poison",
@@ -8440,6 +8996,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 477,
+          "startGrade": 4,
           "forgeGrade": 7,
           "attack": 691,
           "element": "Poison",
@@ -8455,6 +9012,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 478,
+          "startGrade": 4,
           "forgeGrade": 8,
           "attack": 898,
           "element": "Poison",
@@ -8470,6 +9028,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 479,
+          "startGrade": 4,
           "forgeGrade": 9,
           "attack": 1167,
           "element": "Poison",
@@ -8485,6 +9044,7 @@ const weaponData = [
         {
           "name": "Princess Arrow",
           "id": 480,
+          "startGrade": 4,
           "forgeGrade": 10,
           "attack": 1516,
           "element": "Poison",
@@ -8502,6 +9062,7 @@ const weaponData = [
         {
           "name": "Glacial Arrow",
           "id": 481,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Ice",
@@ -8518,6 +9079,7 @@ const weaponData = [
         {
           "name": "Snowfletcher",
           "id": 482,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Ice",
@@ -8533,6 +9095,7 @@ const weaponData = [
         {
           "name": "Snowfletcher",
           "id": 483,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Ice",
@@ -8548,6 +9111,7 @@ const weaponData = [
         {
           "name": "Snowfletcher",
           "id": 484,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Ice",
@@ -8563,6 +9127,7 @@ const weaponData = [
         {
           "name": "Snowfletcher",
           "id": 485,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Ice",
@@ -8578,6 +9143,7 @@ const weaponData = [
         {
           "name": "Snowfletcher",
           "id": 486,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Ice",
@@ -8595,6 +9161,7 @@ const weaponData = [
         {
           "name": "Diablos Bow",
           "id": 487,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 512,
           "element": "None",
@@ -8611,6 +9178,7 @@ const weaponData = [
         {
           "name": "Diablos Coilbender",
           "id": 488,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 671,
           "element": "None",
@@ -8626,6 +9194,7 @@ const weaponData = [
         {
           "name": "Diablos Coilbender",
           "id": 489,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 880,
           "element": "None",
@@ -8641,6 +9210,7 @@ const weaponData = [
         {
           "name": "Diablos Coilbender",
           "id": 490,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 1153,
           "element": "None",
@@ -8656,6 +9226,7 @@ const weaponData = [
         {
           "name": "Diablos Coilbender",
           "id": 491,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1510,
           "element": "None",
@@ -8671,6 +9242,7 @@ const weaponData = [
         {
           "name": "Diablos Coilbender",
           "id": 492,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1979,
           "element": "None",
@@ -8688,6 +9260,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 493,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 361,
           "element": "Fire",
@@ -8703,6 +9276,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 494,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 461,
           "element": "Fire",
@@ -8718,6 +9292,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 495,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 589,
           "element": "Fire",
@@ -8733,6 +9308,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 496,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 751,
           "element": "Fire",
@@ -8748,6 +9324,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 497,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 958,
           "element": "Fire",
@@ -8763,6 +9340,7 @@ const weaponData = [
         {
           "name": "Rathslinger",
           "id": 498,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1221,
           "element": "Fire",
@@ -8780,6 +9358,7 @@ const weaponData = [
         {
           "name": "Galebender",
           "id": 499,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 576,
           "element": "None",
@@ -8796,6 +9375,7 @@ const weaponData = [
         {
           "name": "Cera Coilbender",
           "id": 500,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 755,
           "element": "None",
@@ -8811,6 +9391,7 @@ const weaponData = [
         {
           "name": "Cera Coilbender",
           "id": 501,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 989,
           "element": "None",
@@ -8826,6 +9407,7 @@ const weaponData = [
         {
           "name": "Cera Coilbender",
           "id": 502,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 1295,
           "element": "None",
@@ -8841,6 +9423,7 @@ const weaponData = [
         {
           "name": "Cera Coilbender",
           "id": 503,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1695,
           "element": "None",
@@ -8856,6 +9439,7 @@ const weaponData = [
         {
           "name": "Cera Coilbender",
           "id": 504,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 2218,
           "element": "None",
@@ -8873,6 +9457,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 505,
+          "startGrade": 5,
           "forgeGrade": 5,
           "attack": 370,
           "element": "Dragon",
@@ -8888,6 +9473,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 506,
+          "startGrade": 5,
           "forgeGrade": 6,
           "attack": 475,
           "element": "Dragon",
@@ -8903,6 +9489,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 507,
+          "startGrade": 5,
           "forgeGrade": 7,
           "attack": 611,
           "element": "Dragon",
@@ -8918,6 +9505,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 508,
+          "startGrade": 5,
           "forgeGrade": 8,
           "attack": 784,
           "element": "Dragon",
@@ -8933,6 +9521,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 509,
+          "startGrade": 5,
           "forgeGrade": 9,
           "attack": 1007,
           "element": "Dragon",
@@ -8948,6 +9537,7 @@ const weaponData = [
         {
           "name": "Rosen Arrow",
           "id": 510,
+          "startGrade": 5,
           "forgeGrade": 10,
           "attack": 1293,
           "element": "Dragon",
@@ -8966,6 +9556,20 @@ const weaponData = [
 ]
 
 const defenceData = [
+  0,
+  20,
+  34,
+  49,
+  65,
+  82,
+  100,
+  119,
+  139,
+  160,
+  182
+]
+
+const defenceDataBackup = [
   20, 22, 25, 27, 29,
   34, 37, 39, 42, 44,
   49, 52, 54, 57, 60,
