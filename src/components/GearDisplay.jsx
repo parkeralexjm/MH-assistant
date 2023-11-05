@@ -27,6 +27,23 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
     )
   }
 
+  const colorStyles = {
+    control: (styles, { isFocused, isHovered }) => {
+      return {
+        ...styles,
+        backgroundColor: 'transparent',
+        boxShadow: isFocused ? 'pink' : 'blue',
+        border: isFocused ? 'pink' : 'blue'
+      }
+    }
+    // option: (styles, { data, isFocused, isDisabled, isSelected }) => {
+    //   return { ...styles, color: data.color }
+    // },
+    // singleValue: (styles, { data }) => {
+    //   return { ...styles, color: data.color }
+  }
+
+
   return (
     <>
       <h4>GearDisplay</h4>
@@ -38,6 +55,7 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
         components={animatedComponents}
         className="basic-multi-select"
         classNamePrefix="select"
+        styles={colorStyles}
         value={selectedOptions}
         onChange={handleSelect}
       />

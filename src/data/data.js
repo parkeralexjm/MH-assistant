@@ -360,7 +360,7 @@ const armorData = [
         "skill1": "Recoil Down",
         "skill1Level": 1,
         "skill1Grade": 2,
-        "skill2": "Defence Boost ",
+        "skill2": "Defence Boost",
         "skill2Level": 1,
         "skill2Grade": 4,
         "skillUpgrade": "Defence Boost",
@@ -406,7 +406,7 @@ const armorData = [
         "skill1": "Sneak Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
-        "skill2": "Ear Plugs",
+        "skill2": "Earplugs",
         "skill2Level": 1,
         "skill2Grade": 6,
         "skillUpgrade": "None",
@@ -420,7 +420,7 @@ const armorData = [
         "skill1": "Paralysis Attack",
         "skill1Level": 1,
         "skill1Grade": 0,
-        "skill2": "Ear Plugs",
+        "skill2": "Earplugs",
         "skill2Level": 1,
         "skill2Grade": 4,
         "skillUpgrade": "None",
@@ -9728,31 +9728,31 @@ const skillData = [
     ]
   },
   {
-    "Defense Boost": [
+    "Defence Boost": [
       {
-        "description": "Increases defense.",
+        "description": "Increases defence.",
         "level": 1,
-        "effect": "Increases defense by 20."
+        "effect": "Increases defence by 20."
       },
       {
-        "description": "Increases defense.",
+        "description": "Increases defence.",
         "level": 2,
-        "effect": "Increases defense by 40."
+        "effect": "Increases defence by 40."
       },
       {
-        "description": "Increases defense.",
+        "description": "Increases defence.",
         "level": 3,
-        "effect": "Increases defense by 60."
+        "effect": "Increases defence by 60."
       },
       {
-        "description": "Increases defense.",
+        "description": "Increases defence.",
         "level": 4,
-        "effect": "Increases defense by 80."
+        "effect": "Increases defence by 80."
       },
       {
-        "description": "Increases defense.",
+        "description": "Increases defence.",
         "level": 5,
-        "effect": "Increases defense by 100."
+        "effect": "Increases defence by 100."
       }
     ]
   },
@@ -10184,29 +10184,29 @@ const skillData = [
   {
     "Last Stand": [
       {
-        "description": "Increases defense when health drops below a threshold.",
+        "description": "Increases defence when health drops below a threshold.",
         "level": 1,
-        "effect": "Increases defense by 50 when your health drops to 29% or lower."
+        "effect": "Increases defence by 50 when your health drops to 29% or lower."
       },
       {
-        "description": "Increases defense when health drops below a threshold.",
+        "description": "Increases defence when health drops below a threshold.",
         "level": 2,
-        "effect": "Increases defense by 100 when your health drops to 29% or lower."
+        "effect": "Increases defence by 100 when your health drops to 29% or lower."
       },
       {
-        "description": "Increases defense when health drops below a threshold.",
+        "description": "Increases defence when health drops below a threshold.",
         "level": 3,
-        "effect": "Increases defense by 150 when your health drops to 29% or lower."
+        "effect": "Increases defence by 150 when your health drops to 29% or lower."
       },
       {
-        "description": "Increases defense when health drops below a threshold.",
+        "description": "Increases defence when health drops below a threshold.",
         "level": 4,
-        "effect": "Increases defense by 200 when your health drops to 29% or lower."
+        "effect": "Increases defence by 200 when your health drops to 29% or lower."
       },
       {
-        "description": "Increases defense when health drops below a threshold.",
+        "description": "Increases defence when health drops below a threshold.",
         "level": 5,
-        "effect": "Increases defense by 300 when your health drops to 29% or lower."
+        "effect": "Increases defence by 300 when your health drops to 29% or lower."
       }
     ]
   },
@@ -10492,29 +10492,29 @@ const skillData = [
   {
     "Rising Tide": [
       {
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 1,
-        "effect": "Very slightly increases attack power and defense as the hunt timer runs out."
+        "effect": "Very slightly increases attack power and defence as the hunt timer runs out."
       },
       {
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 2,
-        "effect": "Slightly increases attack power and defense as the hunt timer runs out."
+        "effect": "Slightly increases attack power and defence as the hunt timer runs out."
       },
       {
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 3,
-        "effect": "Moderately increases attack power and defense as the hunt timer runs out."
+        "effect": "Moderately increases attack power and defence as the hunt timer runs out."
       },
       {
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 4,
-        "effect": "Greatly increases attack power and defense as the hunt timer runs out."
+        "effect": "Greatly increases attack power and defence as the hunt timer runs out."
       },
       {
-        "description": "Increases attack power and defense as the hunt timer runs out.",
+        "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 5,
-        "effect": "Massively increases attack power and defense as the hunt timer runs out."
+        "effect": "Massively increases attack power and defence as the hunt timer runs out."
       }
     ]
   },

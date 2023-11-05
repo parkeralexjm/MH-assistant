@@ -20,10 +20,31 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
           <>
             <h5 className='font-bold'>{item.name}</h5>
             {
-              item.skill1 && <h5>{item.skill1} - <span className={`font-semibold ${gradeColors[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}>G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade}</span></h5>
+              item.skill1 &&
+              <h5>
+                {item.skill1} -
+                <span className={`font-semibold ${gradeColors[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}> G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade}</span>
+                {item.skillUpgradeGrade !== 0 && item.skillUpgrade === item.skill1 &&
+                  <>
+                    <span>/</span>
+                    <span className={`font-semibold ${gradeColors[item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade}</span>
+                  </>
+                }
+              </h5>
             }
             {
-              item.skill2 !== "None" && <h5>{item.skill2} - <span className={`font-semibold ${gradeColors[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}>G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade}</span></h5>
+              item.skill2 !== "None" &&
+              <h5>
+                {item.skill2} -
+                <span className={`font-semibold ${gradeColors[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}> G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade}</span>
+                {item.skillUpgradeGrade !== 0 &&
+                  item.skillUpgrade === item.skill2 &&
+                  <>
+                    <span>/</span>
+                    <span className={`font-semibold ${gradeColors[item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade}</span>
+                  </>
+                }
+              </h5>
             }
           </>
         }
