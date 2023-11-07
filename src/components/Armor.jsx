@@ -22,7 +22,7 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
             {
               item.skill1 &&
               <h5>
-                {item.skill1} -
+                {item.skill1} {item.skill1Level}{item.skillUpgradeGrade !== 0 && item.skillUpgrade === item.skill1 && <span>/{item.skillUpgradeLevel}</span>} -
                 <span className={`font-semibold ${gradeColors[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}> G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade}</span>
                 {item.skillUpgradeGrade !== 0 && item.skillUpgrade === item.skill1 &&
                   <>
@@ -35,7 +35,7 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
             {
               item.skill2 !== "None" &&
               <h5>
-                {item.skill2} -
+                {item.skill2} {item.skill2Level} -
                 <span className={`font-semibold ${gradeColors[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}> G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade}</span>
                 {item.skillUpgradeGrade !== 0 &&
                   item.skillUpgrade === item.skill2 &&

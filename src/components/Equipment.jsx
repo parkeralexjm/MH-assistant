@@ -1,6 +1,8 @@
 import React from "react"
 import Select from "react-select"
 import { weaponData, armorData } from "../data/data"
+import determineTextColor from "../lib/colors"
+import chroma from "chroma-js"
 
 function Equipment({ characterEquip, setCharacterEquip }) {
 
@@ -36,22 +38,56 @@ function Equipment({ characterEquip, setCharacterEquip }) {
   ]
 
   const colorStyles = {
-    control: (styles) => {
-      return { ...styles, backgroundColor: 'transparent' }
+    control: (styles, state) => {
+      return {
+        ...styles,
+        backgroundColor: 'transparent',
+        border: state.isFocused ? '2px solid #94a3b8' : '2px solid #cbd5e1', // Second option here is the default grey
+        width: '50px',
+        borderRadius: '4px',
+        cursor: 'pointer',
+        transition: 'border 0.2s', // Add a smooth transition for the border change
+        '&:hover': {
+          border: '2px solid #94a3b8', // Border styles on hover
+        },
+        boxShadow: 'none' // This removes tailwind box-shadow ring
+      }
     },
-    option: (styles, { data, isFocused, isDisabled, isSelected }) => {
-      return { ...styles, color: data.color }
+    option: (styles, state) => {
+      const color = state.data.color
+      return {
+        ...styles,
+        color: color,
+        cursor: 'pointer',
+        width: '50px',
+        backgroundColor: state.isSelected ? chroma(color).alpha(0.25).hex() : 'white',
+        transition: 'background-color 0.2s', // Add a smooth transition for the background color change
+        '&:hover': {
+          backgroundColor: chroma(color).alpha(0.1).hex(), // Background color on hover
+          color: color, // Text color on hover
+        },
+      }
     },
-    singleValue: (styles, { data }) => {
-      return { ...styles, color: data.color }
+    singleValue: (styles, state) => {
+      return {
+        ...styles,
+        color: state.data.color
+      }
+    },
+    indicatorsContainer: (styles) => {
+      return {
+        ...styles,
+        display: 'none'
+      }
     }
   }
 
   const createOptions = (start = 1) => {
     const options = []
     for (let i = start; i <= 10; i++) {
-      options.push({ value: i, label: `G${i}`, color: colorRef[i - 1] })
+      options.push({ label: `G${i}`, value: i, color: colorRef[i - 1] })
     }
+
     return options
   }
 
@@ -75,9 +111,10 @@ function Equipment({ characterEquip, setCharacterEquip }) {
                     <Select
                       onChange={(e) => handleGrade(e, equipment)}
                       value={{ 'value': equipment.grade, label: `G${equipment.grade}`, color: colorRef[equipment.grade - 1] }}
+                      name="grade"
                       isSearchable={false}
                       styles={colorStyles}
-                      className="font-semibold"
+                      className="w-[70px] font-semibold overflow-y-none"
                       options={
                         createOptions(equipment.stats.startGrade ? equipment.stats.startGrade : equipment.stats[0].startGrade)
                       }

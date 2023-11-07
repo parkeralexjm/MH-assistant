@@ -32,8 +32,6 @@ function App() {
       <Character characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <Equipment characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
       <GearDisplay characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
-      <h4>Home</h4>
-      <h5>Home</h5>
     </>
   )
 }

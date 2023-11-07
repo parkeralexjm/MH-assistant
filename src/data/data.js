@@ -9583,7 +9583,9 @@ const defenceDataBackup = [
 
 const skillData = [
   {
-    "Artful Dodger": [
+    "name": "Artful Dodger",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases the window to perform a perfect evade.",
         "level": 1,
@@ -9612,7 +9614,9 @@ const skillData = [
     ]
   },
   {
-    "Attack Boost": [
+    "name": "Attack Boost",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases Attack Power.",
         "level": 1,
@@ -9641,7 +9645,9 @@ const skillData = [
     ]
   },
   {
-    "Burst": [
+    "name": "Burst",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Landing consecutive hits in a short span of time temporarily increases your attack power.",
         "level": 1,
@@ -9670,7 +9676,9 @@ const skillData = [
     ]
   },
   {
-    "Concentration": [
+    "name": "Concentration",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases Special Gauge fill rate.",
         "level": 1,
@@ -9699,7 +9707,9 @@ const skillData = [
     ]
   },
   {
-    "Critical Eye": [
+    "name": "Critical Eye",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases affinity.",
         "level": 1,
@@ -9728,7 +9738,9 @@ const skillData = [
     ]
   },
   {
-    "Defence Boost": [
+    "name": "Defence Boost",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases defence.",
         "level": 1,
@@ -9757,7 +9769,9 @@ const skillData = [
     ]
   },
   {
-    "Divine Blessing": [
+    "name": "Divine Blessing",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Provides a chance to reduce damage taken from an attack.",
         "level": 1,
@@ -9786,7 +9800,9 @@ const skillData = [
     ]
   },
   {
-    "Dragon Attack": [
+    "name": "Dragon Attack",
+    "color": "purple",
+    "descriptions": [
       {
         "description": "Increases weapon's dragon-element value.",
         "level": 1,
@@ -9815,7 +9831,9 @@ const skillData = [
     ]
   },
   {
-    "Earplugs": [
+    "name": "Earplugs",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces the effect of monster roars.",
         "level": 1,
@@ -9844,7 +9862,9 @@ const skillData = [
     ]
   },
   {
-    "Evade Extender": [
+    "name": "Evade Extender",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Extends evasion distance.",
         "level": 1,
@@ -9873,7 +9893,9 @@ const skillData = [
     ]
   },
   {
-    "Fire Attack": [
+    "name": "Fire Attack",
+    "color": "red",
+    "descriptions": [
       {
         "description": "Increases weapon's fire-element value.",
         "level": 1,
@@ -9902,7 +9924,9 @@ const skillData = [
     ]
   },
   {
-    "Fire Resistance": [
+    "name": "Fire Resistance",
+    "color": "red",
+    "descriptions": [
       {
         "description": "Decreases damage taken from fire-element monsters.",
         "level": 1,
@@ -9931,7 +9955,9 @@ const skillData = [
     ]
   },
   {
-    "Firm Foothold": [
+    "name": "Firm Foothold",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces knockback when taking damage.",
         "level": 1,
@@ -9950,7 +9976,9 @@ const skillData = [
     ]
   },
   {
-    "Focus": [
+    "name": "Focus",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Shortens charging time for weapons with charge attacks, and increases the fill rate of the Spirit Gauge.",
         "level": 1,
@@ -9979,7 +10007,9 @@ const skillData = [
     ]
   },
   {
-    "Fortify": [
+    "name": "Fortify",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases attack power for 10 seconds each time you revive after fainting in a hunt.",
         "level": 1,
@@ -10008,7 +10038,9 @@ const skillData = [
     ]
   },
   {
-    "Guard": [
+    "name": "Guard",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces damage and knockback when guarding against monster attacks.",
         "level": 1,
@@ -10037,7 +10069,9 @@ const skillData = [
     ]
   },
   {
-    "Guts": [
+    "name": "Guts",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Survive lethal damage taken above a certain health threshold.",
         "level": 1,
@@ -10066,7 +10100,9 @@ const skillData = [
     ]
   },
   {
-    "Health Boost": [
+    "name": "Health Boost",
+    "color": "green",
+    "descriptions": [
       {
         "description": "Increases maximum health.",
         "level": 1,
@@ -10095,7 +10131,9 @@ const skillData = [
     ]
   },
   {
-    "Heroics": [
+    "name": "Heroics",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases attack power at low health.",
         "level": 1,
@@ -10124,7 +10162,9 @@ const skillData = [
     ]
   },
   {
-    "Ice Attack": [
+    "name": "Ice Attack",
+    "color": "blue",
+    "descriptions": [
       {
         "description": "Increases weapon's ice-element value.",
         "level": 1,
@@ -10153,7 +10193,9 @@ const skillData = [
     ]
   },
   {
-    "Ice Resistance": [
+    "name": "Ice Resistance",
+    "color": "blue",
+    "descriptions": [
       {
         "description": "Decreases damage taken from ice-element monsters.",
         "level": 1,
@@ -10182,7 +10224,9 @@ const skillData = [
     ]
   },
   {
-    "Last Stand": [
+    "name": "Last Stand",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases defence when health drops below a threshold.",
         "level": 1,
@@ -10211,7 +10255,9 @@ const skillData = [
     ]
   },
   {
-    "Lock On": [
+    "name": "Lock On",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Allows the use of the lock-on button while hunting with a melee weapon.",
         "level": 1,
@@ -10220,7 +10266,9 @@ const skillData = [
     ]
   },
   {
-    "Offensive Guard": [
+    "name": "Offensive Guard",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases attack power for 10 seconds after executing a well-timed guard.",
         "level": 1,
@@ -10249,7 +10297,9 @@ const skillData = [
     ]
   },
   {
-    "Paralysis Attack": [
+    "name": "Paralysis Attack",
+    "color": "orange",
+    "descriptions": [
       {
         "description": "Increases weapon's paralysis buildup value.",
         "level": 1,
@@ -10278,7 +10328,9 @@ const skillData = [
     ]
   },
   {
-    "Paralysis Resistance": [
+    "name": "Paralysis Resistance",
+    "color": "orange",
+    "descriptions": [
       {
         "description": "Grants a chance to prevent paralysis status when damaged by a paralysis-inducing attack.",
         "level": 1,
@@ -10307,7 +10359,9 @@ const skillData = [
     ]
   },
   {
-    "Partbreaker": [
+    "name": "Partbreaker",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases damage to breakable parts.",
         "level": 1,
@@ -10336,7 +10390,9 @@ const skillData = [
     ]
   },
   {
-    "Peak Performance": [
+    "name": "Peak Performance",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases Attack Power when HP is full.",
         "level": 1,
@@ -10365,7 +10421,9 @@ const skillData = [
     ]
   },
   {
-    "Poison Attack": [
+    "name": "Poison Attack",
+    "color": "purple",
+    "descriptions": [
       {
         "description": "Increases weapon's poison buildup value.",
         "level": 1,
@@ -10394,7 +10452,9 @@ const skillData = [
     ]
   },
   {
-    "Poison Resistance": [
+    "name": "Poison Resistance",
+    "color": "purple",
+    "descriptions": [
       {
         "description": "Grants a chance to prevent poison status when damaged by a poison-inducing attack.",
         "level": 1,
@@ -10423,7 +10483,9 @@ const skillData = [
     ]
   },
   {
-    "Recoil Down": [
+    "name": "Recoil Down",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces bowgun recoil.",
         "level": 1,
@@ -10442,7 +10504,9 @@ const skillData = [
     ]
   },
   {
-    "Reload Speed": [
+    "name": "Reload Speed",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces reload time for bowguns.",
         "level": 1,
@@ -10461,7 +10525,9 @@ const skillData = [
     ]
   },
   {
-    "Resentment": [
+    "name": "Resentment",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "When taking damage, attack power is increased for 15 seconds.",
         "level": 1,
@@ -10490,7 +10556,9 @@ const skillData = [
     ]
   },
   {
-    "Rising Tide": [
+    "name": "Rising Tide",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases attack power and defence as the hunt timer runs out.",
         "level": 1,
@@ -10519,7 +10587,9 @@ const skillData = [
     ]
   },
   {
-    "Slugger": [
+    "name": "Slugger",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases stun power.",
         "level": 1,
@@ -10548,7 +10618,9 @@ const skillData = [
     ]
   },
   {
-    "Sneak Attack": [
+    "name": "Sneak Attack",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases damage when attacking a monster from behind.",
         "level": 1,
@@ -10577,7 +10649,9 @@ const skillData = [
     ]
   },
   {
-    "Special Boost": [
+    "name": "Special Boost",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases the damage of Special Skills.",
         "level": 1,
@@ -10606,7 +10680,9 @@ const skillData = [
     ]
   },
   {
-    "Thunder Attack": [
+    "name": "Thunder Attack",
+    "color": "yellow",
+    "descriptions": [
       {
         "description": "Increases weapon's thunder-element value.",
         "level": 1,
@@ -10635,7 +10711,9 @@ const skillData = [
     ]
   },
   {
-    "Thunder Resistance": [
+    "name": "Thunder Resistance",
+    "color": "yellow",
+    "descriptions": [
       {
         "description": "Decreases damage taken from thunder-element monsters.",
         "level": 1,
@@ -10664,7 +10742,9 @@ const skillData = [
     ]
   },
   {
-    "Water Attack": [
+    "name": "Water Attack",
+    "color": "blue",
+    "descriptions": [
       {
         "description": "Increases weapon's water-element value.",
         "level": 1,
@@ -10693,7 +10773,9 @@ const skillData = [
     ]
   },
   {
-    "Water Resistance": [
+    "name": "Water Resistance",
+    "color": "blue",
+    "descriptions": [
       {
         "description": "Decreases damage taken from water-element monsters.",
         "level": 1,
@@ -10722,7 +10804,9 @@ const skillData = [
     ]
   },
   {
-    "Weakness Exploit": [
+    "name": "Weakness Exploit",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Increases affinity when attacking a monster's weak spot.",
         "level": 1,
@@ -10751,7 +10835,9 @@ const skillData = [
     ]
   },
   {
-    "Windproof": [
+    "name": "Windproof",
+    "color": "grey",
+    "descriptions": [
       {
         "description": "Reduces the effects of wind pressure.",
         "level": 1,
