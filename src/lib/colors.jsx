@@ -6,7 +6,7 @@ const determineTextColor = (color) => {
   } else if (color === 'orange') {
     return '#f59e0b'
   } else if (color === 'purple') {
-    return '#7c3aed'
+    return '#a855f7'
   } else if (color === 'green') {
     return '#16a34a'
   } else if (color === 'grey') {

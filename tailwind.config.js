@@ -5,8 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,css}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'image-swordandshield': "url('./src/assets/now-forge-items/icons/weapons/swordandshield.png')"
+      }
+    },
   },
   plugins: [],
 }
-

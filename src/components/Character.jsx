@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { defenceData } from "../data/data"
-import { elementIcons, characterIcons } from '../lib/iconImports'
+import { elementIcons, characterIcons, armorIcons, weaponIcons, setIcons } from '../lib/iconImports'
 
 
 function Character({ characterEquip }) {
@@ -190,9 +190,8 @@ function Character({ characterEquip }) {
 
   // console.log(characterStats)
   return (
-    <section id="character" className="bg-amber-100">
-      <div className="flex flex-col layout">
-        <h1>Character</h1>
+    <section id="character" className="bg-amber-50">
+      <div className="flex flex-col py-4 layout">
         <div className="flex flex-col p-2 bg-opacity-50 rounded sm:w-1/2 bg-slate-300 character-stats">
           <div className="flex justify-between character-attack">
             <div className="flex items-center">
@@ -225,7 +224,7 @@ function Character({ characterEquip }) {
             </div>
             <h3>{characterStats.affinity}</h3>
           </div>
-          <div className="h-48 overflow-auto character-skills">
+          <div className="h-24 overflow-auto character-skills">
 
 
             {

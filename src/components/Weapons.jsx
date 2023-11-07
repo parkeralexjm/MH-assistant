@@ -1,13 +1,14 @@
 import React from 'react'
 import { gradeColors } from '../data/data'
+import { weaponIcons, setIcons } from '../lib/iconImports'
 
 function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEquip }) {
 
-  const handleWeaponChange = (weaponSet) => {
-    setCharacterEquip({ ...characterEquip, "weapon": { "stats": weaponSet, "grade": weaponSet[0].startGrade } })
+  const handleWeaponChange = (weaponSet, set) => {
+    setCharacterEquip({ ...characterEquip, "weapon": { "stats": weaponSet, "grade": weaponSet[0].startGrade, "set": set } })
   }
 
-  const WeaponSetDisplay = ({ weaponSet }) => {
+  const WeaponSetDisplay = ({ weaponSet, set }) => {
     let skillLevelStart
     let skillLevelUpgrade
     if (weaponSet[0].startGrade === 5 && weaponSet[0].skill1 === 'None') {
@@ -39,7 +40,7 @@ function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEqui
       skillLevelUpgrade = 7
     }
     return (
-      <div className='p-1 m-1 border rounded cursor-pointer' onClick={() => handleWeaponChange(weaponSet)}>
+      <div className='box-border p-1 m-1 border rounded cursor-pointer' onClick={() => handleWeaponChange(weaponSet, set)}>
         <h5>{weaponSet[0].name}</h5>
         {weaponSet[0].element !== 'None' ? <h5>{weaponSet[0].element}</h5> : <h5>No Element</h5>}
         {
@@ -62,8 +63,7 @@ function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEqui
         weaponData.map((weaponType, index) => {
           return (
             <div key={index} className="weapon-type">
-              <h5>{Object.keys(weaponType)[0].toUpperCase()}</h5>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap w-full">
                 {
                   Object.values(weaponType).map((weapons) => {
                     return (
@@ -74,11 +74,15 @@ function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEqui
                         }
                         if (selectedOptions.length === 0) {
                           return (
-                            <WeaponSetDisplay key={index} weaponSet={weaponSet} />
+                            <div className='w-1/4 '>
+                              <WeaponSetDisplay key={index} weaponSet={weaponSet} set={Object.keys(weaponType)[0].replace(/\s+/g, '').toLowerCase()} />
+                            </div>
                           )
                         } else if (found) {
                           return (
-                            <WeaponSetDisplay key={index} weaponSet={weaponSet} />
+                            <div className='w-1/4'>
+                              <WeaponSetDisplay key={index} weaponSet={weaponSet} set={Object.keys(weaponType)[0].replace(/\s+/g, '').toLowerCase()} />
+                            </div>
                           )
                         }
                       })

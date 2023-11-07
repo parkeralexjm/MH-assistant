@@ -10871,7 +10871,7 @@ const gradeColors = [
   'text-gray-400',
   'text-green-400',
   'text-sky-400',
-  'text-violet-400',
+  'text-purple-500',
   'text-amber-400',
   'text-orange-400',
   'text-red-400',

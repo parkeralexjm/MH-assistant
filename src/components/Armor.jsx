@@ -1,8 +1,9 @@
 import React from 'react'
 import { gradeColors } from '../data/data'
+import { armorIcons, setIcons } from '../lib/iconImports'
 
 function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }) {
-  const handleArmorChange = (item) => {
+  const handleArmorChange = (item, set) => {
     let checkedGrade
     // Get the current grade of the item
     const currentGrade = characterEquip[item.slot].grade
@@ -10,12 +11,12 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
     currentGrade > item.startGrade ? checkedGrade = currentGrade : checkedGrade = item.startGrade
 
     const { slot } = item
-    setCharacterEquip({ ...characterEquip, [slot.toLowerCase()]: { "stats": item, "grade": item.startGrade } })
+    setCharacterEquip({ ...characterEquip, [slot.toLowerCase()]: { "stats": item, "grade": item.startGrade, "set": set } })
   }
 
-  const ArmorDisplay = ({ item, index, selected }) => {
+  const ArmorDisplay = ({ item, index, selected, set }) => {
     return (
-      <div key={index} className={`flex flex-col border cursor-pointer ${selected && "border-green-500"}`} value={0} onClick={() => handleArmorChange(item)}>
+      <div key={index} className={`flex flex-col border cursor-pointer ${selected && "border-green-500"}`} value={0} onClick={() => handleArmorChange(item, set)}>
         {
           <>
             <h5 className='font-bold'>{item.name}</h5>
@@ -60,11 +61,9 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
           return (
             <div key={index} className="set">
               {/* This is setting the name of the set and the styling */}
-              <h5>{Object.keys(set)[0].toUpperCase()}</h5>
-              <div className="flex">
+              <div className="flex w-full">
                 {
                   Object.values(set)[0].map((item, index) => {
-                    // console.log(item)
                     let selected = false
                     let found = false
                     if (
@@ -81,16 +80,22 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
                     }
                     if (selectedOptions.length === 0) {
                       return (
-                        <ArmorDisplay item={item} index={index} selected={selected} />
+                        <div className='w-1/5' key={index}>
+                          <ArmorDisplay item={item} index={index} selected={selected} set={Object.keys(set)[0]} />
+                        </div>
                       )
                     } else if (found) {
                       return (
-                        <div key={index}>
+                        <div className='w-1/5' key={index}>
                           {
                             found &&
-                            <ArmorDisplay item={item} index={index} selected={selected} />
+                            <ArmorDisplay item={item} index={index} selected={selected} set={Object.keys(set)[0]} />
                           }
                         </div>
+                      )
+                    } else {
+                      return (
+                        <div className='w-1/5'></div>
                       )
                     }
                   })

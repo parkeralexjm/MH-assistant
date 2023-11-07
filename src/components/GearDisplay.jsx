@@ -23,11 +23,7 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
     setSelectedOptions(data)
   }
 
-  const TypeButton = ({ children, type }) => {
-    return (
-      <button className={displayType == type ? 'text-green-500' : 'text-black' + ""} onClick={() => setDisplayType(type)}>{children}</button>
-    )
-  }
+
 
   const colorStyles = {
     control: (style, state) => ({
@@ -88,36 +84,43 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
     },
   }
 
+  const TypeButton = ({ children, type }) => {
+    return (
+      <button className={`${displayType == type ? 'text-gray-500 bg-white' : 'text-gray-800'}  my-1 py-2 font-semibold border w-full`} onClick={() => setDisplayType(type)}>{children}</button>
+    )
+  }
+
   return (
-    <>
-      <h4>GearDisplay</h4>
-      <Select
-        placeholder="Select skills..."
-        isMulti
-        name="skills"
-        options={skillOptions[0]}
-        components={animatedComponents}
-        className="basic-multi-select ring-0"
-        classNamePrefix="select"
-        styles={colorStyles}
-        value={selectedOptions}
-        onChange={handleSelect}
-      />
-      <div>
-        <TypeButton type='weapon'>Weapon</TypeButton>
-        <TypeButton type='armor'>Armor</TypeButton>
+    <div className='pt-2 bg-amber-50 '>
+      <div className='layout'>
+        <Select
+          placeholder="Select skills..."
+          isMulti
+          name="skills"
+          options={skillOptions[0]}
+          components={animatedComponents}
+          className="basic-multi-select ring-0"
+          classNamePrefix="select"
+          styles={colorStyles}
+          value={selectedOptions}
+          onChange={handleSelect}
+        />
+        <div className='flex justify-around px-1 my-2 border'>
+          <TypeButton type='weapon'>Weapon</TypeButton>
+          <TypeButton type='armor'>Armor</TypeButton>
+        </div>
+        {displayType === 'weapon'
+          ?
+          <div className='overflow-auto'>
+            <Weapons selectedOptions={selectedOptions} weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          </div>
+          :
+          <div className='overflow-auto'>
+            <Armor selectedOptions={selectedOptions} armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
+          </div>
+        }
       </div>
-      {displayType === 'weapon'
-        ?
-        <div>
-          <Weapons selectedOptions={selectedOptions} weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
-        </div>
-        :
-        <div>
-          <Armor selectedOptions={selectedOptions} armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
-        </div>
-      }
-    </>
+    </div>
   )
 }
 

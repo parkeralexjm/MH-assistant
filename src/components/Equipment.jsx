@@ -3,24 +3,26 @@ import Select from "react-select"
 import { weaponData, armorData } from "../data/data"
 import determineTextColor from "../lib/colors"
 import chroma from "chroma-js"
+import { setIcons, weaponIcons, armorIcons } from "../lib/iconImports"
 
 function Equipment({ characterEquip, setCharacterEquip }) {
 
   const handleGrade = (e, equipment) => {
+    console.log(equipment)
     if (equipment.stats.slot) {
-      setCharacterEquip({ ...characterEquip, [equipment.stats.slot.toLowerCase()]: { "stats": equipment.stats, "grade": e.value } })
+      setCharacterEquip({ ...characterEquip, [equipment.stats.slot.toLowerCase()]: { "stats": equipment.stats, "grade": e.value, "set": equipment.set } })
     } else {
-      setCharacterEquip({ ...characterEquip, "weapon": { "stats": equipment.stats, "grade": e.value } })
+      setCharacterEquip({ ...characterEquip, "weapon": { "stats": equipment.stats, "grade": e.value, "set": equipment.set } })
     }
   }
   const handleReset = () => {
     setCharacterEquip({
-      "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge, "grade": weaponData[0]["Sword And Shield"].jagrasedge[0].startGrade },
-      "head": { "stats": armorData[0].leather[0], "grade": armorData[0].leather[0].startGrade },
-      "chest": { "stats": armorData[0].leather[1], "grade": armorData[0].leather[1].startGrade },
-      "hands": { "stats": armorData[0].leather[2], "grade": armorData[0].leather[2].startGrade },
-      "waist": { "stats": armorData[0].leather[3], "grade": armorData[0].leather[3].startGrade },
-      "legs": { "stats": armorData[0].leather[4], "grade": armorData[0].leather[4].startGrade }
+      "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge, "grade": weaponData[0]["Sword And Shield"].jagrasedge[0].startGrade, "set": "swordandshield" },
+      "head": { "stats": armorData[0].leather[0], "grade": armorData[0].leather[0].startGrade, "set": "leather" },
+      "chest": { "stats": armorData[0].leather[1], "grade": armorData[0].leather[1].startGrade, "set": "leather" },
+      "hands": { "stats": armorData[0].leather[2], "grade": armorData[0].leather[2].startGrade, "set": "leather" },
+      "waist": { "stats": armorData[0].leather[3], "grade": armorData[0].leather[3].startGrade, "set": "leather" },
+      "legs": { "stats": armorData[0].leather[4], "grade": armorData[0].leather[4].startGrade, "set": "leather" }
     })
   }
 
@@ -28,7 +30,7 @@ function Equipment({ characterEquip, setCharacterEquip }) {
     '#93a3b8', // Grey 0
     '#4ade80', // Green 1
     '#38bdf8', // Blue 2
-    '#a78bfa', // Violet 3
+    '#a855f7', // Violet 3
     '#fbbf24', // Amber 4
     '#f97316', // Orange 5
     '#ef4444', // Red 6
@@ -42,15 +44,19 @@ function Equipment({ characterEquip, setCharacterEquip }) {
       return {
         ...styles,
         backgroundColor: 'transparent',
-        border: state.isFocused ? '2px solid #94a3b8' : '2px solid #cbd5e1', // Second option here is the default grey
+        border: 'none',
         width: '50px',
-        borderRadius: '4px',
+        minHeight: '10px',
+        padding: '0 !important',
         cursor: 'pointer',
-        transition: 'border 0.2s', // Add a smooth transition for the border change
-        '&:hover': {
-          border: '2px solid #94a3b8', // Border styles on hover
-        },
-        boxShadow: 'none' // This removes tailwind box-shadow ring
+        boxShadow: 'none', // This removes tailwind box-shadow ring
+        // position: 'absolute'
+      }
+    },
+    valuecontainer2: (styles, state) => {
+      return {
+        ...styles,
+        padding: '0 !important',
       }
     },
     option: (styles, state) => {
@@ -79,6 +85,12 @@ function Equipment({ characterEquip, setCharacterEquip }) {
         ...styles,
         display: 'none'
       }
+    },
+    menu: (styles) => {
+      return {
+        ...styles,
+        marginTop: 0
+      }
     }
   }
 
@@ -92,29 +104,41 @@ function Equipment({ characterEquip, setCharacterEquip }) {
   }
 
   return (
-    <section id="equipment" className="bg-opacity-50 bg-slate-300">
-      <div className="flex flex-col layout">
-        <h1>Gearset</h1>
+    <section id="equipment" className="flex justify-center w-full bg-slate-50">
+      <div className="flex flex-col bg-opacity-50 layout ">
         <button className="w-24 text-white bg-gray-600 border border-black rounded" onClick={handleReset}>Reset</button>
         <div className="character-equipment">
-          <div className="flex justify-around">
+          <div className="flex">
             {characterEquip.weapon ?
               Object.values(characterEquip).map((equipment, index) => {
+                console.log(equipment)
                 return (
-                  <div key={index}>
-                    {
-                      equipment.stats.name ?
-                        <h4>{equipment.stats.name}</h4>
-                        :
-                        <h4>{equipment.stats[(equipment.grade - equipment.stats[0].startGrade)].name}</h4>
-                    }
+                  <div key={index} className='relative w-1/6 p-1'>
+                    <div className={`flex flex-col justify-between relative`}>
+                      {
+                        equipment.stats.name ?
+                          <img className="brightness-0 filter opacity-5 md:p-4" src={armorIcons[equipment.stats.slot]} alt={equipment.stats.slot} /> :
+                          <img className="brightness-0 filter opacity-5" src={weaponIcons[equipment.set]} alt={equipment.set} />
+                      }
+                      {
+                        equipment.stats.name ?
+                          <div className="absolute flex w-full">
+                            <p className="overflow-hidden text-ellipsis">{equipment.stats.name}</p>
+                          </div>
+                          :
+                          // Deals with weapon changing name after a certain grade
+                          <div className="absolute flex w-full">
+                            <p className="overflow-hidden text-ellipsis">{equipment.stats[(equipment.grade - equipment.stats[0].startGrade)].name}</p>
+                          </div>
+                      }
+                    </div>
                     <Select
                       onChange={(e) => handleGrade(e, equipment)}
                       value={{ 'value': equipment.grade, label: `G${equipment.grade}`, color: colorRef[equipment.grade - 1] }}
                       name="grade"
                       isSearchable={false}
                       styles={colorStyles}
-                      className="w-[70px] font-semibold overflow-y-none"
+                      className="w-[58px] font-semibold absolute bottom-2"
                       options={
                         createOptions(equipment.stats.startGrade ? equipment.stats.startGrade : equipment.stats[0].startGrade)
                       }

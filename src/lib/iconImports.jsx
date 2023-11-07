@@ -32,6 +32,24 @@ import affinity from '../assets/now-forge-items/icons/character/affinity.png'
 import defence from '../assets/now-forge-items/icons/character/defence.png'
 import armor from '../assets/now-forge-items/icons/character/helm2small.png'
 
+// Weapon
+import swordandshield from '../assets/now-forge-items/icons/weapons/shield-sword.png'
+import greatsword from '../assets/now-forge-items/icons/weapons/great-sword.png'
+import hammer from '../assets/now-forge-items/icons/weapons/hammer.png'
+import longsword from '../assets/now-forge-items/icons/weapons/long-sword.png'
+import bowgun from '../assets/now-forge-items/icons/weapons/light-gun.png'
+import bow from '../assets/now-forge-items/icons/weapons/bow.png'
+import weapon from '../assets/now-forge-items/icons/weapons/weapon.png'
+
+// Armor
+import waist from '../assets/now-forge-items/icons/armor/belt.png'
+import hands from '../assets/now-forge-items/icons/armor/gloves.png'
+import legs from '../assets/now-forge-items/icons/armor/greaves.png'
+import head from '../assets/now-forge-items/icons/armor/helm.png'
+import chest from '../assets/now-forge-items/icons/armor/mail.png'
+import equip from '../assets/now-forge-items/icons/armor/equip.png'
+
+
 const elementIcons = {
   dragon, fire, ice, paralysis, thunder, poison, water
 }
@@ -44,4 +62,12 @@ const characterIcons = {
   attack, affinity, defence, armor
 }
 
-export { elementIcons, setIcons, characterIcons }
+const weaponIcons = {
+  swordandshield, greatsword, hammer, longsword, bowgun, bow
+}
+
+const armorIcons = {
+  waist, hands, legs, head, chest, equip
+}
+
+export { elementIcons, setIcons, characterIcons, weaponIcons, armorIcons }
