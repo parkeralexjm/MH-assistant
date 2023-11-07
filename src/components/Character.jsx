@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { defenceData } from "../data/data"
+import { elementIcons, characterIcons } from '../lib/iconImports'
 
 
 function Character({ characterEquip }) {
@@ -9,7 +10,8 @@ function Character({ characterEquip }) {
     element: '',
     eleDmg: 0,
     defence: 0,
-    skills: []
+    skills: [],
+    affinity: 0
   })
 
   let calcEleDmg = 0
@@ -40,7 +42,10 @@ function Character({ characterEquip }) {
             } else {
               // If the skill is in the array then increase it by the skill level
               const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skillUpgrade"])
-              itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"])
+              if (itemToIncrease.level + parseInt(characterEquip[key].stats["skillUpgradeLevel"]) > 5) {
+                itemToIncrease.level = 5
+              }
+              else { itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"]) }
             }
           } else {
             // Filter to find if the skill exists in the array
@@ -53,7 +58,11 @@ function Character({ characterEquip }) {
             } else {
               // If the skill is in the array then increase it by the skill level
               const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skill1"])
-              itemToIncrease.level += parseInt(characterEquip[key].stats["skill1Level"])
+              if (itemToIncrease.level + parseInt(characterEquip[key].stats["skill1Level"]) > 5) {
+                itemToIncrease.level = 5
+              } else {
+                itemToIncrease.level += parseInt(characterEquip[key].stats["skill1Level"])
+              }
             }
           }
         }
@@ -73,7 +82,10 @@ function Character({ characterEquip }) {
             } else {
               // If the skill is in the array then increase it by the skill level
               const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skillUpgrade"])
-              itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"])
+              if (itemToIncrease.level + parseInt(characterEquip[key].stats["skillUpgradeLevel"]) > 5) {
+                itemToIncrease.level = 5
+              }
+              else { itemToIncrease.level += parseInt(characterEquip[key].stats["skillUpgradeLevel"]) }
             }
           } else {
             // Filter to find if the skill exists in the array
@@ -86,7 +98,12 @@ function Character({ characterEquip }) {
             } else {
               // If the skill is in the array then increase it by the skill level
               const itemToIncrease = newSkills.find((element) => element.name === characterEquip[key].stats["skill2"])
-              itemToIncrease.level += parseInt(characterEquip[key].stats["skill2Level"])
+              if (itemToIncrease.level + parseInt(characterEquip[key].stats["skill2Level"]) > 5) {
+                itemToIncrease.level = 5
+              } else {
+                itemToIncrease.level += parseInt(characterEquip[key].stats["skill2Level"])
+              }
+
             }
           }
         }
@@ -105,7 +122,9 @@ function Character({ characterEquip }) {
         } else {
           // If the skill is in the array then increase it by the skill level
           const itemToIncrease = newSkills.find((element) => element.name === currentWeapon["skill1"])
-          itemToIncrease.level += parseInt(currentWeapon["skill1Level"])
+          if (itemToIncrease.level + parseInt(currentWeapon["skill1Level"]) > 5) {
+            itemToIncrease.level = 5
+          } else { itemToIncrease.level += parseInt(currentWeapon["skill1Level"]) }
         }
       }
 
@@ -165,7 +184,7 @@ function Character({ characterEquip }) {
         }
       }
 
-      setCharacterStats({ ...characterStats, attack: calcAtk, element: calcEle, eleDmg: calcEleDmg, defence: calcDefence, skills: newSkills })
+      setCharacterStats({ ...characterStats, attack: calcAtk, element: calcEle, eleDmg: calcEleDmg, defence: calcDefence, skills: newSkills, affinity: currentWeapon.affinity })
     }
   }, [characterEquip])
 
@@ -174,27 +193,48 @@ function Character({ characterEquip }) {
     <section id="character" className="bg-amber-100">
       <div className="flex flex-col layout">
         <h1>Character</h1>
-        <div className="flex flex-col w-1/2 p-2 bg-opacity-50 rounded bg-slate-300 character-stats">
+        <div className="flex flex-col p-2 bg-opacity-50 rounded sm:w-1/2 bg-slate-300 character-stats">
           <div className="flex justify-between character-attack">
-            <h3>Attack</h3>
+            <div className="flex items-center">
+              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
+              <h3>Attack</h3>
+            </div>
             <h3>{characterStats.attack}</h3>
           </div>
           <div className="flex justify-between character-element">
-            <h3>Element</h3>
             <div className="flex items-center">
-              <h4>{characterStats.element}</h4>
+              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
+              <h3>Element</h3>
+            </div>
+            <div className="flex items-center">
+              <img className="w-6 md:w-8" src={`${elementIcons[characterStats.element.toLowerCase()]}`} alt={characterStats.element} />
               <h3>{characterStats.eleDmg}</h3>
             </div>
           </div>
           <div className="flex justify-between character-defence">
-            <h3>Defence</h3>
+            <div className="flex items-center">
+              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.defence} alt="Attack" />
+              <h3>Defence</h3>
+            </div>
             <h3>{characterStats.defence}</h3>
           </div>
+          <div className="flex justify-between character-affinity">
+            <div className="flex items-center">
+              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.affinity} alt="Attack" />
+              <h3>Affinity</h3>
+            </div>
+            <h3>{characterStats.affinity}</h3>
+          </div>
           <div className="h-48 overflow-auto character-skills">
+
+
             {
               characterStats.skills.map((skill, index) => {
                 return (<div key={index} className="flex justify-between ">
-                  <h3>{skill.name}</h3>
+                  <div className="flex items-center">
+                    <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.armor} alt="Attack" />
+                    <h3>{skill.name}</h3>
+                  </div>
                   <h3>Lv. {skill.level}</h3>
                 </div>)
               })
