@@ -3,6 +3,7 @@ import { gradeColors } from '../data/data'
 import { armorIcons, setIcons } from '../lib/iconImports'
 
 function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }) {
+
   const handleArmorChange = (item, set) => {
     let checkedGrade
     // Get the current grade of the item
@@ -16,37 +17,36 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
 
   const ArmorDisplay = ({ item, index, selected, set }) => {
     return (
-      <div key={index} className={`flex flex-col border cursor-pointer ${selected && "border-green-500"}`} value={0} onClick={() => handleArmorChange(item, set)}>
+      <div key={index} className={`flex flex-col justify-center shadow-md relative border-2 cursor-pointer rounded m-1 ${selected && "border-amber-500"} h-36 md:h-auto`} value={0} onClick={() => handleArmorChange(item, set)}>
         {
           <>
-            <h5 className='font-bold'>{item.name}</h5>
-            {
-              item.skill1 &&
-              <h5>
-                {item.skill1} {item.skill1Level}{item.skillUpgradeGrade !== 0 && item.skillUpgrade === item.skill1 && <span>/{item.skillUpgradeLevel}</span>} -
-                <span className={`font-semibold ${gradeColors[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}> G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade}</span>
-                {item.skillUpgradeGrade !== 0 && item.skillUpgrade === item.skill1 &&
-                  <>
-                    <span>/</span>
-                    <span className={`font-semibold ${gradeColors[item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade}</span>
-                  </>
-                }
-              </h5>
-            }
-            {
-              item.skill2 !== "None" &&
-              <h5>
-                {item.skill2} {item.skill2Level} -
-                <span className={`font-semibold ${gradeColors[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}> G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade}</span>
-                {item.skillUpgradeGrade !== 0 &&
-                  item.skillUpgrade === item.skill2 &&
-                  <>
-                    <span>/</span>
-                    <span className={`font-semibold ${gradeColors[item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade}</span>
-                  </>
-                }
-              </h5>
-            }
+            <img className='p-2 md:p-8 opacity-10' src={setIcons[set]} alt={set} />
+            <div className='absolute top-0 w-full'>
+              <h5 className='p-1 overflow-hidden font-bold text-ellipsis'>{item.name}</h5>
+            </div>
+            <div className='absolute bottom-0 w-full p-1'>
+              {
+                item.skill1 &&
+                <div className='overflow-hidden text-ellipsis'>
+                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}>G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade} <span className='float-right text-gray-800'>Lv.{item.skill1Level}</span></p>
+                  <p className={`${selectedOptions.map(option => option.label).includes(item.skill1) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skill1}</p>
+                </div>
+              }
+              {
+                item.skill2 !== 'None' &&
+                <div className='overflow-hidden text-ellipsis'>
+                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}>G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade} <span className='float-right text-gray-800'>Lv.{item.skill2Level}</span></p>
+                  <p className={`${selectedOptions.map(option => option.label).includes(item.skill2) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skill2}</p>
+                </div>
+              }
+              {
+                item.skillUpgrade !== 'None' &&
+                <div className='overflow-hidden text-ellipsis'>
+                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skillUpgradeGrade === 0 ? item.startGrade - 1 : item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade === 0 ? item.startGrade : item.skillUpgradeGrade} <span className='float-right text-gray-800'>Lv.{item.skillUpgradeLevel}</span></p>
+                  <p className={`${selectedOptions.map(option => option.label).includes(item.skillUpgrade) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skillUpgrade}</p>
+                </div>
+              }
+            </div>
           </>
         }
       </div>
@@ -55,6 +55,15 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
 
   return (
     <>
+      <div className='flex set-header'>
+        {
+          Object.values(armorIcons).map((icon, index) => {
+            return (
+              <div key={index} className='w-1/5'><img className='p-2 brightness-0 opacity-5 md:hidden' src={icon} alt={icon} /></div>
+            )
+          })
+        }
+      </div>
       {
         characterEquip.head &&
         armorData.map((set, index) => {
@@ -67,11 +76,11 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
                     let selected = false
                     let found = false
                     if (
-                      item === characterEquip.head.stats ||
-                      item === characterEquip.chest.stats ||
-                      item === characterEquip.hands.stats ||
-                      item === characterEquip.waist.stats ||
-                      item === characterEquip.legs.stats
+                      item.name === characterEquip.head.stats.name ||
+                      item.name === characterEquip.chest.stats.name ||
+                      item.name === characterEquip.hands.stats.name ||
+                      item.name === characterEquip.waist.stats.name ||
+                      item.name === characterEquip.legs.stats.name
                     ) {
                       selected = true
                     }

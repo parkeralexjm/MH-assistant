@@ -90,8 +90,10 @@ function Character({ characterEquip }) {
           } else {
             // Filter to find if the skill exists in the array
             const exists = newSkills.filter((element) => {
+              console.log(element)
               return element.name === characterEquip[key].stats["skill2"]
             }).length > 0
+
             // If the skill is not in the array then push it
             if (!exists) {
               newSkills.push({ "name": characterEquip[key].stats["skill2"], "level": parseInt(characterEquip[key].stats["skill2Level"]) })
@@ -183,59 +185,68 @@ function Character({ characterEquip }) {
           calcAtk += 120
         }
       }
-
       setCharacterStats({ ...characterStats, attack: calcAtk, element: calcEle, eleDmg: calcEleDmg, defence: calcDefence, skills: newSkills, affinity: currentWeapon.affinity })
     }
   }, [characterEquip])
 
-  // console.log(characterStats)
   return (
-    <section id="character" className="bg-amber-50">
-      <div className="flex flex-col py-4 layout">
-        <div className="flex flex-col p-2 bg-opacity-50 rounded sm:w-1/2 bg-slate-300 character-stats">
-          <div className="flex justify-between character-attack">
-            <div className="flex items-center">
-              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
-              <h3>Attack</h3>
+    <section id="character" className="w-1/2 md:pl-0 md:w-full">
+      <div className="flex flex-col h-full md:py-4 layout">
+        <div className="flex flex-col h-full p-1 bg-opacity-50 rounded md:flex-row md:p-2 bg-slate-100 character-stats">
+          <div className="md:w-1/2 md:pr-1">
+            <div className="flex justify-between character-attack">
+              <div className="flex items-center">
+                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
+                <h4>Attack</h4>
+              </div>
+              <h4>{characterStats.attack}</h4>
             </div>
-            <h3>{characterStats.attack}</h3>
+            <div className="flex justify-between character-element">
+              <div className="flex items-center">
+                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
+                <h4 className="pl-1">Element</h4>
+              </div>
+              <div className="flex items-center">
+                <img className="w-4 md:w-6" src={`${elementIcons[characterStats.element.toLowerCase()]}`} alt={characterStats.element} />
+                <h4 className="pl-1">{characterStats.eleDmg}</h4>
+              </div>
+            </div>
+            <div className="flex justify-between character-defence">
+              <div className="flex items-center">
+                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.defence} alt="Attack" />
+                <h4 className="pl-1">Defence</h4>
+              </div>
+              <h4>{characterStats.defence}</h4>
+            </div>
+            <div className="flex justify-between character-affinity">
+              <div className="flex items-center">
+                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.affinity} alt="Attack" />
+                <h4 className="pl-1">Affinity</h4>
+              </div>
+              <h4>{characterStats.affinity}%</h4>
+            </div>
           </div>
-          <div className="flex justify-between character-element">
-            <div className="flex items-center">
-              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
-              <h3>Element</h3>
-            </div>
-            <div className="flex items-center">
-              <img className="w-6 md:w-8" src={`${elementIcons[characterStats.element.toLowerCase()]}`} alt={characterStats.element} />
-              <h3>{characterStats.eleDmg}</h3>
-            </div>
-          </div>
-          <div className="flex justify-between character-defence">
-            <div className="flex items-center">
-              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.defence} alt="Attack" />
-              <h3>Defence</h3>
-            </div>
-            <h3>{characterStats.defence}</h3>
-          </div>
-          <div className="flex justify-between character-affinity">
-            <div className="flex items-center">
-              <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.affinity} alt="Attack" />
-              <h3>Affinity</h3>
-            </div>
-            <h3>{characterStats.affinity}</h3>
-          </div>
-          <div className="h-24 overflow-auto character-skills">
-
-
+          <div className="flex-grow max-h-full overflow-auto overflow-x-hidden md:content-start md:h-[170px] md:w-full md:flex md:flex-wrap character-skills">
             {
               characterStats.skills.map((skill, index) => {
-                return (<div key={index} className="flex justify-between ">
-                  <div className="flex items-center">
-                    <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.armor} alt="Attack" />
-                    <h3>{skill.name}</h3>
-                  </div>
-                  <h3>Lv. {skill.level}</h3>
-                </div>)
+                let skillName
+                if (skill.name.includes("Resistance")) {
+                  let words = skill.name.split(' ')
+                  if (words[0].length > 7) {
+                    words[0] = words[0].slice(0, 6)
+                  }
+                  words[1] = words[1].slice(0, 3) + '.'
+                  skillName = words.join(' ')
+                } else { skillName = skill.name }
+
+                return (
+                  <div key={index} className="flex justify-between pb-1 md:w-1/2 md:pr-1 md:h-1/6">
+                    <div className="flex items-center w-5/6">
+                      <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.armor} alt="Attack" />
+                      <h5 className="px-1 overflow-hidden truncate text-ellipsis">{skill.name}</h5>
+                    </div>
+                    <h5>Lv.{skill.level}</h5>
+                  </div>)
               })
             }
           </div>

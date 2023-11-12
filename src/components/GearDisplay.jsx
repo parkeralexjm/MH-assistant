@@ -8,7 +8,7 @@ import chroma from 'chroma-js'
 import determineTextColor from '../lib/colors'
 
 function GearDisplay({ characterEquip, setCharacterEquip }) {
-  const [displayType, setDisplayType] = useState('armor')
+  const [displayType, setDisplayType] = useState('weapon')
   const [selectedOptions, setSelectedOptions] = useState([])
 
   const animatedComponents = makeAnimated()
@@ -22,8 +22,6 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
   const handleSelect = (data) => {
     setSelectedOptions(data)
   }
-
-
 
   const colorStyles = {
     control: (style, state) => ({
@@ -55,6 +53,13 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
       return {
         ...styles,
         fontWeight: 600,
+        paddingLeft: 5,
+      }
+    },
+    input: (styles) => {
+      return {
+        ...styles,
+        paddingLeft: 5,
       }
     },
     multiValue: (styles, state) => {
@@ -91,7 +96,7 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
   }
 
   return (
-    <div className='pt-2 bg-amber-50 '>
+    <div className='min-h-full pt-2 shadow-inner bg-amber-50'>
       <div className='layout'>
         <Select
           placeholder="Select skills..."
@@ -111,11 +116,11 @@ function GearDisplay({ characterEquip, setCharacterEquip }) {
         </div>
         {displayType === 'weapon'
           ?
-          <div className='overflow-auto'>
+          <div className=''>
             <Weapons selectedOptions={selectedOptions} weaponData={weaponData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
           </div>
           :
-          <div className='overflow-auto'>
+          <div className=''>
             <Armor selectedOptions={selectedOptions} armorData={armorData} characterEquip={characterEquip} setCharacterEquip={setCharacterEquip} />
           </div>
         }

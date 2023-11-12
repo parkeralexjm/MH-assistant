@@ -1,3 +1,4 @@
+
 const armorData = [
   {
     "leather": [
@@ -215,7 +216,7 @@ const armorData = [
         "skill2": "None",
         "skill2Level": 0,
         "skill2Grade": 0,
-        "skillUpgrade": "Criticle Eye",
+        "skillUpgrade": "Critical Eye",
         "skillUpgradeLevel": 2,
         "skillUpgradeGrade": 6
       }
@@ -10867,17 +10868,61 @@ const skillData = [
   }
 ]
 
-const gradeColors = [
-  'text-gray-400',
-  'text-green-400',
-  'text-sky-400',
-  'text-purple-500',
-  'text-amber-400',
-  'text-orange-400',
-  'text-red-400',
-  'text-red-400',
-  'text-red-400',
-  'text-red-400'
+// Library of colors to dynamically change colors
+const gradeColors = {
+  text:
+    [
+      'text-slate-400',
+      'text-green-400',
+      'text-blue-600',
+      'text-purple-500',
+      'text-amber-400',
+      'text-orange-500',
+      'text-red-400',
+      'text-red-400',
+      'text-red-400',
+      'text-red-400'
+    ],
+  border:
+    [
+      'border-slate-400',
+      'border-green-400',
+      'border-blue-600',
+      'border-purple-500',
+      'border-amber-400',
+      'border-orange-500',
+      'border-red-400',
+      'border-red-400',
+      'border-red-400',
+      'border-red-400'
+    ],
+  bg:
+    [
+      'bg-slate-50',
+      'bg-green-50',
+      'bg-blue-50',
+      'bg-purple-50',
+      'bg-amber-50',
+      'bg-orange-50',
+      'bg-red-50',
+      'bg-red-50',
+      'bg-red-50',
+      'bg-red-50'
+    ]
+}
+
+// Hex colors for react-select
+const colorRef = [
+  '#94a3b8', // Slate 400
+  '#4ade80', // Green 400
+  '#2563eb', // Blue 600
+  '#a855f7', // Purple 500
+  '#fbbf24', // Amber 400
+  '#f97316', // Orange 500
+  '#f87171', // Red 400
+  '#f87171', // Red 400
+  '#f87171', // Red 400
+  '#f87171'  // Red 400
 ]
 
-export { armorData, weaponData, defenceData, skillData, gradeColors }
+export { armorData, weaponData, defenceData, skillData, gradeColors, colorRef }

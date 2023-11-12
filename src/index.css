@@ -37,6 +37,12 @@
   }
 }
 
+html {
+  overflow-y: scroll;
+  min-block-size: -webkit-fill-available;
+  background-color: #fffbeb;
+}
+
 /* For Webkit browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 8px;
@@ -63,4 +69,8 @@
 
 .css-art2ul-ValueContainer2 {
   padding: 0 !important;
+}
+
+.dropdown-btn:hover .dropdown {
+  display: flex;
 }

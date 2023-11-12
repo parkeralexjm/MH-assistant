@@ -1,6 +1,7 @@
 import React from 'react'
 import { gradeColors } from '../data/data'
-import { weaponIcons, setIcons } from '../lib/iconImports'
+import { weaponIcons, setIcons, elementIcons } from '../lib/iconImports'
+import shortenSkill from '../lib/helpers'
 
 function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEquip }) {
 
@@ -39,19 +40,28 @@ function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEqui
       skillLevelStart = 3
       skillLevelUpgrade = 7
     }
-    return (
-      <div className='box-border p-1 m-1 border rounded cursor-pointer' onClick={() => handleWeaponChange(weaponSet, set)}>
-        <h5>{weaponSet[0].name}</h5>
-        {weaponSet[0].element !== 'None' ? <h5>{weaponSet[0].element}</h5> : <h5>No Element</h5>}
-        {
-          <h5>
-            {weaponSet[skillLevelStart].skill1} {weaponSet[skillLevelStart].skill1Level}
-            {skillLevelUpgrade && <span>/{weaponSet[skillLevelUpgrade].skill1Level}</span>} -
 
-            {<span className={`font-semibold ${gradeColors[weaponSet[skillLevelStart].forgeGrade - 1]}`}> G{weaponSet[skillLevelStart].forgeGrade}</span>}
-            {skillLevelUpgrade && <span>/</span>}
-            {skillLevelUpgrade && <span className={`font-semibold ${gradeColors[weaponSet[skillLevelUpgrade].forgeGrade - 1]}`}>G{weaponSet[skillLevelUpgrade].forgeGrade}</span>}
-          </h5>
+    return (
+      <div className={`shadow-md box-border relative flex flex-col m-1 border-2 rounded cursor-pointer ${characterEquip.weapon.stats[0].name === weaponSet[0].name && 'border-amber-500'}`} onClick={() => handleWeaponChange(weaponSet, set)}>
+        <img className='brightness-0 filter opacity-5 md:p-4' src={weaponIcons[set]} alt={set} />
+        <div className='absolute w-full'>
+          <h5 className='m-1 overflow-hidden truncate text-ellipsis'>{weaponSet[0].name}</h5>
+        </div>
+        {weaponSet[0].element !== 'None' && <img src={elementIcons[weaponSet[0].element.toLowerCase()]} alt={weaponSet[0].element} className='absolute w-[20%] bottom-[50%] right-2'></img>}
+        {
+          <div className='absolute bottom-0 w-full p-1'>
+            {
+              <>
+                <p className='text-sm'>
+                  <span className={`font-semibold ${gradeColors.text[weaponSet[skillLevelStart].forgeGrade - 1]}`}>G{weaponSet[skillLevelStart].forgeGrade}</span> Lv.{weaponSet[skillLevelStart].skill1Level}
+                </p>
+                <p className='text-sm'>
+                  {skillLevelUpgrade && <><span className={`font-semibold ${gradeColors.text[weaponSet[skillLevelUpgrade].forgeGrade - 1]}`}>G{weaponSet[skillLevelUpgrade].forgeGrade}</span><span> Lv.{weaponSet[skillLevelUpgrade].skill1Level}</span></>}
+                </p>
+              </>
+            }
+            {<p className='overflow-hidden text-sm font-semibold truncate text-ellipsis'>{weaponSet[skillLevelStart].skill1}</p>}
+          </div>
         }
       </div>
     )
@@ -74,13 +84,13 @@ function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEqui
                         }
                         if (selectedOptions.length === 0) {
                           return (
-                            <div className='w-1/4 '>
+                            <div key={index} className='w-1/3 sm:w-1/4 md:w-1/6 lg:1/10'>
                               <WeaponSetDisplay key={index} weaponSet={weaponSet} set={Object.keys(weaponType)[0].replace(/\s+/g, '').toLowerCase()} />
                             </div>
                           )
                         } else if (found) {
                           return (
-                            <div className='w-1/4'>
+                            <div key={index} className='w-1/3 sm:w-1/4 md:w-1/6 lg:1/10'>
                               <WeaponSetDisplay key={index} weaponSet={weaponSet} set={Object.keys(weaponType)[0].replace(/\s+/g, '').toLowerCase()} />
                             </div>
                           )

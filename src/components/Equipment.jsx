@@ -1,14 +1,14 @@
 import React from "react"
 import Select from "react-select"
-import { weaponData, armorData } from "../data/data"
+import { gradeColors, weaponData, armorData, colorRef } from "../data/data"
 import determineTextColor from "../lib/colors"
 import chroma from "chroma-js"
 import { setIcons, weaponIcons, armorIcons } from "../lib/iconImports"
+import down from '../assets/down.png'
 
 function Equipment({ characterEquip, setCharacterEquip }) {
 
   const handleGrade = (e, equipment) => {
-    console.log(equipment)
     if (equipment.stats.slot) {
       setCharacterEquip({ ...characterEquip, [equipment.stats.slot.toLowerCase()]: { "stats": equipment.stats, "grade": e.value, "set": equipment.set } })
     } else {
@@ -17,27 +17,25 @@ function Equipment({ characterEquip, setCharacterEquip }) {
   }
   const handleReset = () => {
     setCharacterEquip({
-      "weapon": { "stats": weaponData[0]["Sword And Shield"].jagrasedge, "grade": weaponData[0]["Sword And Shield"].jagrasedge[0].startGrade, "set": "swordandshield" },
-      "head": { "stats": armorData[0].leather[0], "grade": armorData[0].leather[0].startGrade, "set": "leather" },
-      "chest": { "stats": armorData[0].leather[1], "grade": armorData[0].leather[1].startGrade, "set": "leather" },
-      "hands": { "stats": armorData[0].leather[2], "grade": armorData[0].leather[2].startGrade, "set": "leather" },
-      "waist": { "stats": armorData[0].leather[3], "grade": armorData[0].leather[3].startGrade, "set": "leather" },
-      "legs": { "stats": armorData[0].leather[4], "grade": armorData[0].leather[4].startGrade, "set": "leather" }
+      weapon: { "stats": weaponData[0]["Sword And Shield"].jagrasedge, "grade": weaponData[0]["Sword And Shield"].jagrasedge[0].startGrade, "set": "swordandshield" },
+      head: { "stats": armorData[0].leather[0], "grade": armorData[0].leather[0].startGrade, "set": "leather" },
+      chest: { "stats": armorData[0].leather[1], "grade": armorData[0].leather[1].startGrade, "set": "leather" },
+      hands: { "stats": armorData[0].leather[2], "grade": armorData[0].leather[2].startGrade, "set": "leather" },
+      waist: { "stats": armorData[0].leather[3], "grade": armorData[0].leather[3].startGrade, "set": "leather" },
+      legs: { "stats": armorData[0].leather[4], "grade": armorData[0].leather[4].startGrade, "set": "leather" }
     })
   }
 
-  const colorRef = [
-    '#93a3b8', // Grey 0
-    '#4ade80', // Green 1
-    '#38bdf8', // Blue 2
-    '#a855f7', // Violet 3
-    '#fbbf24', // Amber 4
-    '#f97316', // Orange 5
-    '#ef4444', // Red 6
-    '#ef4444', // Red 7
-    '#ef4444', // Red 8
-    '#ef4444'  // Red 9
-  ]
+  const handleSave = (type) => {
+    localStorage.setItem(type, JSON.stringify(characterEquip))
+  }
+
+  const handleLoad = (type) => {
+    if (localStorage.getItem(type)) {
+      const savedEquipment = JSON.parse(localStorage.getItem(type))
+      setCharacterEquip(savedEquipment)
+    }
+  }
 
   const colorStyles = {
     control: (styles, state) => {
@@ -45,18 +43,21 @@ function Equipment({ characterEquip, setCharacterEquip }) {
         ...styles,
         backgroundColor: 'transparent',
         border: 'none',
-        width: '50px',
-        minHeight: '10px',
-        padding: '0 !important',
+        width: '75px',
+        minHeight: '40px',
+        // padding: '0 !important',
         cursor: 'pointer',
         boxShadow: 'none', // This removes tailwind box-shadow ring
-        // position: 'absolute'
+        position: 'relative'
       }
     },
-    valuecontainer2: (styles, state) => {
+    valueContainer: (styles, state) => {
       return {
         ...styles,
-        padding: '0 !important',
+        position: 'absolute',
+        bottom: 0,
+        padding: 0,
+        width: '50px'
       }
     },
     option: (styles, state) => {
@@ -89,7 +90,8 @@ function Equipment({ characterEquip, setCharacterEquip }) {
     menu: (styles) => {
       return {
         ...styles,
-        marginTop: 0
+        marginTop: 0,
+        width: '50px'
       }
     }
   }
@@ -104,51 +106,78 @@ function Equipment({ characterEquip, setCharacterEquip }) {
   }
 
   return (
-    <section id="equipment" className="flex justify-center w-full bg-slate-50">
-      <div className="flex flex-col bg-opacity-50 layout ">
-        <button className="w-24 text-white bg-gray-600 border border-black rounded" onClick={handleReset}>Reset</button>
-        <div className="character-equipment">
-          <div className="flex">
+    <section id="equipment" className="flex justify-center w-1/2 xs:w-1/2 md:w-full ">
+      <div className="flex flex-col md:layout">
+        <div className="flex flex-col items-center bg-opacity-50 character-equipment bg-slate-50">
+          <div className="flex flex-wrap p-2 md:flex-row md:flex-nowrap">
             {characterEquip.weapon ?
               Object.values(characterEquip).map((equipment, index) => {
-                console.log(equipment)
                 return (
-                  <div key={index} className='relative w-1/6 p-1'>
-                    <div className={`flex flex-col justify-between relative`}>
+                  <div key={index} className={`md:w-1/6 w-1/2 flex justify-center`}>
+                    <div className={`relative border-2 rounded m-0.5 sm:m-1 ${gradeColors.border[equipment.grade - 1]}`}>
                       {
                         equipment.stats.name ?
                           <img className="brightness-0 filter opacity-5 md:p-4" src={armorIcons[equipment.stats.slot]} alt={equipment.stats.slot} /> :
-                          <img className="brightness-0 filter opacity-5" src={weaponIcons[equipment.set]} alt={equipment.set} />
+                          <img className="brightness-0 filter opacity-5 md:p-4" src={weaponIcons[equipment.set]} alt={equipment.set} />
                       }
-                      {
-                        equipment.stats.name ?
-                          <div className="absolute flex w-full">
-                            <p className="overflow-hidden text-ellipsis">{equipment.stats.name}</p>
-                          </div>
-                          :
-                          // Deals with weapon changing name after a certain grade
-                          <div className="absolute flex w-full">
-                            <p className="overflow-hidden text-ellipsis">{equipment.stats[(equipment.grade - equipment.stats[0].startGrade)].name}</p>
-                          </div>
-                      }
+                      <div className="absolute flex flex-col justify-between w-full h-full top-1">
+                        {
+                          equipment.stats.name ?
+                            <p className="px-2 overflow-hidden font-semibold text-ellipsis">{equipment.stats.name}</p>
+                            :
+                            // Deals with weapon changing name after a certain grade
+                            <p className="px-2 overflow-hidden font-semibold text-ellipsis">{equipment.stats[(equipment.grade - equipment.stats[0].startGrade)].name}</p>
+                        }
+                        <Select
+                          onChange={(e) => handleGrade(e, equipment)}
+                          value={{ 'value': equipment.grade, label: `G${equipment.grade}`, color: colorRef[equipment.grade - 1] }}
+                          name="grade"
+                          isSearchable={false}
+                          styles={colorStyles}
+                          className="w-[45px] absolute bottom-2 font-semibold pl-2"
+                          maxMenuHeight={410}
+                          options={
+                            createOptions(equipment.stats.startGrade ? equipment.stats.startGrade : equipment.stats[0].startGrade)
+                          }
+                        />
+                      </div>
                     </div>
-                    <Select
-                      onChange={(e) => handleGrade(e, equipment)}
-                      value={{ 'value': equipment.grade, label: `G${equipment.grade}`, color: colorRef[equipment.grade - 1] }}
-                      name="grade"
-                      isSearchable={false}
-                      styles={colorStyles}
-                      className="w-[58px] font-semibold absolute bottom-2"
-                      options={
-                        createOptions(equipment.stats.startGrade ? equipment.stats.startGrade : equipment.stats[0].startGrade)
-                      }
-                    />
+
                   </div>
                 )
               })
               :
               <h1>Loading...</h1>
             }
+          </div>
+          <div className="flex flex-col w-full px-2 pb-2 md:p-0 md:flex-row md:justify-around">
+            <div className="w-full h-10 py-1 md:w-48">
+              <button className="w-full h-full px-2 py-1 text-white bg-gray-600 rounded shadow-lg" onClick={handleReset}>Reset Equipment</button>
+            </div>
+            <div className="flex items-center w-full h-10 py-1 md:w-48">
+              <button className="w-5/6 h-full px-2 py-1 text-white bg-green-700 border-r shadow-lg rounded-s border-r-green-600" onClick={() => handleSave('default_character_equip')}>Save Default</button>
+              <button className="relative flex items-center justify-center w-1/6 h-full mx-auto text-white transition-colors bg-green-700 rounded-e dropdown-btn hover:bg-green-400">
+                <img src={down} alt="chevron" className="w-5 filter invert" />
+                <div className="absolute top-full right-0 flex-col w-[150px] dropdown z-10 hidden">
+                  <a className="p-1 transition-colors bg-green-700 border-y hover:bg-green-400 border-y-green-600" onClick={() => handleSave('gearset1_character_equip')}>Save Gearset 1</a>
+                  <a className="p-1 transition-colors bg-green-700 border-b hover:bg-green-400 border-b-green-600" onClick={() => handleSave('gearset2_character_equip')}>Save Gearset 2</a>
+                  <a className="p-1 transition-colors bg-green-700 border-b hover:bg-green-400 border-b-green-600" onClick={() => handleSave('gearset3_character_equip')}>Save Gearset 3</a>
+                  <a className="p-1 transition-colors bg-green-700 rounded-b hover:bg-green-400" onClick={() => handleSave('gearset4_character_equip')}>Save Gearset 4</a>
+                </div>
+              </button>
+            </div>
+            <div className="flex items-center w-full h-10 py-1 md:w-48">
+              <button className="w-5/6 h-full px-2 py-1 text-white bg-purple-700 border-r shadow-lg rounded-s border-r-purple-500" onClick={() => handleLoad("default_character_equip")}>Load Default</button>
+              <button className="relative flex items-center justify-center w-1/6 h-full text-white transition-colors bg-purple-700 hover:bg-purple-400 rounded-e dropdown-btn">
+                <img src={down} alt="chevron" className="w-5 filter invert" />
+                <div className="absolute top-full right-0 flex-col w-[150px] dropdown z-10 hidden shadow-2xl">
+                  <a className="p-1 transition-colors bg-purple-700 border-y hover:bg-purple-400 border-y-purple-500" onClick={() => handleLoad("gearset1_character_equip")}>Load Gearset 1</a>
+                  <a className="p-1 transition-colors bg-purple-700 border-b hover:bg-purple-400 border-b-purple-500" onClick={() => handleLoad("gearset2_character_equip")}>Load Gearset 2</a>
+                  <a className="p-1 transition-colors bg-purple-700 border-b hover:bg-purple-400 border-b-purple-500" onClick={() => handleLoad("gearset3_character_equip")}>Load Gearset 3</a>
+                  <a className="p-1 transition-colors bg-purple-700 rounded-b hover:bg-purple-400" onClick={() => handleLoad("gearset4_character_equip")}>Load Gearset 4</a>
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>

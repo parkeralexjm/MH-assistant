@@ -67,7 +67,7 @@ const weaponIcons = {
 }
 
 const armorIcons = {
-  waist, hands, legs, head, chest, equip
+  head, chest, hands, waist, legs
 }
 
 export { elementIcons, setIcons, characterIcons, weaponIcons, armorIcons }
