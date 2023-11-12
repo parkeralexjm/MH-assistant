@@ -15,6 +15,13 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
     setCharacterEquip({ ...characterEquip, [slot.toLowerCase()]: { "stats": item, "grade": item.startGrade, "set": set } })
   }
 
+  const SkillDisplay = ({ skillGrade, startGrade, name, level, children }) => {
+    return (<div className='overflow-hidden text-ellipsis'>
+      <p className={`text-sm/none font-semibold ${gradeColors.text[skillGrade === 0 ? startGrade - 1 : skillGrade - 1]}`}>G{skillGrade === 0 ? startGrade : skillGrade} <span className='float-right text-gray-800'>Lv.{level}</span></p>
+      <p className={`${selectedOptions.map(option => option.label).includes(name) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{children}</p>
+    </div>)
+  }
+
   const ArmorDisplay = ({ item, index, selected, set }) => {
     return (
       <div key={index} className={`flex flex-col justify-center shadow-md relative border-2 cursor-pointer rounded m-1 ${selected && "border-amber-500"} h-36 md:h-auto`} value={0} onClick={() => handleArmorChange(item, set)}>
@@ -27,24 +34,15 @@ function Armor({ selectedOptions, armorData, characterEquip, setCharacterEquip }
             <div className='absolute bottom-0 w-full p-1'>
               {
                 item.skill1 &&
-                <div className='overflow-hidden text-ellipsis'>
-                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skill1Grade === 0 ? item.startGrade - 1 : item.skill1Grade - 1]}`}>G{item.skill1Grade === 0 ? item.startGrade : item.skill1Grade} <span className='float-right text-gray-800'>Lv.{item.skill1Level}</span></p>
-                  <p className={`${selectedOptions.map(option => option.label).includes(item.skill1) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skill1}</p>
-                </div>
+                <SkillDisplay skillGrade={item.skill1Grade} startGrade={item.startGrade} name={item.skill1} level={item.skill1Level}>{item.skill1}</SkillDisplay>
               }
               {
                 item.skill2 !== 'None' &&
-                <div className='overflow-hidden text-ellipsis'>
-                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skill2Grade === 0 ? item.startGrade - 1 : item.skill2Grade - 1]}`}>G{item.skill2Grade === 0 ? item.startGrade : item.skill2Grade} <span className='float-right text-gray-800'>Lv.{item.skill2Level}</span></p>
-                  <p className={`${selectedOptions.map(option => option.label).includes(item.skill2) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skill2}</p>
-                </div>
+                <SkillDisplay skillGrade={item.skill2Grade} startGrade={item.startGrade} name={item.skill2} level={item.skill2Level}>{item.skill2}</SkillDisplay>
               }
               {
                 item.skillUpgrade !== 'None' &&
-                <div className='overflow-hidden text-ellipsis'>
-                  <p className={`text-sm/none font-semibold ${gradeColors.text[item.skillUpgradeGrade === 0 ? item.startGrade - 1 : item.skillUpgradeGrade - 1]}`}>G{item.skillUpgradeGrade === 0 ? item.startGrade : item.skillUpgradeGrade} <span className='float-right text-gray-800'>Lv.{item.skillUpgradeLevel}</span></p>
-                  <p className={`${selectedOptions.map(option => option.label).includes(item.skillUpgrade) && 'bg-green-600 bg-opacity-20 border-l-emerald-400 border-l-2'} pb-[0.14em] overflow-hidden truncate text-sm/none text-ellipsis`}>{item.skillUpgrade}</p>
-                </div>
+                <SkillDisplay skillGrade={item.skillUpgradeGrade} startGrade={item.startGrade} name={item.skillUpgrade} level={item.skillUpgradeLevel}>{item.skillUpgrade}</SkillDisplay>
               }
             </div>
           </>

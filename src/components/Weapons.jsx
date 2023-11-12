@@ -1,7 +1,6 @@
 import React from 'react'
 import { gradeColors } from '../data/data'
-import { weaponIcons, setIcons, elementIcons } from '../lib/iconImports'
-import shortenSkill from '../lib/helpers'
+import { weaponIcons, elementIcons } from '../lib/iconImports'
 
 function Weapons({ selectedOptions, weaponData, characterEquip, setCharacterEquip }) {
 

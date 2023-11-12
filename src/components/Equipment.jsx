@@ -1,9 +1,8 @@
 import React from "react"
 import Select from "react-select"
-import { gradeColors, weaponData, armorData, colorRef, defaultSets } from "../data/data"
-import determineTextColor from "../lib/colors"
+import { gradeColors, colorRef, defaultSets } from "../data/data"
 import chroma from "chroma-js"
-import { setIcons, weaponIcons, armorIcons } from "../lib/iconImports"
+import { weaponIcons, armorIcons } from "../lib/iconImports"
 import down from '../assets/down.png'
 
 function Equipment({ characterEquip, setCharacterEquip }) {
@@ -98,6 +97,18 @@ function Equipment({ characterEquip, setCharacterEquip }) {
     return options
   }
 
+  const GearsetLinks = ({ type, gearset, children }) => {
+    if (type === 'save') {
+      return (
+        <a className={`p-1 text-xs transition-colors bg-green-700 md:text-base hover:bg-green-400`} onClick={() => handleSave(gearset)}>{children}</a>
+      )
+    } else {
+      return (
+        <a className={`p-1 text-xs transition-colors bg-purple-700 md:text-base hover:bg-purple-400 `} onClick={() => handleLoad(gearset)}>{children}</a>
+      )
+    }
+  }
+
   return (
     <section id="equipment" className="flex justify-center w-1/2 xs:w-1/2 md:w-full ">
       <div className="flex flex-col md:layout">
@@ -152,10 +163,10 @@ function Equipment({ characterEquip, setCharacterEquip }) {
               <button className="relative flex items-center justify-center w-1/6 h-full mx-auto text-white transition-colors bg-green-700 rounded-e dropdown-btn hover:bg-green-400">
                 <img src={down} alt="chevron" className="w-5 filter invert" />
                 <div className="absolute top-full right-0 flex-col w-[150px] dropdown z-10 hidden">
-                  <a className="p-1 text-xs transition-colors bg-green-700 md:text-base border-y hover:bg-green-400 border-y-green-600" onClick={() => handleSave('gearset1_character_equip')}>Save Gearset 1</a>
-                  <a className="p-1 text-xs transition-colors bg-green-700 border-b md:text-base hover:bg-green-400 border-b-green-600" onClick={() => handleSave('gearset2_character_equip')}>Save Gearset 2</a>
-                  <a className="p-1 text-xs transition-colors bg-green-700 border-b md:text-base hover:bg-green-400 border-b-green-600" onClick={() => handleSave('gearset3_character_equip')}>Save Gearset 3</a>
-                  <a className="p-1 text-xs transition-colors bg-green-700 rounded-b md:text-base hover:bg-green-400" onClick={() => handleSave('gearset4_character_equip')}>Save Gearset 4</a>
+                  <GearsetLinks className="border-y border-y-green-600" type='save' gearset={'gearset1_character_equip'}>Save Gearset 1</GearsetLinks>
+                  <GearsetLinks className="border-b border-b-green-600" type='save' gearset={'gearset2_character_equip'}>Save Gearset 2</GearsetLinks>
+                  <GearsetLinks className="border-b border-b-green-600" type='save' gearset={'gearset3_character_equip'}>Save Gearset 3</GearsetLinks>
+                  <GearsetLinks type='save' gearset={'gearset4_character_equip'} >Save Gearset 4</GearsetLinks>
                 </div>
               </button>
             </div>
@@ -164,11 +175,10 @@ function Equipment({ characterEquip, setCharacterEquip }) {
               <button className="relative flex items-center justify-center w-1/6 h-full text-white transition-colors bg-purple-700 hover:bg-purple-400 rounded-e dropdown-btn">
                 <img src={down} alt="chevron" className="w-5 filter invert" />
                 <div className="absolute top-full right-0 flex-col w-[150px] dropdown z-10 hidden shadow-2xl">
-                  <a className="p-1 text-xs transition-colors bg-purple-700 md:text-base border-y hover:bg-purple-400 border-y-purple-500" onClick={() => handleLoad("gearset1_character_equip")}>Load Gearset 1</a>
-                  <a className="p-1 text-xs transition-colors bg-purple-700 border-b md:text-base hover:bg-purple-400 border-b-purple-500" onClick={() => handleLoad("gearset2_character_equip")}>Load Gearset 2</a>
-                  <a className="p-1 text-xs transition-colors bg-purple-700 border-b md:text-base hover:bg-purple-400 border-b-purple-500" onClick={() => handleLoad("gearset3_character_equip")}>Load Gearset 3</a>
-                  <a className="p-1 text-xs transition-colors bg-purple-700 rounded-b md:text-base hover:bg-purple-400" onClick={() => handleLoad("gearset4_character_equip")}>Load Gearset 4</a>
-                </div>
+                  <GearsetLinks className="border-y border-y-purple-600" type='load' gearset={'gearset1_character_equip'}>Load Gearset 1</GearsetLinks>
+                  <GearsetLinks className="border-b border-b-purple-600" type='load' gearset={'gearset2_character_equip'}>Load Gearset 2</GearsetLinks>
+                  <GearsetLinks className="border-b border-b-purple-600" type='load' gearset={'gearset3_character_equip'}>Load Gearset 3</GearsetLinks>
+                  <GearsetLinks type='load' gearset={'gearset4_character_equip'} >Load Gearset 4</GearsetLinks>                </div>
               </button>
             </div>
           </div>

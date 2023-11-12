@@ -1,5 +1,3 @@
-
-
 function Header() {
   return (
     <div className='flex justify-start bg-slate-400'>

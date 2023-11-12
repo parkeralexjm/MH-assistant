@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { defenceData } from "../data/data"
-import { elementIcons, characterIcons, armorIcons, weaponIcons, setIcons } from '../lib/iconImports'
+import { elementIcons, characterIcons } from '../lib/iconImports'
 
 
 function Character({ characterEquip }) {
@@ -189,42 +189,36 @@ function Character({ characterEquip }) {
     }
   }, [characterEquip])
 
+  const Statline = ({ icon, label, stat, element = 'none' }) => {
+    return (
+      <div className="flex justify-between">
+        <div className="flex items-center">
+          <img className="w-4 h-4 md:h-6 md:w-6" src={icon} alt="Attack" />
+          <h4>{label}</h4>
+        </div>
+        {
+          element !== 'none'
+            ?
+            <div className="flex items-center">
+              <img className="w-4 md:w-6" src={element} alt={characterStats.element} />
+              <h4 className="pl-1">{stat}</h4>
+            </div>
+            :
+            <h4>{stat}{label === 'Affinity' && '%'}</h4>
+        }
+      </div>
+    )
+  }
+
   return (
     <section id="character" className="w-1/2 md:pl-0 md:w-full">
       <div className="flex flex-col h-full md:py-4 layout">
         <div className="flex flex-col h-full p-1 bg-opacity-50 rounded md:flex-row md:p-2 bg-slate-100 character-stats">
           <div className="md:w-1/2 md:pr-1">
-            <div className="flex justify-between character-attack">
-              <div className="flex items-center">
-                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
-                <h4>Attack</h4>
-              </div>
-              <h4>{characterStats.attack}</h4>
-            </div>
-            <div className="flex justify-between character-element">
-              <div className="flex items-center">
-                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.attack} alt="Attack" />
-                <h4 className="pl-1">Element</h4>
-              </div>
-              <div className="flex items-center">
-                <img className="w-4 md:w-6" src={`${elementIcons[characterStats.element.toLowerCase()]}`} alt={characterStats.element} />
-                <h4 className="pl-1">{characterStats.eleDmg}</h4>
-              </div>
-            </div>
-            <div className="flex justify-between character-defence">
-              <div className="flex items-center">
-                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.defence} alt="Attack" />
-                <h4 className="pl-1">Defence</h4>
-              </div>
-              <h4>{characterStats.defence}</h4>
-            </div>
-            <div className="flex justify-between character-affinity">
-              <div className="flex items-center">
-                <img className="w-4 h-4 md:h-6 md:w-6" src={characterIcons.affinity} alt="Attack" />
-                <h4 className="pl-1">Affinity</h4>
-              </div>
-              <h4>{characterStats.affinity}%</h4>
-            </div>
+            <Statline icon={characterIcons.attack} label={'Attack'} stat={characterStats.attack}></Statline>
+            <Statline icon={characterIcons.attack} label={'Element'} stat={characterStats.eleDmg} element={`${elementIcons[characterStats.element.toLowerCase()]}`}></Statline>
+            <Statline icon={characterIcons.defence} label={'Defence'} stat={characterStats.defence}></Statline>
+            <Statline icon={characterIcons.affinity} label={'Affinity'} stat={characterStats.affinity}></Statline>
           </div>
           <div className="flex-grow max-h-full overflow-auto overflow-x-hidden md:content-start md:h-[170px] md:w-full md:flex md:flex-wrap character-skills">
             {
